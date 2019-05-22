@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="clr-namespace:JWChinese"
+    xmlns:behaviors="clr-namespace:Corcav.Behaviors;assembly=Corcav.Behaviors"
+    x:Class="JWChinese.ArticleView" >
+    <ContentView.Content>
+        <Grid x:Name="MainGrid" BackgroundColor="#e8eaed" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="0"/>
+            </Grid.ColumnDefinitions>
+
+            <local:JWWebView x:Name="PrimaryWebView" Grid.Row="0" Grid.Column="0" JWId="1" IsChinese="{Binding IsPrimaryChinese, Mode=TwoWay}" Source="{Binding Primary, Mode=TwoWay}" FontSize="24" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                <behaviors:Interaction.Behaviors>
+                    <behaviors:BehaviorCollection>
+                        <behaviors:EventToCommand
+                                    EventName="Navigating"
+                                    Command="{Binding NavigatingCommand}"
+                                    PassEventArgument="True" />
+                    </behaviors:BehaviorCollection>
+                </behaviors:Interaction.Behaviors>
+            </local:JWWebView>
+
+            <local:JWWebView x:Name="SecondaryWebView" Grid.Row="1" Grid.Column="0" JWId="2" IsChinese="{Binding IsSecondaryChinese, Mode=TwoWay}" Source="{Binding Secondary, Mode=TwoWay}" FontSize="16" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                <behaviors:Interaction.Behaviors>
+                    <behaviors:BehaviorCollection>
+                        <behaviors:EventToCommand
+                                    EventName="Navigating"
+                                    Command="{Binding NavigatingCommand}"
+                                    PassEventArgument="True" />
+                    </behaviors:BehaviorCollection>
+                </behaviors:Interaction.Behaviors>
+            </local:JWWebView>
+        </Grid>
+
+
+
+
+
+
+        <!--<StackLayout x:Name="Perimeter" Spacing="3" Orientation="Vertical" BackgroundColor="#e8eaed"
+                     VerticalOptions="FillAndExpand"
+                     HorizontalOptions="FillAndExpand">
+            <StackLayout x:Name="PrimaryStack" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                <local:JWWebView x:Name="PrimaryWebView" JWId="1" Source="{Binding Primary}" FontSize="24" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                    <behaviors:Interaction.Behaviors>
+                        <behaviors:BehaviorCollection>
+                            <behaviors:EventToCommand
+                                    EventName="Navigating"
+                                    Command="{Binding NavigatingCommand}"
+                                    PassEventArgument="True" />
+                        </behaviors:BehaviorCollection>
+                    </behaviors:Interaction.Behaviors>
+                </local:JWWebView>
+            </StackLayout>
+
+            <StackLayout x:Name="SecondaryStack" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                <local:JWWebView x:Name="SecondaryWebView" JWId="2" Source="{Binding Secondary}" FontSize="16" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                    <behaviors:Interaction.Behaviors>
+                        <behaviors:BehaviorCollection>
+                            <behaviors:EventToCommand
+                                    EventName="Navigating"
+                                    Command="{Binding NavigatingCommand}"
+                                    PassEventArgument="True" />
+                        </behaviors:BehaviorCollection>
+                    </behaviors:Interaction.Behaviors>
+                </local:JWWebView>
+            </StackLayout>
+        </StackLayout>-->
+    </ContentView.Content>
+</ContentView>

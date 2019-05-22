@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:JWChinese;assembly=JWChinese"
+             x:Class="JWChinese.PublicationsPage" Title="{Binding Title}"
+             BackgroundColor="#e8eaed">
+    <ContentPage.Content>
+        <local:GridView x:Name="PublicationGridView" Padding="15"
+                                    ItemsSource="{Binding PublicationGroups}" TappedCommand="{Binding PublicationTapped}"
+                                    IsGroupingEnabled="True" RowHeight="{Binding GridViewRowHeight}"
+                                    HasUnevenRows="True"
+                                    MinItemWidth="324">
+            <!--<local:GridView.RowHeight>
+                <OnPlatform x:TypeArguments="x:Int32" WinPhone="-1" iOS="100" Android="100"/>
+            </local:GridView.RowHeight>-->
+            <local:GridView.ItemTemplate>
+                <DataTemplate>
+                    <local:PublicationCardViewCell>
+                        <!--<local:PublicationCardView.Height>
+                            <OnPlatform x:TypeArguments="x:Double" WinPhone="100"/>
+                        </local:PublicationCardView.Height>-->
+                    </local:PublicationCardViewCell>
+                </DataTemplate>
+            </local:GridView.ItemTemplate>
+            <local:GridView.GroupHeaderTemplate>
+                <DataTemplate>
+                    <local:GridViewXamlCell>
+                        <Grid Padding="8">
+                            <Label Margin="0,2,0,0" FontSize="Medium" TextColor="#000000" Text="{Binding Key}"/>
+                        </Grid>
+                        <!--<Label FontSize="Medium" Text="{Binding Key, StringFormat='GroupID:{0}'}" TextColor="Accent"/>-->
+                    </local:GridViewXamlCell>
+                </DataTemplate>
+            </local:GridView.GroupHeaderTemplate>
+        </local:GridView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,136 @@
+#regionMain, .article, .articlePositioner {
+    margin: 0 auto !important;
+}
+
+#materialNav, #regionMain {
+    background: #fff;
+    padding: 0 auto;
+    border: none;
+}
+
+.document .hl, .document .par a .hl, a[href^="http://"], a[href^="https://"], body {
+    color: #000;
+}
+
+.article .north_center figure img, .article .south_center figure img, .pGroup .north_center figure img, .pGroup .south_center figure img, nav .north_center img, nav .south_center img {
+    min-width: 100%;
+}
+
+.article .pGroup > .east_left img.dir-ltr, .article .pGroup > .east_left img.dir-rtl, .article .pGroup > .east_left.dir-ltr, .article .pGroup > .east_left.dir-rtl, .article .pGroup > .east_right img.dir-ltr, .article .pGroup > .east_right img.dir-rtl, .article .pGroup > .east_right.dir-ltr, .article .pGroup > .east_right.dir-rtl, .article .pGroup > .west_left img.dir-ltr, .article .pGroup > .west_left img.dir-rtl, .article .pGroup > .west_left.dir-ltr, .article .pGroup > .west_left.dir-rtl, .article .pGroup > .west_right img.dir-ltr, .article .pGroup > .west_right img.dir-rtl, .article .pGroup > .west_right.dir-ltr, .article .pGroup > .west_right.dir-rtl, .article .section > .east_left img.dir-ltr, .article .section > .east_left img.dir-rtl, .article .section > .east_left.dir-ltr, .article .section > .east_left.dir-rtl, .article .section > .east_right img.dir-ltr, .article .section > .east_right img.dir-rtl, .article .section > .east_right.dir-ltr, .article .section > .east_right.dir-rtl, .article .section > .west_left img.dir-ltr, .article .section > .west_left img.dir-rtl, .article .section > .west_left.dir-ltr, .article .section > .west_left.dir-rtl, .article .section > .west_right img.dir-ltr, .article .section > .west_right img.dir-rtl, .article .section > .west_right.dir-ltr, .article .section > .west_right.dir-rtl, .article header > .east_right img.dir-ltr, .article header > .east_right img.dir-rtl, .article header > .east_right.dir-ltr, .article header > .east_right.dir-rtl, .article header > .west_left img.dir-ltr, .article header > .west_left img.dir-rtl, .article header > .west_left.dir-ltr, .article header > .west_left.dir-rtl, .dir-ltr .article .pGroup > .east_left, .dir-ltr .article .pGroup > .east_left img, .dir-ltr .article .pGroup > .east_right, .dir-ltr .article .pGroup > .east_right img, .dir-ltr .article .pGroup > .west_left, .dir-ltr .article .pGroup > .west_left img, .dir-ltr .article .pGroup > .west_right, .dir-ltr .article .pGroup > .west_right img, .dir-ltr .article .section > .east_left, .dir-ltr .article .section > .east_left img, .dir-ltr .article .section > .east_right, .dir-ltr .article .section > .east_right img, .dir-ltr .article .section > .west_left, .dir-ltr .article .section > .west_left img, .dir-ltr .article .section > .west_right, .dir-ltr .article .section > .west_right img, .dir-ltr .article header > .east_right, .dir-ltr .article header > .east_right img, .dir-ltr .article header > .west_left, .dir-ltr .article header > .west_left img, .dir-rtl .article .pGroup > .east_left, .dir-rtl .article .pGroup > .east_left img, .dir-rtl .article .pGroup > .east_right, .dir-rtl .article .pGroup > .east_right img, .dir-rtl .article .pGroup > .west_left, .dir-rtl .article .pGroup > .west_left img, .dir-rtl .article .pGroup > .west_right, .dir-rtl .article .pGroup > .west_right img, .dir-rtl .article .section > .east_left, .dir-rtl .article .section > .east_left img, .dir-rtl .article .section > .east_right, .dir-rtl .article .section > .east_right img, .dir-rtl .article .section > .west_left, .dir-rtl .article .section > .west_left img, .dir-rtl .article .section > .west_right, .dir-rtl .article .section > .west_right img, .dir-rtl .article header > .east_right, .dir-rtl .article header > .east_right img, .dir-rtl .article header > .west_left, .dir-rtl .article header > .west_left img {
+    float: none;
+}
+
+* {
+    behavior: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.4em;
+    word-spacing: 1px;
+}
+
+#documentNavigation, #playerwrapper, #regionFooter, #regionHeader, #resultNavigation, #secondaryNavContent, #todayNav {
+    display: none !important;
+    margin: 0;
+    padding: 0;
+}
+
+#materialNav {
+    margin: 0 auto;
+}
+
+#regionMain {
+    width: 100%;
+}
+
+    #regionMain.dir-ltr, .dir-ltr #regionMain {
+        text-align: left;
+    }
+
+    #regionMain.dir-rtl, .dir-rtl #regionMain {
+        text-align: right;
+    }
+
+a:link, a:visited {
+    background: 0 0;
+    color: #333;
+    text-decoration: none;
+}
+
+    a:link[href^="http://"]:after, a:link[href^="https://"]:after, a[href^="http://"]:visited:after, a[href^="https://"]:visited:after {
+        content: " (" attr(href) ") ";
+        font-size: 11px;
+    }
+
+.article .boxSupplement .north_center:first-child {
+    margin-top: inherit;
+    margin-bottom: inherit;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.article > article > #materialNav > nav > .north_center:first-child, .article > article > .north_center:first-child {
+    margin-top: -1em;
+    margin-bottom: 2em;
+}
+
+.article .north_center figure, .article .south_center figure, .pGroup .north_center figure, .pGroup .south_center figure {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+nav .north_center, nav .south_center {
+    margin-left: -40px;
+    margin-right: -40px;
+}
+
+.article .north_center.half figure, .article .south_center.half figure, .article aside .north_center figure, .article aside .south_center figure, .pGroup .north_center.half figure, .pGroup .south_center.half figure {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.dir-ltr .article .pGroup > .west_left:not(.quarter), .dir-ltr .article .pGroup > .west_right:not(.quarter), .dir-ltr .article .section > .west_left:not(.quarter), .dir-ltr .article .section > .west_right:not(.quarter), .dir-ltr .article header > .west_left:not(.quarter) {
+    margin-left: 0;
+}
+
+.dir-rtl .article .pGroup > .west_left:not(.quarter), .dir-rtl .article .pGroup > .west_right:not(.quarter), .dir-rtl .article .section > .west_left:not(.quarter), .dir-rtl .article .section > .west_right:not(.quarter), .dir-rtl .article header > .west_left:not(.quarter) {
+    margin-right: 0;
+}
+
+.dir-ltr .article .pGroup > .east_left:not(.quarter), .dir-ltr .article .pGroup > .east_right:not(.quarter), .dir-ltr .article .section > .east_left:not(.quarter), .dir-ltr .article .section > .east_right:not(.quarter), .dir-ltr .article header > .east_right:not(.quarter) {
+    margin-right: 0;
+}
+
+.dir-rtl .article .pGroup > .east_left:not(.quarter), .dir-rtl .article .pGroup > .east_right:not(.quarter), .dir-rtl .article .section > .east_left:not(.quarter), .dir-rtl .article .section > .east_right:not(.quarter), .dir-rtl .article header > .east_right:not(.quarter) {
+    margin-left: 0;
+}
+
+.article .pGroup > .east_left, .article .pGroup > .east_right, .article .pGroup > .west_left, .article .pGroup > .west_right, .article .section > .east_left, .article .section > .east_right, .article .section > .west_left, .article .section > .west_right, .article header > .east_right, .article header > .west_left {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    max-width: none;
+    width: auto;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.dir-ltr .article .pGroup > .east_left:not(.quarter), .dir-ltr .article .pGroup > .east_right:not(.quarter), .dir-ltr .article .pGroup > .west_left:not(.quarter), .dir-ltr .article .pGroup > .west_right:not(.quarter), .dir-ltr .article .section > .east_left:not(.quarter), .dir-ltr .article .section > .east_right:not(.quarter), .dir-ltr .article .section > .west_left:not(.quarter), .dir-ltr .article .section > .west_right:not(.quarter), .dir-ltr .article header > .east_right:not(.quarter), .dir-ltr .article header > .west_left:not(.quarter) {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.dir-rtl .article .pGroup > .east_left:not(.quarter), .dir-rtl .article .pGroup > .east_right:not(.quarter), .dir-rtl .article .pGroup > .west_left:not(.quarter), .dir-rtl .article .pGroup > .west_right:not(.quarter), .dir-rtl .article .section > .east_left:not(.quarter), .dir-rtl .article .section > .east_right:not(.quarter), .dir-rtl .article .section > .west_left:not(.quarter), .dir-rtl .article .section > .west_right:not(.quarter), .dir-rtl .article header > .east_right:not(.quarter), .dir-rtl .article header > .west_left:not(.quarter) {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.article .pGroup > .east_left figure, .article .pGroup > .east_right figure, .article .pGroup > .west_left figure, .article .pGroup > .west_right figure, .article .section > .east_left figure, .article .section > .east_right figure, .article .section > .west_left figure, .article .section > .west_right figure, .article header > .east_right figure, .article header > .west_left figure {
+    padding: 0;
+    margin: 0;
+}
+
+.article .pGroup > .east_left img, .article .pGroup > .east_right img, .article .pGroup > .west_left img, .article .pGroup > .west_right img, .article .section > .east_left img, .article .section > .east_right img, .article .section > .west_left img, .article .section > .west_right img, .article header > .east_right img, .article header > .west_left img {
+    margin: .5em 0;
+}

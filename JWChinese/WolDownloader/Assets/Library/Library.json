@@ -1,0 +1,2199 @@
+﻿{
+  "Library": {
+    "Bible": {
+      "PublicationRootKeyId": "79",
+      "BibleBook": [
+        {
+          "BookNumber": "1",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "创",
+            "StandardBookAbbreviation": "创",
+            "StandardBookName": "创世记"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "Ge",
+            "StandardBookAbbreviation": "Gen.",
+            "StandardBookName": "Genesis"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Chuàng",
+            "StandardBookAbbreviation": "Chuàng",
+            "StandardBookName": "Chuàngshìjì"
+          }
+        },
+        {
+          "BookNumber": "2",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "出",
+            "StandardBookAbbreviation": "出",
+            "StandardBookName": "出埃及记"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "Ex",
+            "StandardBookAbbreviation": "Ex.",
+            "StandardBookName": "Exodus"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Chū",
+            "StandardBookAbbreviation": "Chū",
+            "StandardBookName": "Chū’āijíjì"
+          }
+        },
+        {
+          "BookNumber": "3",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "利",
+            "StandardBookAbbreviation": "利",
+            "StandardBookName": "利未记"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "Le",
+            "StandardBookAbbreviation": "Lev.",
+            "StandardBookName": "Leviticus"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Lì",
+            "StandardBookAbbreviation": "Lì",
+            "StandardBookName": "Lìwèijì"
+          }
+        },
+        {
+          "BookNumber": "4",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "民",
+            "StandardBookAbbreviation": "民",
+            "StandardBookName": "民数记"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "Nu",
+            "StandardBookAbbreviation": "Num.",
+            "StandardBookName": "Numbers"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Mín",
+            "StandardBookAbbreviation": "Mín",
+            "StandardBookName": "Mínshùjì"
+          }
+        },
+        {
+          "BookNumber": "5",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "申",
+            "StandardBookAbbreviation": "申",
+            "StandardBookName": "申命记"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "De",
+            "StandardBookAbbreviation": "Deut.",
+            "StandardBookName": "Deuteronomy"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Shēn",
+            "StandardBookAbbreviation": "Shēn",
+            "StandardBookName": "Shēnmìngjì"
+          }
+        },
+        {
+          "BookNumber": "6",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "书",
+            "StandardBookAbbreviation": "书",
+            "StandardBookName": "约书亚记"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "Jos",
+            "StandardBookAbbreviation": "Josh.",
+            "StandardBookName": "Joshua"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Shū",
+            "StandardBookAbbreviation": "Shū",
+            "StandardBookName": "Yuēshūyàjì"
+          }
+        },
+        {
+          "BookNumber": "7",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "士",
+            "StandardBookAbbreviation": "士",
+            "StandardBookName": "士师记"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "Jg",
+            "StandardBookAbbreviation": "Judg.",
+            "StandardBookName": "Judges"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Shì",
+            "StandardBookAbbreviation": "Shì",
+            "StandardBookName": "Shìshījì"
+          }
+        },
+        {
+          "BookNumber": "8",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "得",
+            "StandardBookAbbreviation": "得",
+            "StandardBookName": "路得记"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "Ru",
+            "StandardBookAbbreviation": "Ruth",
+            "StandardBookName": "Ruth"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Dé",
+            "StandardBookAbbreviation": "Dé",
+            "StandardBookName": "Lùdéjì"
+          }
+        },
+        {
+          "BookNumber": "9",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "撒上",
+            "StandardBookAbbreviation": "撒上",
+            "StandardBookName": "撒母耳记上"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "1Sa",
+            "StandardBookAbbreviation": "1 Sam.",
+            "StandardBookName": "1 Samuel"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Sāshàng",
+            "StandardBookAbbreviation": "Sāshàng",
+            "StandardBookName": "Sāmǔ’ěrjì Shàng"
+          }
+        },
+        {
+          "BookNumber": "10",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "撒下",
+            "StandardBookAbbreviation": "撒下",
+            "StandardBookName": "撒母耳记下"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "2Sa",
+            "StandardBookAbbreviation": "2 Sam.",
+            "StandardBookName": "2 Samuel"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Sāxià",
+            "StandardBookAbbreviation": "Sāxià",
+            "StandardBookName": "Sāmǔ’ěrjì Xià"
+          }
+        },
+        {
+          "BookNumber": "11",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "王上",
+            "StandardBookAbbreviation": "王上",
+            "StandardBookName": "列王纪上"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "1Ki",
+            "StandardBookAbbreviation": "1 Ki.",
+            "StandardBookName": "1 Kings"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Wángshàng",
+            "StandardBookAbbreviation": "Wángshàng",
+            "StandardBookName": "Lièwángjì Shàng"
+          }
+        },
+        {
+          "BookNumber": "12",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "王下",
+            "StandardBookAbbreviation": "王下",
+            "StandardBookName": "列王纪下"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "2Ki",
+            "StandardBookAbbreviation": "2 Ki.",
+            "StandardBookName": "2 Kings"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Wángxià",
+            "StandardBookAbbreviation": "Wángxià",
+            "StandardBookName": "Lièwángjì Xià"
+          }
+        },
+        {
+          "BookNumber": "13",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "代上",
+            "StandardBookAbbreviation": "代上",
+            "StandardBookName": "历代志上"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "1Ch",
+            "StandardBookAbbreviation": "1 Chron.",
+            "StandardBookName": "1 Chronicles"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Dàishàng",
+            "StandardBookAbbreviation": "Dàishàng",
+            "StandardBookName": "Lìdàizhì Shàng"
+          }
+        },
+        {
+          "BookNumber": "14",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "代下",
+            "StandardBookAbbreviation": "代下",
+            "StandardBookName": "历代志下"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "2Ch",
+            "StandardBookAbbreviation": "2 Chron.",
+            "StandardBookName": "2 Chronicles"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Dàixià",
+            "StandardBookAbbreviation": "Dàixià",
+            "StandardBookName": "Lìdàizhì Xià"
+          }
+        },
+        {
+          "BookNumber": "15",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "拉",
+            "StandardBookAbbreviation": "拉",
+            "StandardBookName": "以斯拉记"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "Ezr",
+            "StandardBookAbbreviation": "Ezra",
+            "StandardBookName": "Ezra"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Sī",
+            "StandardBookAbbreviation": "Sī",
+            "StandardBookName": "Yǐsīlājì"
+          }
+        },
+        {
+          "BookNumber": "16",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "尼",
+            "StandardBookAbbreviation": "尼",
+            "StandardBookName": "尼希米记"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "Ne",
+            "StandardBookAbbreviation": "Neh.",
+            "StandardBookName": "Nehemiah"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Ní",
+            "StandardBookAbbreviation": "Ní",
+            "StandardBookName": "Níxīmǐjì"
+          }
+        },
+        {
+          "BookNumber": "17",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "斯",
+            "StandardBookAbbreviation": "斯",
+            "StandardBookName": "以斯帖记"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "Es",
+            "StandardBookAbbreviation": "Esther",
+            "StandardBookName": "Esther"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Sī",
+            "StandardBookAbbreviation": "Sī",
+            "StandardBookName": "Yǐsītiējì"
+          }
+        },
+        {
+          "BookNumber": "18",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "伯",
+            "StandardBookAbbreviation": "伯",
+            "StandardBookName": "约伯记"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "Job",
+            "StandardBookAbbreviation": "Job",
+            "StandardBookName": "Job"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Bó",
+            "StandardBookAbbreviation": "Bó",
+            "StandardBookName": "Yuēbójì"
+          }
+        },
+        {
+          "BookNumber": "19",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "诗",
+            "StandardBookAbbreviation": "诗",
+            "StandardBookName": "诗篇"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "Ps",
+            "StandardBookAbbreviation": "Ps.",
+            "StandardBookName": "Psalms"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Shī",
+            "StandardBookAbbreviation": "Shī",
+            "StandardBookName": "Shīpiān"
+          }
+        },
+        {
+          "BookNumber": "20",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "箴",
+            "StandardBookAbbreviation": "箴",
+            "StandardBookName": "箴言"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "Pr",
+            "StandardBookAbbreviation": "Prov.",
+            "StandardBookName": "Proverbs"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Zhēn",
+            "StandardBookAbbreviation": "Zhēn",
+            "StandardBookName": "Zhēnyán"
+          }
+        },
+        {
+          "BookNumber": "21",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "传",
+            "StandardBookAbbreviation": "传",
+            "StandardBookName": "传道书"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "Ec",
+            "StandardBookAbbreviation": "Eccl.",
+            "StandardBookName": "Ecclesiastes"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Chuán",
+            "StandardBookAbbreviation": "Chuán",
+            "StandardBookName": "Chuándàoshū"
+          }
+        },
+        {
+          "BookNumber": "22",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "歌",
+            "StandardBookAbbreviation": "歌",
+            "StandardBookName": "雅歌"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "Ca",
+            "StandardBookAbbreviation": "Song of Sol.",
+            "StandardBookName": "Song of Solomon"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Gē",
+            "StandardBookAbbreviation": "Gē",
+            "StandardBookName": "Yǎgē"
+          }
+        },
+        {
+          "BookNumber": "23",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "赛",
+            "StandardBookAbbreviation": "赛",
+            "StandardBookName": "以赛亚书"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "Isa",
+            "StandardBookAbbreviation": "Isa.",
+            "StandardBookName": "Isaiah"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Sài",
+            "StandardBookAbbreviation": "Sài",
+            "StandardBookName": "Yǐsàiyàshū"
+          }
+        },
+        {
+          "BookNumber": "24",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "耶",
+            "StandardBookAbbreviation": "耶",
+            "StandardBookName": "耶利米书"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "Jer",
+            "StandardBookAbbreviation": "Jer.",
+            "StandardBookName": "Jeremiah"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Yē",
+            "StandardBookAbbreviation": "Yē",
+            "StandardBookName": "Yēlìmǐshū"
+          }
+        },
+        {
+          "BookNumber": "25",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "哀",
+            "StandardBookAbbreviation": "哀",
+            "StandardBookName": "耶利米哀歌"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "La",
+            "StandardBookAbbreviation": "Lam.",
+            "StandardBookName": "Lamentations"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Āi",
+            "StandardBookAbbreviation": "Āi",
+            "StandardBookName": "Yēlìmǐ Āigē"
+          }
+        },
+        {
+          "BookNumber": "26",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "结",
+            "StandardBookAbbreviation": "结",
+            "StandardBookName": "以西结书"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "Eze",
+            "StandardBookAbbreviation": "Ezek.",
+            "StandardBookName": "Ezekiel"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Xī",
+            "StandardBookAbbreviation": "Xī",
+            "StandardBookName": "Yǐxījiéshū"
+          }
+        },
+        {
+          "BookNumber": "27",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "但",
+            "StandardBookAbbreviation": "但",
+            "StandardBookName": "但以理书"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "Da",
+            "StandardBookAbbreviation": "Dan.",
+            "StandardBookName": "Daniel"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Dàn",
+            "StandardBookAbbreviation": "Dàn",
+            "StandardBookName": "Dànyǐlǐshū"
+          }
+        },
+        {
+          "BookNumber": "28",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "何",
+            "StandardBookAbbreviation": "何",
+            "StandardBookName": "何西阿书"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "Ho",
+            "StandardBookAbbreviation": "Hos.",
+            "StandardBookName": "Hosea"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Hé",
+            "StandardBookAbbreviation": "Hé",
+            "StandardBookName": "Héxī’āshū"
+          }
+        },
+        {
+          "BookNumber": "29",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "珥",
+            "StandardBookAbbreviation": "珥",
+            "StandardBookName": "约珥书"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "Joe",
+            "StandardBookAbbreviation": "Joel",
+            "StandardBookName": "Joel"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Ěr",
+            "StandardBookAbbreviation": "Ěr",
+            "StandardBookName": "Yuē’ěrshū"
+          }
+        },
+        {
+          "BookNumber": "30",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "摩",
+            "StandardBookAbbreviation": "摩",
+            "StandardBookName": "阿摩司书"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "Am",
+            "StandardBookAbbreviation": "Amos",
+            "StandardBookName": "Amos"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Mó",
+            "StandardBookAbbreviation": "Mó",
+            "StandardBookName": "Āmósīshū"
+          }
+        },
+        {
+          "BookNumber": "31",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "俄",
+            "StandardBookAbbreviation": "俄",
+            "StandardBookName": "俄巴底亚书"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "Ob",
+            "StandardBookAbbreviation": "Obad.",
+            "StandardBookName": "Obadiah"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "É",
+            "StandardBookAbbreviation": "É",
+            "StandardBookName": "Ébādǐyàshū"
+          }
+        },
+        {
+          "BookNumber": "32",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "拿",
+            "StandardBookAbbreviation": "拿",
+            "StandardBookName": "约拿书"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "Jon",
+            "StandardBookAbbreviation": "Jonah",
+            "StandardBookName": "Jonah"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Ná",
+            "StandardBookAbbreviation": "Ná",
+            "StandardBookName": "Yuēnáshū"
+          }
+        },
+        {
+          "BookNumber": "33",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "弥",
+            "StandardBookAbbreviation": "弥",
+            "StandardBookName": "弥迦书"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "Mic",
+            "StandardBookAbbreviation": "Mic.",
+            "StandardBookName": "Micah"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Mí",
+            "StandardBookAbbreviation": "Mí",
+            "StandardBookName": "Míjiāshū"
+          }
+        },
+        {
+          "BookNumber": "34",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "鸿",
+            "StandardBookAbbreviation": "鸿",
+            "StandardBookName": "那鸿书"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "Na",
+            "StandardBookAbbreviation": "Nah.",
+            "StandardBookName": "Nahum"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Hóng",
+            "StandardBookAbbreviation": "Hóng",
+            "StandardBookName": "Nāhóngshū"
+          }
+        },
+        {
+          "BookNumber": "35",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "哈",
+            "StandardBookAbbreviation": "哈",
+            "StandardBookName": "哈巴谷书"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "Hab",
+            "StandardBookAbbreviation": "Hab.",
+            "StandardBookName": "Habakkuk"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Hā",
+            "StandardBookAbbreviation": "Hā",
+            "StandardBookName": "Hābāgǔshū"
+          }
+        },
+        {
+          "BookNumber": "36",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "番",
+            "StandardBookAbbreviation": "番",
+            "StandardBookName": "西番雅书"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "Zep",
+            "StandardBookAbbreviation": "Zeph.",
+            "StandardBookName": "Zephaniah"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Fān",
+            "StandardBookAbbreviation": "Fān",
+            "StandardBookName": "Xīfānyǎshū"
+          }
+        },
+        {
+          "BookNumber": "37",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "该",
+            "StandardBookAbbreviation": "该",
+            "StandardBookName": "哈该书"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "Hag",
+            "StandardBookAbbreviation": "Hag.",
+            "StandardBookName": "Haggai"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Gāi",
+            "StandardBookAbbreviation": "Gāi",
+            "StandardBookName": "Hāgāishū"
+          }
+        },
+        {
+          "BookNumber": "38",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "亚",
+            "StandardBookAbbreviation": "亚",
+            "StandardBookName": "撒迦利亚书"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "Zec",
+            "StandardBookAbbreviation": "Zech.",
+            "StandardBookName": "Zechariah"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Yà",
+            "StandardBookAbbreviation": "Yà",
+            "StandardBookName": "Sājiālìyàshū"
+          }
+        },
+        {
+          "BookNumber": "39",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "玛",
+            "StandardBookAbbreviation": "玛",
+            "StandardBookName": "玛拉基书"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "Mal",
+            "StandardBookAbbreviation": "Mal.",
+            "StandardBookName": "Malachi"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Lā",
+            "StandardBookAbbreviation": "Lā",
+            "StandardBookName": "Mǎlājīshū"
+          }
+        },
+        {
+          "BookNumber": "40",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "太",
+            "StandardBookAbbreviation": "太",
+            "StandardBookName": "马太福音"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "Mt",
+            "StandardBookAbbreviation": "Matt.",
+            "StandardBookName": "Matthew"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Tài",
+            "StandardBookAbbreviation": "Tài",
+            "StandardBookName": "Mǎtài Fúyīn"
+          }
+        },
+        {
+          "BookNumber": "41",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "可",
+            "StandardBookAbbreviation": "可",
+            "StandardBookName": "马可福音"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "Mr",
+            "StandardBookAbbreviation": "Mark",
+            "StandardBookName": "Mark"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Kě",
+            "StandardBookAbbreviation": "Kě",
+            "StandardBookName": "Mǎkě Fúyīn"
+          }
+        },
+        {
+          "BookNumber": "42",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "路",
+            "StandardBookAbbreviation": "路",
+            "StandardBookName": "路加福音"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "Lu",
+            "StandardBookAbbreviation": "Luke",
+            "StandardBookName": "Luke"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Lù",
+            "StandardBookAbbreviation": "Lù",
+            "StandardBookName": "Lùjiā Fúyīn"
+          }
+        },
+        {
+          "BookNumber": "43",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "约",
+            "StandardBookAbbreviation": "约",
+            "StandardBookName": "约翰福音"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "Joh",
+            "StandardBookAbbreviation": "John",
+            "StandardBookName": "John"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Yuē",
+            "StandardBookAbbreviation": "Yuē",
+            "StandardBookName": "Yuēhàn Fúyīn"
+          }
+        },
+        {
+          "BookNumber": "44",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "徒",
+            "StandardBookAbbreviation": "徒",
+            "StandardBookName": "使徒行传"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "Ac",
+            "StandardBookAbbreviation": "Acts",
+            "StandardBookName": "Acts"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Tú",
+            "StandardBookAbbreviation": "Tú",
+            "StandardBookName": "Shǐtú Xíngzhuàn"
+          }
+        },
+        {
+          "BookNumber": "45",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "罗",
+            "StandardBookAbbreviation": "罗",
+            "StandardBookName": "罗马书"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "Ro",
+            "StandardBookAbbreviation": "Rom.",
+            "StandardBookName": "Romans"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Luó",
+            "StandardBookAbbreviation": "Luó",
+            "StandardBookName": "Luómǎshū"
+          }
+        },
+        {
+          "BookNumber": "46",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "林前",
+            "StandardBookAbbreviation": "林前",
+            "StandardBookName": "哥林多前书"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "1Co",
+            "StandardBookAbbreviation": "1 Cor.",
+            "StandardBookName": "1 Corinthians"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Línqián",
+            "StandardBookAbbreviation": "Línqián",
+            "StandardBookName": "Gēlínduō Qiánshū"
+          }
+        },
+        {
+          "BookNumber": "47",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "林后",
+            "StandardBookAbbreviation": "林后",
+            "StandardBookName": "哥林多后书"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "2Co",
+            "StandardBookAbbreviation": "2 Cor.",
+            "StandardBookName": "2 Corinthians"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Línhòu",
+            "StandardBookAbbreviation": "Línhòu",
+            "StandardBookName": "Gēlínduō Hòushū"
+          }
+        },
+        {
+          "BookNumber": "48",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "加",
+            "StandardBookAbbreviation": "加",
+            "StandardBookName": "加拉太书"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "Ga",
+            "StandardBookAbbreviation": "Gal.",
+            "StandardBookName": "Galatians"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Jiā",
+            "StandardBookAbbreviation": "Jiā",
+            "StandardBookName": "Jiālātàishū"
+          }
+        },
+        {
+          "BookNumber": "49",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "弗",
+            "StandardBookAbbreviation": "弗",
+            "StandardBookName": "以弗所书"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "Eph",
+            "StandardBookAbbreviation": "Eph.",
+            "StandardBookName": "Ephesians"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Fú",
+            "StandardBookAbbreviation": "Fú",
+            "StandardBookName": "Yǐfúsuǒshū"
+          }
+        },
+        {
+          "BookNumber": "50",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "腓",
+            "StandardBookAbbreviation": "腓",
+            "StandardBookName": "腓立比书"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "Php",
+            "StandardBookAbbreviation": "Phil.",
+            "StandardBookName": "Philippians"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Féi",
+            "StandardBookAbbreviation": "Féi",
+            "StandardBookName": "Féilìbǐshū"
+          }
+        },
+        {
+          "BookNumber": "51",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "西",
+            "StandardBookAbbreviation": "西",
+            "StandardBookName": "歌罗西书"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "Col",
+            "StandardBookAbbreviation": "Col.",
+            "StandardBookName": "Colossians"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Xī",
+            "StandardBookAbbreviation": "Xī",
+            "StandardBookName": "Gēluóxīshū"
+          }
+        },
+        {
+          "BookNumber": "52",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "帖前",
+            "StandardBookAbbreviation": "帖前",
+            "StandardBookName": "帖撒罗尼迦前书"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "1Th",
+            "StandardBookAbbreviation": "1 Thess.",
+            "StandardBookName": "1 Thessalonians"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Tiēqián",
+            "StandardBookAbbreviation": "Tiēqián",
+            "StandardBookName": "Tiēsāluóníjiā Qiánshū"
+          }
+        },
+        {
+          "BookNumber": "53",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "帖后",
+            "StandardBookAbbreviation": "帖后",
+            "StandardBookName": "帖撒罗尼迦后书"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "2Th",
+            "StandardBookAbbreviation": "2 Thess.",
+            "StandardBookName": "2 Thessalonians"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Tiēhòu",
+            "StandardBookAbbreviation": "Tiēhòu",
+            "StandardBookName": "Tiēsāluóníjiā Hòushū"
+          }
+        },
+        {
+          "BookNumber": "54",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "提前",
+            "StandardBookAbbreviation": "提前",
+            "StandardBookName": "提摩太前书"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "1Ti",
+            "StandardBookAbbreviation": "1 Tim.",
+            "StandardBookName": "1 Timothy"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Tíqián",
+            "StandardBookAbbreviation": "Tíqián",
+            "StandardBookName": "Tímótài Qiánshū"
+          }
+        },
+        {
+          "BookNumber": "55",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "提后",
+            "StandardBookAbbreviation": "提后",
+            "StandardBookName": "提摩太后书"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "2Ti",
+            "StandardBookAbbreviation": "2 Tim.",
+            "StandardBookName": "2 Timothy"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Tíhòu",
+            "StandardBookAbbreviation": "Tíhòu",
+            "StandardBookName": "Tímótài Hòushū"
+          }
+        },
+        {
+          "BookNumber": "56",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "多",
+            "StandardBookAbbreviation": "多",
+            "StandardBookName": "提多书"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "Tit",
+            "StandardBookAbbreviation": "Titus",
+            "StandardBookName": "Titus"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Duō",
+            "StandardBookAbbreviation": "Duō",
+            "StandardBookName": "Tíduōshū"
+          }
+        },
+        {
+          "BookNumber": "57",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "门",
+            "StandardBookAbbreviation": "门",
+            "StandardBookName": "腓利门书"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "Phm",
+            "StandardBookAbbreviation": "Philem.",
+            "StandardBookName": "Philemon"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Mén",
+            "StandardBookAbbreviation": "Mén",
+            "StandardBookName": "Féilìménshū"
+          }
+        },
+        {
+          "BookNumber": "58",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "来",
+            "StandardBookAbbreviation": "来",
+            "StandardBookName": "希伯来书"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "Heb",
+            "StandardBookAbbreviation": "Heb.",
+            "StandardBookName": "Hebrews"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Lái",
+            "StandardBookAbbreviation": "Lái",
+            "StandardBookName": "Xībóláishū"
+          }
+        },
+        {
+          "BookNumber": "59",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "雅",
+            "StandardBookAbbreviation": "雅",
+            "StandardBookName": "雅各书"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "Jas",
+            "StandardBookAbbreviation": "Jas.",
+            "StandardBookName": "James"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Yǎ",
+            "StandardBookAbbreviation": "Yǎ",
+            "StandardBookName": "Yǎgèshū"
+          }
+        },
+        {
+          "BookNumber": "60",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "彼前",
+            "StandardBookAbbreviation": "彼前",
+            "StandardBookName": "彼得前书"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "1Pe",
+            "StandardBookAbbreviation": "1 Pet.",
+            "StandardBookName": "1 Peter"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Bǐqián",
+            "StandardBookAbbreviation": "Bǐqián",
+            "StandardBookName": "Bǐdé Qiánshū"
+          }
+        },
+        {
+          "BookNumber": "61",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "彼后",
+            "StandardBookAbbreviation": "彼后",
+            "StandardBookName": "彼得后书"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "2Pe",
+            "StandardBookAbbreviation": "2 Pet.",
+            "StandardBookName": "2 Peter"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Bǐhòu",
+            "StandardBookAbbreviation": "Bǐhòu",
+            "StandardBookName": "Bǐdé Hòushū"
+          }
+        },
+        {
+          "BookNumber": "62",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "约一",
+            "StandardBookAbbreviation": "约一",
+            "StandardBookName": "约翰一书"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "1Jo",
+            "StandardBookAbbreviation": "1 John",
+            "StandardBookName": "1 John"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Yuēyì",
+            "StandardBookAbbreviation": "Yuēyì",
+            "StandardBookName": "Yuēhàn Yìshū"
+          }
+        },
+        {
+          "BookNumber": "63",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "约二",
+            "StandardBookAbbreviation": "约二",
+            "StandardBookName": "约翰二书"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "2Jo",
+            "StandardBookAbbreviation": "2 John",
+            "StandardBookName": "2 John"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Yuē’è",
+            "StandardBookAbbreviation": "Yuē’è",
+            "StandardBookName": "Yuēhàn Èrshū"
+          }
+        },
+        {
+          "BookNumber": "64",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "约三",
+            "StandardBookAbbreviation": "约三",
+            "StandardBookName": "约翰三书"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "3Jo",
+            "StandardBookAbbreviation": "3 John",
+            "StandardBookName": "3 John"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Yuēsān",
+            "StandardBookAbbreviation": "Yuēsān",
+            "StandardBookName": "Yuēhàn Sānshū"
+          }
+        },
+        {
+          "BookNumber": "65",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "犹",
+            "StandardBookAbbreviation": "犹",
+            "StandardBookName": "犹大书"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "Jude",
+            "StandardBookAbbreviation": "Jude",
+            "StandardBookName": "Jude"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Yóu",
+            "StandardBookAbbreviation": "Yóu",
+            "StandardBookName": "Yóudàshū"
+          }
+        },
+        {
+          "BookNumber": "66",
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "OfficialBookAbbreviation": "启",
+            "StandardBookAbbreviation": "启",
+            "StandardBookName": "启示录"
+          },
+          "English": {
+            "MepsLanguageId": "0",
+            "OfficialBookAbbreviation": "Re",
+            "StandardBookAbbreviation": "Rev.",
+            "StandardBookName": "Revelation"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "OfficialBookAbbreviation": "Qǐ",
+            "StandardBookAbbreviation": "Qǐ",
+            "StandardBookName": "Qǐshìlù"
+          }
+        }
+      ]
+    },
+    "Publications": {
+      "Publication": [
+        {
+          "KeySymbol": "it",
+          "PublicationRootKeyId": "87",
+          "ImageAsset": "images/329b/it_tile-200.jpg",
+          "English": {
+            "MepsLanguageId": "0",
+            "ShortTitle": "Insight",
+            "Title": "Insight on the Scriptures"
+          },
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "ShortTitle": "洞悉",
+            "Title": "《洞悉圣经》"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "ShortTitle": "Dòngxī",
+            "Title": "Dòngxī Shèngjīng"
+          }
+        },
+        {
+          "KeySymbol": "es",
+          "PublicationRootKeyId": "74",
+          "ImageAsset": "images/05/1102017012_univ_sqr-270x270.jpg",
+          "English": {
+            "MepsLanguageId": "0",
+            "ShortTitle": "Examining the Scriptures—2017",
+            "Title": "Examining the Scriptures Daily—2017"
+          },
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "ShortTitle": "考查圣经2015年",
+            "Title": "天天考查圣经——2017"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "ShortTitle": "Kǎochá Shèngjīng 2015 Nián",
+            "Title": "Tiāntiān Kǎochá Shèngjīng——2017"
+          }
+        },
+        {
+          "KeySymbol": "bt",
+          "PublicationRootKeyId": "",
+          "ImageAsset": "",
+          "English": {
+            "MepsLanguageId": "0",
+            "ShortTitle": "Bearing Witness",
+            "Title": "“Bearing Thorough Witness” About God’s Kingdom"
+          },
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "ShortTitle": "作见证",
+            "Title": "《为上帝的王国彻底作见证》"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "ShortTitle": "Zuò Jiànzhèng",
+            "Title": "Wéi Shàngdì De Wángguó Chèdǐ Zuò Jiànzhèng"
+          }
+        },
+        {
+          "KeySymbol": "my",
+          "PublicationRootKeyId": "130",
+          "ImageAsset": "images/a593/1102002189_univ_sqr-200.jpg",
+          "English": {
+            "MepsLanguageId": "0",
+            "ShortTitle": "Bible Stories",
+            "Title": "My Book of Bible Stories"
+          },
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "ShortTitle": "圣经故事",
+            "Title": "《我的圣经故事书》"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "ShortTitle": "Shèngjīng Gùshì",
+            "Title": "Wǒ De Shèngjīng Gùshì Shū"
+          }
+        },
+        {
+          "KeySymbol": "bh",
+          "ImageAsset": "images/1d50/1102005169_univ_sqr-200.jpg",
+          "PublicationRootKeyId": "77",
+          "English": {
+            "MepsLanguageId": "0",
+            "ShortTitle": "Bible Teach",
+            "Title": "What Does the Bible Really Teach?"
+          },
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "ShortTitle": "圣经真理",
+            "Title": "《辨明圣经的真理》"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "ShortTitle": "Shèngjīng Zhēnlǐ",
+            "Title": "Biànmíng Shèngjīng De Zhēnlǐ"
+          }
+        },
+        {
+          "KeySymbol": "cl",
+          "PublicationRootKeyId": "64",
+          "ImageAsset": "images/a8dd/1102002059_univ_sqr-200.jpg",
+          "English": {
+            "MepsLanguageId": "0",
+            "ShortTitle": "Close to Jehovah",
+            "Title": "Draw Close to Jehovah"
+          },
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "ShortTitle": "亲近",
+            "Title": "《亲近耶和华》"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "ShortTitle": "Qīnjìn",
+            "Title": "Qīnjìn Yēhéhuá"
+          }
+        },
+        {
+          "KeySymbol": "lv",
+          "PublicationRootKeyId": "117",
+          "ImageAsset": "images/1f9f/1102008271_univ_sqr-200.jpg",
+          "English": {
+            "MepsLanguageId": "0",
+            "ShortTitle": "“God’s Love”",
+            "Title": "“Keep Yourselves in God’s Love”"
+          },
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "ShortTitle": "上帝的爱",
+            "Title": "《常在上帝的爱里》"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "ShortTitle": "Shàngdì De Ài",
+            "Title": "Cháng Zài Shàngdì De Ài Li"
+          }
+        },
+        {
+          "KeySymbol": "ip-1",
+          "PublicationRootKeyId": "",
+          "ImageAsset": "",
+          "English": {
+            "MepsLanguageId": "0",
+            "ShortTitle": "Isaiah’s Prophecy I",
+            "Title": "Isaiah’s Prophecy—Light for All Mankind I"
+          },
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "ShortTitle": "以赛亚的预言上",
+            "Title": "《以赛亚的预言光照全人类》（上册）"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "ShortTitle": "Yǐsàiyà De Yùyán Shàng",
+            "Title": "Yǐsàiyà De Yùyán Guāngzhào Quánrénlèi (Shàngcè)"
+          }
+        },
+        {
+          "KeySymbol": "ip-2",
+          "PublicationRootKeyId": "",
+          "ImageAsset": "",
+          "English": {
+            "MepsLanguageId": "0",
+            "ShortTitle": "Isaiah’s Prophecy II",
+            "Title": "saiah’s Prophecy—Light for All Mankind II"
+          },
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "ShortTitle": "以赛亚的预言下",
+            "Title": "《以赛亚的预言光照全人类》（下册）"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "ShortTitle": "Yǐsàiyà De Yùyán Xià",
+            "Title": "Yǐsàiyà De Yùyán Guāngzhào Quánrénlèi (Xiàcè)"
+          }
+        },
+        {
+          "KeySymbol": "jd",
+          "PublicationRootKeyId": "125",
+          "ImageAsset": "images/f19b/1102006163_univ_sqr-200.jpg",
+          "English": {
+            "MepsLanguageId": "0",
+            "ShortTitle": "Jehovah’s Day",
+            "Title": "Live With Jehovah’s Day in Mind"
+          },
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "ShortTitle": "耶和华的日子",
+            "Title": "《紧记耶和华的日子，过敬虔的生活》"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "ShortTitle": "Yēhéhuá De Rìzi",
+            "Title": "Jǐnjì Yēhéhuá De Rìzi，Guò Jìngqián De Shēnghuó"
+          }
+        },
+        {
+          "KeySymbol": "jr",
+          "PublicationRootKeyId": "127",
+          "ImageAsset": "images/99a4/1102010158_univ_sqr-200.jpg",
+          "English": {
+            "MepsLanguageId": "0",
+            "ShortTitle": "Jeremiah",
+            "Title": "God’s Word for Us Through Jeremiah"
+          },
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "ShortTitle": "耶利米",
+            "Title": "《上帝通过耶利米给我们的话》"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "ShortTitle": "Yēlìmǐ",
+            "Title": "Shàngdì Tōngguò Yēlìmǐ Gěi Wǒmen De Huà"
+          }
+        },
+        {
+          "KeySymbol": "be",
+          "PublicationRootKeyId": "85",
+          "ImageAsset": "images/8030/1102001132_univ_sqr-200.jpg",
+          "English": {
+            "MepsLanguageId": "0",
+            "ShortTitle": "Ministry School",
+            "Title": "Benefit From Theocratic Ministry School Education"
+          },
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "ShortTitle": "传道训练班课本",
+            "Title": "《神圣教育使你得益——传道训练班课本》"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "ShortTitle": "Chuándào Xùnliànbān Kèběn",
+            "Title": "Shénshèng Jiàoyù Shǐ Nǐ Déyì——Chuándào Xùnliànbān Kèběn"
+          }
+        },
+        {
+          "KeySymbol": "rs",
+          "PublicationRootKeyId": "",
+          "ImageAsset": "",
+          "English": {
+            "MepsLanguageId": "0",
+            "ShortTitle": "Reasoning",
+            "Title": "Reasoning From the Scriptures"
+          },
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "ShortTitle": "推理",
+            "Title": "《根据圣经而推理》"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "ShortTitle": "Tuīlǐ",
+            "Title": "Sēnjù Shèngjīng Ér Tuīlǐ"
+          }
+        },
+        {
+          "KeySymbol": "sn",
+          "PublicationRootKeyId": "75",
+          "ImageAsset": "images/2482/1102009235_univ_sqr-200.jpg",
+          "English": {
+            "MepsLanguageId": "0",
+            "ShortTitle": "Sing to Jehovah",
+            "Title": "Sing to Jehovah"
+          },
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "ShortTitle": "歌颂",
+            "Title": "《歌颂耶和华》"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "ShortTitle": "Gēsòng",
+            "Title": "Gēsòng Yēhéhuá"
+          }
+        },
+        {
+          "KeySymbol": "lr",
+          "PublicationRootKeyId": "242",
+          "ImageAsset": "images/47/1102003064_univ_sqr-270x270.jpg",
+          "English": {
+            "MepsLanguageId": "0",
+            "ShortTitle": "Teacher",
+            "Title": "Learn From the Great Teacher"
+          },
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "ShortTitle": "导师",
+            "Title": "《向伟大的导师学习》"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "ShortTitle": "Dǎoshī",
+            "Title": "Xiàng Wěidà De Dǎoshī Xuéxí"
+          }
+        },
+        {
+          "KeySymbol": "wt",
+          "PublicationRootKeyId": "",
+          "ImageAsset": "",
+          "English": {
+            "MepsLanguageId": "0",
+            "ShortTitle": "Worship God",
+            "Title": "Worship the Only True God"
+          },
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "ShortTitle": "崇拜",
+            "Title": "《崇拜独一的真神》"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "ShortTitle": "Chóngbài",
+            "Title": "Chóngbài Dúyī De Zhēnshén"
+          }
+        },
+        {
+          "KeySymbol": "yp1",
+          "PublicationRootKeyId": "16",
+          "ImageAsset": "null",
+          "English": {
+            "MepsLanguageId": "0",
+            "ShortTitle": "Young People Ask, Volume 1",
+            "Title": "Questions Young People Ask—Answers That Work, Volume 1"
+          },
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "ShortTitle": "青年人问，第1册",
+            "Title": "《青年人所提出的问题——有实效的答案》，第1册"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "ShortTitle": "Qīngniánrén Wèn， Dì 1 Cè",
+            "Title": "Qīngniánrén Suǒ Tíchū De Wèntí—Yǒu Shíxiào De Dá'àn， Dì 1 Cè"
+          }
+        },
+        {
+          "KeySymbol": "yp2",
+          "PublicationRootKeyId": "17",
+          "ImageAsset": "null",
+          "English": {
+            "MepsLanguageId": "0",
+            "ShortTitle": "Young People Ask, Volume 2",
+            "Title": "Questions Young People Ask—Answers That Work, Volume 2"
+          },
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "ShortTitle": "青年人问，第2册",
+            "Title": "《青年人所提出的问题——有实效的答案》，第2册"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "ShortTitle": "Qīngniánrén Wèn， Dì 2 Cè",
+            "Title": "Qīngniánrén Suǒ Tíchū De Wèntí—Yǒu Shíxiào De Dá'àn， Dì 2 Cè"
+          }
+        },
+        {
+          "KeySymbol": "cf",
+          "PublicationRootKeyId": "194",
+          "ImageAsset": "images/5809/1102007442_univ_sqr-200.jpg",
+          "English": {
+            "MepsLanguageId": "0",
+            "ShortTitle": "“My Follower”",
+            "Title": "“Come Be My Follower”"
+          },
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "ShortTitle": "跟随",
+            "Title": "《来跟随我吧》"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "ShortTitle": "Gēnsuí",
+            "Title": "Lái Gēnsuí Wǒ Ba"
+          }
+        },
+        {
+          "KeySymbol": "ia",
+          "PublicationRootKeyId": "78",
+          "ImageAsset": "images/25fb/1102013270_univ_sqr-200.jpg",
+          "English": {
+            "MepsLanguageId": "0",
+            "ShortTitle": "Imitate",
+            "Title": "Imitate Their Faith"
+          },
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "ShortTitle": "榜样",
+            "Title": "《信心的榜样》"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "ShortTitle": "Bǎngyàng",
+            "Title": "Xìnxīn De Bǎngyàng"
+          }
+        },
+        {
+          "KeySymbol": "kr",
+          "PublicationRootKeyId": "113",
+          "ImageAsset": "images/25fb/1102013270_univ_sqr-200.jpg",
+          "English": {
+            "MepsLanguageId": "0",
+            "ShortTitle": "God’s Kingdom Rules!",
+            "Title": "God’s Kingdom Rules!"
+          },
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "ShortTitle": "王国统治",
+            "Title": "《上帝的王国统治了！》"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "ShortTitle": "Wángguó Tǒngzhì",
+            "Title": "Shàngdì De Dángguó Tǒngzhìle!"
+          }
+        },
+        {
+          "KeySymbol": "snnw",
+          "PublicationRootKeyId": "75",
+          "ImageAsset": "images/5745/1102014553_univ_sqr-200.jpg",
+          "English": {
+            "MepsLanguageId": "0",
+            "ShortTitle": "Sing to Jehovah—New Songs",
+            "Title": "Sing to Jehovah—New Songs"
+          },
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "ShortTitle": "歌頌耶和華——新歌",
+            "Title": "歌頌耶和華——新歌"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "ShortTitle": "Gēsòng Yēhéhuá——Xīngē",
+            "Title": "Gēsòng Yēhéhuá——Xīngē"
+          }
+        },
+        {
+          "KeySymbol": "jl",
+          "PublicationRootKeyId": "66",
+          "ImageAsset": "images/05/1102012172_univ_sqr-270x270.jpg",
+          "English": {
+            "MepsLanguageId": "0",
+            "ShortTitle": "Jehovah’s Will",
+            "Title": "Who Are Doing Jehovah’s Will Today?"
+          },
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "ShortTitle": "耶和华的旨意",
+            "Title": "《谁在遵行耶和华的旨意》"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "ShortTitle": "Yēhéhuá De Zhǐyì",
+            "Title": "Shéi Zài Zūnxíng Yēhéhuá De Zhǐyì"
+          }
+        },
+        {
+          "KeySymbol": "fg",
+          "PublicationRootKeyId": "65",
+          "ImageAsset": "images/a0/1102012181_univ_sqr-270x270.jpg",
+          "English": {
+            "MepsLanguageId": "0",
+            "ShortTitle": "Good News",
+            "Title": "Good News From God!"
+          },
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "ShortTitle": "好消息",
+            "Title": "《来自上帝的好消息》"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "ShortTitle": "Hǎo Xiāoxī",
+            "Title": "Láizì Shàngdì De Hǎo Xiāoxī"
+          }
+        },
+        {
+          "KeySymbol": "bm",
+          "PublicationRootKeyId": "12",
+          "ImageAsset": "images/bc/1102009482_univ_sqr-270x270.jpg",
+          "English": {
+            "MepsLanguageId": "0",
+            "ShortTitle": "Bible’s Message",
+            "Title": "The Bible—What Is Its Message?"
+          },
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "ShortTitle": "检索手",
+            "Title": "《浅谈圣经——圣经的信息是什么？》"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "ShortTitle": "Jiǎnsuǒ Shǒu",
+            "Title": "“Qiǎn Tán Shèngjīng——Shèngjīng De Xìnxī Shì Shénme?”"
+          }
+        },
+        {
+          "KeySymbol": "hf",
+          "PublicationRootKeyId": "96",
+          "ImageAsset": "images/3a/1102014405_univ_sqr-270x270.jpg",
+          "English": {
+            "MepsLanguageId": "0",
+            "ShortTitle": "Happy Family",
+            "Title": "Your Family Can Be Happy"
+          },
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "ShortTitle": "家庭幸福",
+            "Title": "《怎样促进家庭幸福》"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "ShortTitle": "Jiātíng Xìngfú",
+            "Title": "Zěnyàng Cùjìn Jiātíng Xìngfú"
+          }
+        },
+        {
+          "KeySymbol": "ll",
+          "PublicationRootKeyId": "247",
+          "ImageAsset": "images/c0/1102011101_univ_sqr-270x270.jpg",
+          "English": {
+            "MepsLanguageId": "0",
+            "ShortTitle": "Listen and Live",
+            "Title": "Listen to God and Live Forever"
+          },
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "ShortTitle": "听从（详尽版）",
+            "Title": "《听从上帝得永生》"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "ShortTitle": "Tīngcóng (Xiángjìn Bǎn)",
+            "Title": "Tīngcóng Shàngdì Dé Yǒngshēng"
+          }
+        },
+        {
+          "KeySymbol": "ld",
+          "PublicationRootKeyId": "248",
+          "ImageAsset": "images/c0/1102011101_univ_sqr-270x270.jpg",
+          "English": {
+            "MepsLanguageId": "0",
+            "ShortTitle": "Listen to God",
+            "Title": "Listen to God"
+          },
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "ShortTitle": "听从（简易版）",
+            "Title": "《要听从上帝》"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "ShortTitle": "Tīngcóng (Jiǎnyì Bǎn)",
+            "Title": "Yào Tīngcóng Shàngdì"
+          }
+        },
+        {
+          "KeySymbol": "lf",
+          "PublicationRootKeyId": "",
+          "ImageAsset": "",
+          "English": {
+            "MepsLanguageId": "0",
+            "ShortTitle": "Origin of Life",
+            "Title": "The Origin of Life—Five Questions Worth Asking"
+          },
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "ShortTitle": "生命的起源",
+            "Title": "《生命的起源——值得思考的五个问题》"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "ShortTitle": "Shēngmìng de Qǐyuán",
+            "Title": "Shēngmìng De Qǐyuán——Zhídé Sīkǎo De Wǔ Gè Wèntí”"
+          }
+        },
+        {
+          "KeySymbol": "yc",
+          "PublicationRootKeyId": "98",
+          "ImageAsset": "images/30/1102013537_univ_sqr-270x270.jpg",
+          "English": {
+            "MepsLanguageId": "0",
+            "ShortTitle": "Teach Your Children",
+            "Title": "Teach Your Children"
+          },
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "ShortTitle": "圣经小故事",
+            "Title": "《圣经小故事》"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "ShortTitle": "Shèngjīng Xiǎo Gùshì",
+            "Title": "Shèngjīng Xiǎo Gùshì"
+          }
+        },
+        {
+          "KeySymbol": "lc",
+          "PublicationRootKeyId": "294",
+          "ImageAsset": "images/ec/1102010241_univ_sqr-270x270.jpg",
+          "English": {
+            "MepsLanguageId": "0",
+            "ShortTitle": "Was Life Created?",
+            "Title": "Was Life Created?"
+          },
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "ShortTitle": "生命来自创造吗？",
+            "Title": "《生命来自创造吗？》"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "ShortTitle": "Shēngmìng Láizì Chuàngzào Ma?",
+            "Title": "Shēngmìng Láizì Chuàngzào Ma?"
+          }
+        },
+        {
+          "KeySymbol": "kt",
+          "PublicationRootKeyId": "236",
+          "ImageAsset": "images/078a/1102008390_univ_sqr-200.jpg",
+          "English": {
+            "MepsLanguageId": "0",
+            "ShortTitle": "Know the Truth",
+            "Title": "Would You Like to Know the Truth?"
+          },
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "ShortTitle": "真理传单",
+            "Title": "你想找到真理吗？"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "ShortTitle": "Zhēnlǐ Chuándān",
+            "Title": "Nǐ Xiǎng Zhǎodào Zhēnlǐ Ma?"
+          }
+        },
+        {
+          "KeySymbol": "t-30",
+          "PublicationRootKeyId": "67",
+          "ImageAsset": "images/e0d4/1102013380_univ_sqr-200.jpg",
+          "English": {
+            "MepsLanguageId": "0",
+            "ShortTitle": "View the Bible",
+            "Title": "How Do You View the Bible?"
+          },
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "ShortTitle": "圣经看法",
+            "Title": "你对圣经有什么看法？"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "ShortTitle": "Shèngjīng Kànfǎ",
+            "Title": "Nǐ Duì Shèngjīng Yǒu Shénme Kànfǎ?"
+          }
+        },
+        {
+          "KeySymbol": "t-31",
+          "PublicationRootKeyId": "68",
+          "ImageAsset": "images/7371/1102012770_univ_sqr-200.jpg",
+          "English": {
+            "MepsLanguageId": "0",
+            "ShortTitle": "View the Future",
+            "Title": "How Do You View the Future?"
+          },
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "ShortTitle": "未来",
+            "Title": "你觉得未来会怎样？"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "ShortTitle": "Wèilái",
+            "Title": "Nǐ Juédé Wèilái Huì Zěnyàng?"
+          }
+        },
+        {
+          "KeySymbol": "t-32",
+          "PublicationRootKeyId": "69",
+          "ImageAsset": "images/2ffd/1102013390_univ_sqr-200.jpg",
+          "English": {
+            "MepsLanguageId": "0",
+            "ShortTitle": "Happy Family Life",
+            "Title": "What Is the Key to Happy Family Life?"
+          },
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "ShortTitle": "家庭幸福",
+            "Title": "家庭幸福主要靠什么？"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "ShortTitle": "Jiātíng Xìngfú",
+            "Title": "Jiātíng Xìngfú Zhǔyào Kào Shénme?"
+          }
+        },
+        {
+          "KeySymbol": "t-33",
+          "PublicationRootKeyId": "70",
+          "ImageAsset": "images/db25/1102013400_univ_sqr-200.jpg",
+          "English": {
+            "MepsLanguageId": "0",
+            "ShortTitle": "Who Controls the World?",
+            "Title": "Who Really Controls the World?"
+          },
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "ShortTitle": "控制世界",
+            "Title": "控制世界的其实是谁？"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "ShortTitle": "Kòngzhì Shìjiè",
+            "Title": "Kòngzhì Shìjiè De Qíshí Shì Shéi?"
+          }
+        },
+        {
+          "KeySymbol": "t-34",
+          "PublicationRootKeyId": "71",
+          "ImageAsset": "images/fc9a/1102013410_univ_sqr-200.jpg",
+          "English": {
+            "MepsLanguageId": "0",
+            "ShortTitle": "人间苦难会终止吗？",
+            "Title": "Will Suffering Ever End?"
+          },
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "ShortTitle": "苦难终止",
+            "Title": "苦尽甘来，指日可待"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "ShortTitle": "Kǔjìngānlái Zhōngzhǐ",
+            "Title": "Kǔjìngānlái, Zhǐrìkědài"
+          }
+        },
+        {
+          "KeySymbol": "t-35",
+          "PublicationRootKeyId": "72",
+          "ImageAsset": "images/a70f/1102013500_univ_sqr-200.jpg",
+          "English": {
+            "MepsLanguageId": "0",
+            "ShortTitle": "Live Again",
+            "Title": "Can the Dead Really Live Again?"
+          },
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "ShortTitle": "复生",
+            "Title": "人死了真的能复生吗？"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "ShortTitle": "Fùshēng",
+            "Title": "Rén Sǐle Zhēnde Néng Fùshēng Ma?"
+          }
+        },
+        {
+          "KeySymbol": "t-36",
+          "PublicationRootKeyId": "99",
+          "ImageAsset": "images/5baf/1102014810_univ_sqr-200.jpg",
+          "English": {
+            "MepsLanguageId": "0",
+            "ShortTitle": "Kingdom",
+            "Title": "What Is the Kingdom of God?"
+          },
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "ShortTitle": "王国",
+            "Title": "上帝的王国是什么？"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "ShortTitle": "Wángguó",
+            "Title": "Shàngdì De Wángguó Shì Shénme?"
+          }
+        },
+        {
+          "KeySymbol": "t-37",
+          "PublicationRootKeyId": "73",
+          "ImageAsset": "images/5cb5/1102014910_univ_sqr-200.jpg",
+          "English": {
+            "MepsLanguageId": "0",
+            "ShortTitle": "Web site tract",
+            "Title": "Where Can We Find Answers to Life’s Big Questions?"
+          },
+          "Chinese": {
+            "MepsLanguageId": "279",
+            "ShortTitle": "网站传单",
+            "Title": "人生种种疑问，答案在哪里？"
+          },
+          "Pinyin": {
+            "MepsLanguageId": "-279",
+            "ShortTitle": "Wǎngzhàn Chuándān",
+            "Title": "Rénshēng Zhǒngzhǒng Yíwèn, Dá'àn Zài Nǎlǐ?"
+          }
+        }
+      ]
+    }
+  }
+}

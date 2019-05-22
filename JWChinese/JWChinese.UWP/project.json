@@ -1,0 +1,30 @@
+﻿{
+  "dependencies": {
+    "Corcav.Behaviors": "2.3.7",
+    "DLToolkit.Forms.Controls.FlowListView": "2.0.10",
+    "Fody": "3.0.3",
+    "FreshMvvm": "2.2.4",
+    "Microsoft.Bcl": "1.1.10",
+    "Microsoft.Net.Http": "2.2.29",
+    "Microsoft.NETCore.Platforms": "1.1.0",
+    "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.8",
+    "NETStandard.Library": "1.6.1",
+    "PCLStorage": "1.0.2",
+    "PropertyChanged.Fody": "2.5.4",
+    "sqlite-net-pcl": "1.3.3",
+    "Xam.Plugins.Settings": "3.1.1",
+    "Xamarin.Forms": "2.3.4.267",
+    "Xamarin.Forms.CarouselView": "2.3.0-pre2"
+  },
+  "frameworks": {
+    "uap10.0.10240": {}
+  },
+  "runtimes": {
+    "win10-arm": {},
+    "win10-arm-aot": {},
+    "win10-x86": {},
+    "win10-x86-aot": {},
+    "win10-x64": {},
+    "win10-x64-aot": {}
+  }
+}

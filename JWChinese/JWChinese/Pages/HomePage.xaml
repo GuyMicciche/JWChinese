@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:JWChinese;assembly=JWChinese"
+             x:Class="JWChinese.HomePage"
+             Title="CarouselPage">
+</CarouselPage>
+    
+    
+    
+    
+    
+
+
+<!--<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:behaviors="clr-namespace:Corcav.Behaviors;assembly=Corcav.Behaviors"
+             x:Class="JWChinese.HomePage">
+    <ContentPage.Content>
+        <Grid x:Name="perimeter" RowSpacing="3" ColumnSpacing="0" BackgroundColor="#f2f2f2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="0"/>
+            </Grid.ColumnDefinitions>
+
+            <StackLayout x:Name="primary" Grid.Row="0" Grid.Column="0">
+                <WebView Source="{Binding PrimaryWebViewSource}" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                    <behaviors:Interaction.Behaviors>
+                        <behaviors:BehaviorCollection>
+                            <behaviors:EventToCommand
+                                EventName="Navigating"
+                                Command="{Binding NavigatingCommand}"
+                                PassEventArgument="True" />
+                        </behaviors:BehaviorCollection>
+                    </behaviors:Interaction.Behaviors>
+                </WebView>
+            </StackLayout>
+
+            <StackLayout x:Name="secondary" Grid.Row="1" Grid.Column="0">
+                <WebView Source="{Binding SecondaryWebViewSource}" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                    <behaviors:Interaction.Behaviors>
+                        <behaviors:BehaviorCollection>
+                            <behaviors:EventToCommand
+                                EventName="Navigating"
+                                Command="{Binding NavigatingCommand}"
+                                PassEventArgument="True" />
+                        </behaviors:BehaviorCollection>
+                    </behaviors:Interaction.Behaviors>
+                </WebView>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>-->
+
+
+
+<!--<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="JWChinese.HomePage">
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView ItemsSource="{Binding Articles}" SelectedItem="{Binding SelectedArticle}" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding Publication}" Detail="{Binding Title}"></TextCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>-->

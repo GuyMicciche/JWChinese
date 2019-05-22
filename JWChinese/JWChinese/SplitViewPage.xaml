@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:JWChinese;assembly=JWChinese"
+             x:Class="JWChinese.SplitViewPage" MasterBehavior="Popover">
+    <MasterDetailPage.Resources>
+        <OnPlatform x:TypeArguments="ResourceDictionary">
+            <OnPlatform.iOS>
+                <ResourceDictionary>
+                    <Style x:Key="SplitViewPaneBackgroundColor" TargetType="Grid">
+                        <Setter Property="BackgroundColor" Value="#e8eaed"/>
+                    </Style>
+                    <Style x:Key="MenuListItemHeight" TargetType="Grid">
+                        <Setter Property="HeightRequest" Value="60"/>
+                    </Style>
+                    <Style x:Key="DividerBackgroundColor" TargetType="Grid">
+                        <Setter Property="BackgroundColor" Value="#cfcecb"/>
+                    </Style>
+                    <Style x:Key="SplitViewTopBackgroundColor" TargetType="BoxView">
+                        <Setter Property="BackgroundColor" Value="#2f64a8"/> 
+                    </Style>
+                    <Style x:Key="MenuItemLabel" TargetType="Label">
+                        <Setter Property="FontAttributes" Value="None" />
+                    </Style>
+                </ResourceDictionary>
+            </OnPlatform.iOS>
+            <OnPlatform.Android>
+                <ResourceDictionary>
+                    <Style x:Key="SplitViewPaneBackgroundColor" TargetType="Grid">
+                        <Setter Property="BackgroundColor" Value="#ecebe7"/>
+                    </Style>
+                    <Style x:Key="MenuListItemHeight" TargetType="Grid">
+                        <Setter Property="HeightRequest" Value="60"/>
+                        <Setter Property="Padding" Value="20,0,0,0"/>
+                    </Style>
+                    <Style x:Key="DividerBackgroundColor" TargetType="Grid">
+                        <Setter Property="BackgroundColor" Value="#cfcecb"/>
+                    </Style>
+                    <Style x:Key="SplitViewTopBackgroundColor" TargetType="BoxView">
+                        <Setter Property="BackgroundColor" Value="#1a4884"/> 
+                    </Style>
+                    <Style x:Key="MenuItemLabel" TargetType="Label">
+                        <Setter Property="FontAttributes" Value="Bold" />
+                        <Setter Property="TextColor" Value="#000000" />
+                    </Style>
+                </ResourceDictionary>
+            </OnPlatform.Android>
+            <OnPlatform.WinPhone>
+                <ResourceDictionary>
+                    <Style x:Key="SplitViewPaneBackgroundColor" TargetType="Grid">
+                        <!--<Setter Property="BackgroundColor" Value="#3c3836"/>-->
+                        <Setter Property="BackgroundColor" Value="#1f1f1f"/>
+                    </Style>
+                    <Style x:Key="MenuListItemHeight" TargetType="Grid">
+                        <Setter Property="HeightRequest" Value="48"/>
+                    </Style>
+                    <Style x:Key="DividerBackgroundColor" TargetType="Grid">
+                        <Setter Property="BackgroundColor" Value="#4c4c4c"/>
+                    </Style>
+                    <Style x:Key="SplitViewTopBackgroundColor" TargetType="BoxView">
+                        <Setter Property="BackgroundColor" Value="#2f64a8"/>
+                    </Style>
+                    <Style x:Key="MenuItemLabel" TargetType="Label">
+                        <Setter Property="FontAttributes" Value="None" />
+                    </Style>
+                </ResourceDictionary>
+            </OnPlatform.WinPhone>
+        </OnPlatform>
+    </MasterDetailPage.Resources>
+    <MasterDetailPage.Master>
+        <ContentPage Title=" " WidthRequest="240">
+            <Grid x:Name="SplitViewPane" VerticalOptions="FillAndExpand" Style="{StaticResource SplitViewPaneBackgroundColor}">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <ListView x:Name="MenuTop"
+                          HasUnevenRows="True"
+                          ItemSelected="Menu_ItemSelected"
+                          ItemTapped="Menu_ItemTapped"
+                          SelectedItem="{Binding SelectedItem}"
+                          BackgroundColor="Transparent" VerticalOptions="Start"
+                          Grid.Row="0">
+                    <ListView.Header>
+                        <Grid x:Name="topSection">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="10"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="10"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="0"/>
+                                <RowDefinition Height="40.5"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="6"/>
+                            </Grid.RowDefinitions>
+
+                            <BoxView Grid.ColumnSpan="3"
+                                 Grid.RowSpan="4"
+                                 Style="{DynamicResource SplitViewTopBackgroundColor}"/>
+                            <!--<Label 
+                                Grid.Column="1"
+                                Grid.Row="2"
+                                Text="JW Chinese"
+                                TextColor="#dadad9"
+                                Style="{DynamicResource SubtitleStyle}"/>-->
+                            <Label 
+                                Grid.Column="1"
+                                Grid.Row="2"
+                                Text="JW Chinese"
+                                TextColor="#ecebe7"
+                                Style="{DynamicResource TitleStyle}"/>
+                        </Grid>
+                        <!--<Grid BackgroundColor="#1a4884">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="200" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                            <Grid>
+                                <Image Source="ic_splash.png" />
+                            </Grid>
+                        </Grid>-->
+                    </ListView.Header>
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Grid Style="{StaticResource MenuListItemHeight}">
+                                    <StackLayout Orientation="Horizontal">
+                                        <Image Source="{Binding IconSource}" HorizontalOptions="Start" VerticalOptions="Center"/>
+                                        <Label Text="{Binding Title}" VerticalOptions="Center" Margin="13,0,0,0" HorizontalTextAlignment="Center" Style="{DynamicResource MenuItemLabel}" />
+                                    </StackLayout>
+                                    <Grid WidthRequest="6" BackgroundColor="#2f64a8" HorizontalOptions="Start" HeightRequest="48" IsVisible="{Binding Selected}"/>
+                                </Grid>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                <ListView x:Name="MenuBottom"
+                          HasUnevenRows="True"
+                          ItemSelected="Menu_ItemSelected"
+                          SelectedItem="{Binding SelectedItem}"
+                          ItemTapped="Menu_ItemTapped"
+                          BackgroundColor="Transparent" VerticalOptions="End"
+                          Grid.Row="2">
+                    <ListView.Header>
+                        <StackLayout>
+                            <Grid WidthRequest="240" Style="{DynamicResource DividerBackgroundColor}" Margin="0" HeightRequest="1"/>
+                        </StackLayout>
+                    </ListView.Header>
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Grid Style="{StaticResource MenuListItemHeight}">
+                                    <StackLayout Orientation="Horizontal">
+                                        <Image Source="{Binding IconSource}" HorizontalOptions="Start" VerticalOptions="Center"/>
+                                        <Label Text="{Binding Title}" VerticalOptions="Center" Margin="13,0,0,0" HorizontalTextAlignment="Center"  Style="{DynamicResource MenuItemLabel}" />
+                                    </StackLayout>
+                                    <Grid WidthRequest="6" BackgroundColor="#2f64a8" HorizontalOptions="Start" HeightRequest="48" IsVisible="{Binding Selected}"/>
+                                </Grid>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </Grid>
+        </ContentPage>
+    </MasterDetailPage.Master>
+    <MasterDetailPage.Detail>
+        <ContentPage Title=" "/>
+    </MasterDetailPage.Detail>
+</MasterDetailPage>

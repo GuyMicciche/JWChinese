@@ -1,0 +1,2880 @@
+.copyrightInfo, blockquote {
+    overflow: auto;
+}
+
+.north_center, sup {
+    vertical-align: top;
+}
+
+/*.docClass-DailyText a, .docClass-DailyText a em, .sb, .ss, .st, a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {*/
+.docClass-DailyText a, .docClass-DailyText a em, .sb, .ss, .st, a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    -o-text-size-adjust: none;
+    text-size-adjust: none;
+    /*-ms-text-size-adjust:150%;*/
+}
+
+    .docClass-DailyText a em.highlight, .docClass-DailyText a em.hl, .highlight, .hl, a.highlight, a.hl {
+        color: #ad2052;
+    }
+
+body {
+    font-weight: 300;
+}
+
+b, strong {
+    font-weight: 600;
+}
+
+.ss, .st, h1, h2, h3, h4, h5, h6 {
+    color: #64605d;
+}
+
+.st, h1 {
+    margin-bottom: .5em;
+    font-size: 2em;
+    font-weight: 200;
+    line-height: 1.2em;
+}
+
+.ss, h2, h3 {
+    line-height: 1.3em;
+    font-weight: 200;
+}
+
+.st strong, h1 strong {
+    font-weight: 200;
+}
+
+.ss, h2 {
+    font-size: 1.5em;
+}
+
+    .ss strong, h2 strong {
+        font-weight: 200;
+    }
+
+h3 {
+    font-size: 1.3em;
+}
+
+    h3 strong {
+        font-weight: 200;
+    }
+
+h4 {
+    font-size: 1.1em;
+    font-weight: 200;
+}
+
+.ss, h2, h3, h4, h5 {
+    margin-top: .75em;
+    margin-bottom: .75em;
+}
+
+    .ss .sb, .ss p, .st .sb, .st p, h1 .sb, h1 p, h2 .sb, h2 p, h3 .sb, h3 p, h4 .sb, h4 p, h5 .sb, h5 p {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .ss + h3, .st + .ss, .st + .st, .st + h1, .st + h2, h1 + .ss, h1 + .st, h1 + h1, h1 + h2, h2 + h3, h3 + h4, h4 + h5 {
+        margin-top: -.25em;
+    }
+
+    .ss + .sb, .ss + p, h2 + .sb, h2 + p {
+        margin-top: .5em;
+    }
+
+header {
+    margin-bottom: 1em;
+}
+
+.sb, p {
+    line-height: 1.5em;
+    margin-top: .75em;
+    margin-bottom: .75em;
+}
+
+    .sb:first-child, p:first-child {
+        margin-top: 0;
+    }
+
+.dir-ltr ul.directory, .dir-ltr ul.docNav, ul.directory.dir-ltr, ul.docNav.dir-ltr {
+    padding-left: 0;
+}
+
+.dir-rtl ul.directory, .dir-rtl ul.docNav, ul.directory.dir-rtl, ul.docNav.dir-rtl {
+    padding-right: 0;
+}
+
+ul .outline li .sb, ul .outline li p {
+    display: inline-block;
+}
+
+    .dir-ltr ul .outline li .sb, .dir-ltr ul .outline li p, ul .outline li .dir-ltr.sb, ul .outline li p.dir-ltr {
+        padding-left: 1em;
+    }
+
+    .dir-rtl ul .outline li .sb, .dir-rtl ul .outline li p, ul .outline li .dir-rtl.sb, ul .outline li p.dir-rtl {
+        padding-right: 1em;
+    }
+
+aside {
+    border: none;
+}
+
+blockquote {
+    margin: 1em 2em;
+    padding: .15em 0;
+}
+
+    blockquote .sb, blockquote p {
+        text-indent: 0 !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    blockquote > div.half + .sb, blockquote > div.half + p, blockquote > div.quarter + .sb, blockquote > div.quarter + p {
+        overflow: auto;
+        padding-right: .15em;
+        padding-left: .15em;
+        padding-bottom: .15em;
+        margin-top: 0;
+    }
+
+figcaption, figcaption .sb + .sb, figcaption .sb + p, figcaption p + .sb, figcaption p + p {
+    margin-top: .5em;
+}
+
+blockquote::after, blockquote::before {
+    content: '';
+    content: none;
+}
+
+q:after, q:before {
+    content: "";
+    content: none;
+}
+
+img {
+    height: auto;
+    width: 100%;
+}
+
+    img#invisibleImage, img.thumb {
+        max-width: none;
+        min-width: 0;
+        width: auto;
+    }
+
+figure {
+    display: block;
+    background: 0 0;
+}
+
+figcaption {
+    color: #65605E;
+    font-weight: 300;
+    max-width: none;
+    border-top: none;
+    border-bottom: none;
+    margin-bottom: 0;
+    padding: 0 1em .1em;
+}
+
+.blockTxt.floatEast, .blockTxt.floatWest, .pGroup > div.floatEast.stdCaption, .pGroup > div.floatWest.stdCaption, .stdPullQuote.floatEast, .stdPullQuote.floatWest {
+    max-width: 47%;
+}
+
+figcaption .sb, figcaption p {
+    font-size: .9em;
+}
+
+    .dir-ltr figcaption .sb, .dir-ltr figcaption p, figcaption .dir-ltr.sb, figcaption p.dir-ltr {
+        text-align: left;
+    }
+
+    .dir-rtl figcaption .sb, .dir-rtl figcaption p, figcaption .dir-rtl.sb, figcaption p.dir-rtl {
+        text-align: right;
+    }
+
+sup {
+    line-height: 1.7em;
+    font-size: .7em;
+}
+
+    .dir-ltr sup, sup.dir-ltr {
+        padding-right: .25em;
+    }
+
+    .dir-rtl sup, sup.dir-rtl {
+        padding-left: .25em;
+    }
+
+    sup, sup strong {
+        font-weight: 400;
+    }
+
+ins {
+    color: #113ff8 !important;
+}
+
+del {
+    color: #867f7e !important;
+}
+
+caption {
+    text-align: left;
+    color: #65605E;
+    font-size: 1.25em;
+    font-weight: 200;
+    margin-top: 1em;
+    margin-bottom: .5em;
+    line-height: 1.15;
+}
+
+/*ruby {
+    ruby-merge: separate;
+    ruby-align: center;
+    ruby-overhang: whitespace;
+    padding: 0 .25em;
+    line-height: 2.25em;
+}
+
+    ruby rt {
+        color: #333;
+        font-size: .75em;
+    }
+
+        ruby rt span.altsize {
+            padding-top: 3px;
+        }*/
+
+.copyrightInfo, .groupPubInfo {
+    margin: 1em 0;
+    padding: .5em 0;
+}
+
+    .copyrightInfo .si.sb, .copyrightInfo p.si, .groupPubInfo .si.sb, .groupPubInfo p.si {
+        margin: 0;
+    }
+
+    .copyrightInfo .st, .copyrightInfo .st.sb, .copyrightInfo h1, .copyrightInfo p.st, .groupPubInfo .st, .groupPubInfo .st.sb, .groupPubInfo h1, .groupPubInfo p.st {
+        font-size: 1em;
+        font-weight: 300;
+    }
+
+.centered {
+    text-align: center;
+}
+
+.indent {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.noIndent {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.noTopMargin.sb, p.noTopMargin {
+    margin-top: -.5em !important;
+}
+
+.pGroup > .noTopMargin.sb, .pGroup > p.noTopMargin, .ss + .noTopMargin.sb, .ss + p.noTopMargin, .st + .noTopMargin.sb, .st + p.noTopMargin, h1 + .noTopMargin.sb, h1 + p.noTopMargin, h2 + .noTopMargin.sb, h2 + p.noTopMargin, h3 + .noTopMargin.sb, h3 + p.noTopMargin {
+    margin-top: 0;
+}
+
+.copyrightInfo.dir-ltr, .dir-ltr .copyrightInfo {
+    text-align: left;
+}
+
+.copyrightInfo.dir-rtl, .dir-ltr blockquote.rule .sb, .dir-ltr blockquote.rule p, .dir-rtl .copyrightInfo, blockquote.rule .dir-ltr.sb, blockquote.rule p.dir-ltr {
+    text-align: right;
+}
+
+.displayNone {
+    display: none !important;
+}
+
+.contextTtl, .featureTtl {
+    color: #64605d;
+    margin-bottom: .5em;
+}
+
+    .contextTtl strong, .featureTtl strong {
+        font-weight: 300;
+    }
+
+    .contextTtl + .ss, .contextTtl + .st, .contextTtl + h1, .contextTtl + h2, .featureTtl + .ss, .featureTtl + .st, .featureTtl + h1, .featureTtl + h2 {
+        margin-top: -.25em;
+    }
+
+    .featureTtl.st, .featureTtl.st strong, h1.featureTtl, h1.featureTtl strong {
+        font-weight: 200;
+    }
+
+.qu, .w_question {
+    color: #535353;
+    font-size: .8em;
+    margin-top: .75em;
+    margin-bottom: .5em;
+}
+
+    .qu strong, .w_question strong {
+        font-weight: 400;
+    }
+
+.ruleAbove {
+    border-top: 1px solid #ddd;
+    margin-top: 1em;
+    padding-top: 1em;
+    overflow: hidden;
+}
+
+    .ruleAbove.ss, h2.ruleAbove {
+        border-top: 1px solid #64605d;
+    }
+
+.bottomRule {
+    border-bottom: 1px solid #ddd;
+}
+
+.headingRuleBottom {
+    border-bottom: 2px solid #64605d;
+}
+
+.rule.ss, h2.rule {
+    margin-top: 4%;
+}
+
+blockquote.rule {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 1.2em;
+    font-weight: 300;
+    color: #65605E;
+}
+
+    .dir-ltr blockquote.rule, blockquote.rule.dir-ltr {
+        border-right: .25em solid #d7d7d7;
+        padding-right: 4%;
+    }
+
+    .dir-rtl blockquote.rule, blockquote.rule.dir-rtl {
+        border-left: .25em solid #d7d7d7;
+        padding-left: 4%;
+    }
+
+        .dir-ltr .stdCaption, .dir-rtl blockquote.rule .sb, .dir-rtl blockquote.rule p, .stdCaption.dir-ltr, blockquote.rule .dir-rtl.sb, blockquote.rule p.dir-rtl {
+            text-align: left;
+        }
+
+.fcc.sb, .groupEndnote.sb, .groupFootnote.sb, p.fcc, p.groupEndnote, p.groupFootnote {
+    color: #64605d;
+    font-size: .875em;
+}
+
+.groupEndnote, .groupFootnote {
+    border-top: 1px solid #ccc;
+    margin-top: 1em;
+    padding-top: 1em;
+    color: #64605d;
+    clear: both;
+}
+
+.grpItems {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.borderSolid--bottom:not(:last-of-type) {
+    border-bottom: 1px solid #ccc;
+}
+
+h3.inline strong {
+    font-weight: 600;
+}
+
+.openingContent {
+    font-size: 1.3em;
+    color: #65605E;
+    margin-bottom: 2em;
+}
+
+    .openingContent.bottomRule {
+        padding-bottom: .5em;
+        margin-bottom: .5em;
+    }
+
+    .openingContent.txtSizeDefault {
+        font-size: inherit;
+    }
+
+    .openingContent .sb, .openingContent p {
+        margin: .75em 0;
+        text-indent: 0 !important;
+    }
+
+        .openingContent .sb:first-child, .openingContent p:first-child {
+            margin-top: 0;
+        }
+
+    .openingContent blockquote {
+        margin-bottom: 1em;
+        clear: none;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .openingContent .sb:last-child, .openingContent p:last-child {
+        margin-bottom: 0;
+    }
+
+    .openingContent ul {
+        list-style-type: disc;
+    }
+
+        .dir-ltr .openingContent ul, .openingContent ul.dir-ltr {
+            padding-left: 25px;
+        }
+
+        .dir-rtl .openingContent ul, .openingContent ul.dir-rtl {
+            padding-right: 25px;
+        }
+
+        .openingContent ul li .sb, .openingContent ul li p {
+            text-indent: 0;
+            margin-bottom: .5em;
+        }
+
+.closingContent {
+    color: #65605E;
+    font-size: 1.1em;
+}
+
+.metaIntro .ss, .metaIntro h2 {
+    font-size: .75em;
+    font-weight: 300;
+}
+
+.metaIntro .sb, .metaIntro p {
+    margin: 0 0 .5em;
+    font-size: 90%;
+}
+
+.boxContent > blockquote, .diagram > blockquote, .mapElement > blockquote, .quarter + blockquote, blockquote.noIndent, li blockquote {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.docClass-DailyText a .groupTOC em, .groupTOC .docClass-DailyText a em, .groupTOC a {
+    font-weight: 600;
+}
+
+.groupTOC .boxContent, .groupTOC .diagram, .groupTOC .mapElement {
+    padding: 0 .5em;
+}
+
+    .docClass-DailyText a .groupTOC .boxContent em, .docClass-DailyText a .groupTOC .diagram em, .docClass-DailyText a .groupTOC .mapElement em, .groupTOC .boxContent .docClass-DailyText a em, .groupTOC .boxContent a, .groupTOC .diagram .docClass-DailyText a em, .groupTOC .diagram a, .groupTOC .mapElement .docClass-DailyText a em, .groupTOC .mapElement a {
+        font-weight: 300;
+    }
+
+.groupTOC + .closingContent {
+    padding: 0;
+}
+
+    .groupTOC + .closingContent h5 {
+        padding-top: 0;
+        margin-top: -.75em;
+        margin-bottom: 1em;
+        font-size: 1.3em;
+    }
+
+        .groupTOC + .closingContent h5 + .sb, .groupTOC + .closingContent h5 + p {
+            margin-top: 0;
+        }
+
+.groupStudySched .rule {
+    margin-top: 2%;
+    padding-top: 2%;
+    border-top: 1px solid #9E9C9B;
+}
+
+.groupStudySched .sb, .groupStudySched p {
+    margin-bottom: .5em;
+}
+
+.groupStudySched h3, .groupStudySched h3 strong {
+    font-weight: 200;
+}
+
+.st + .pGroup .ss, .st + .pGroup h2, .st + .pGroup h3, h1 + .pGroup .ss, h1 + .pGroup h2, h1 + .pGroup h3 {
+    margin-top: .5em;
+}
+
+.relatedContent {
+    font-size: .875em;
+    border-top: 1px solid #ccc;
+    margin-top: 1em;
+    padding-top: 1em;
+    color: #64605d;
+}
+
+    .relatedContent .sb:first-child, .relatedContent p:first-child {
+        margin-top: 0;
+    }
+
+.altsize, .small {
+    font-size: .85em;
+}
+
+.blockTxt, .pGroup > div.stdCaption, .stdCaption, .stdPullQuote {
+    color: #65605E;
+    font-weight: 300;
+}
+
+    .blockTxt .boxContent, .blockTxt .diagram, .blockTxt .mapElement, .pGroup > div.stdCaption .boxContent, .pGroup > div.stdCaption .diagram, .pGroup > div.stdCaption .mapElement, .stdCaption .boxContent, .stdCaption .diagram, .stdCaption .mapElement, .stdPullQuote .boxContent, .stdPullQuote .diagram, .stdPullQuote .mapElement {
+        background-color: inherit;
+        color: inherit;
+        margin: 0;
+        padding: 0;
+    }
+
+.studyPurpose .sn, .themeScrp {
+    color: #64605d;
+    font-weight: 300;
+}
+
+.stdCaption {
+    font-size: .9em;
+    margin-top: .5em;
+    padding: 0 1em;
+}
+
+    .blockTxt .dir-ltr.sb, .blockTxt p.dir-ltr, .dir-ltr .blockTxt .sb, .dir-ltr .blockTxt p, .dir-ltr .pGroup > div.stdCaption .sb, .dir-ltr .pGroup > div.stdCaption p, .dir-ltr .stdPullQuote .sb, .dir-ltr .stdPullQuote p, .dir-rtl .stdCaption, .pGroup > div.stdCaption .dir-ltr.sb, .pGroup > div.stdCaption p.dir-ltr, .stdCaption.dir-rtl, .stdPullQuote .dir-ltr.sb, .stdPullQuote p.dir-ltr {
+        text-align: right;
+    }
+
+    .stdCaption .sb, .stdCaption p {
+        margin-top: 0;
+    }
+
+.blockTxt, .pGroup > div.stdCaption, .stdPullQuote {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 1.2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+    .blockTxt.dir-ltr, .dir-ltr .blockTxt, .dir-ltr .pGroup > div.stdCaption, .dir-ltr .stdPullQuote, .pGroup > div.dir-ltr.stdCaption, .stdPullQuote.dir-ltr {
+        border-right: .25em solid #d7d7d7;
+        padding-right: 4%;
+        margin-left: 33%;
+        clear: right;
+    }
+
+        .blockTxt.floatEast.dir-ltr, .blockTxt.floatWest.dir-rtl, .dir-ltr .blockTxt.floatEast, .dir-ltr .pGroup > div.floatEast.stdCaption, .dir-ltr .stdPullQuote.floatEast, .dir-rtl .blockTxt.floatWest, .dir-rtl .pGroup > div.floatWest.stdCaption, .dir-rtl .stdPullQuote.floatWest, .pGroup > div.floatEast.dir-ltr.stdCaption, .pGroup > div.floatWest.dir-rtl.stdCaption, .stdPullQuote.floatEast.dir-ltr, .stdPullQuote.floatWest.dir-rtl {
+            margin-left: 4%;
+        }
+
+    .blockTxt.dir-rtl, .dir-rtl .blockTxt, .dir-rtl .pGroup > div.stdCaption, .dir-rtl .stdPullQuote, .pGroup > div.dir-rtl.stdCaption, .stdPullQuote.dir-rtl {
+        border-left: .25em solid #d7d7d7;
+        padding-left: 4%;
+        margin-right: 33%;
+        clear: left;
+    }
+
+        .blockTxt.floatEast.dir-rtl, .blockTxt.floatWest.dir-ltr, .dir-ltr .blockTxt.floatWest, .dir-ltr .pGroup > div.floatWest.stdCaption, .dir-ltr .stdPullQuote.floatWest, .dir-rtl .blockTxt.floatEast, .dir-rtl .pGroup > div.floatEast.stdCaption, .dir-rtl .stdPullQuote.floatEast, .pGroup > div.floatEast.dir-rtl.stdCaption, .pGroup > div.floatWest.dir-ltr.stdCaption, .stdPullQuote.floatEast.dir-rtl, .stdPullQuote.floatWest.dir-ltr {
+            margin-right: 4%;
+        }
+
+    .blockTxt .sb, .blockTxt p, .pGroup > div.stdCaption .sb, .pGroup > div.stdCaption p, .stdPullQuote .sb, .stdPullQuote p {
+        margin: 0;
+    }
+
+        .blockTxt .dir-rtl.sb, .blockTxt p.dir-rtl, .dir-rtl .blockTxt .sb, .dir-rtl .blockTxt p, .dir-rtl .pGroup > div.stdCaption .sb, .dir-rtl .pGroup > div.stdCaption p, .dir-rtl .stdPullQuote .sb, .dir-rtl .stdPullQuote p, .pGroup > div.stdCaption .dir-rtl.sb, .pGroup > div.stdCaption p.dir-rtl, .stdPullQuote .dir-rtl.sb, .stdPullQuote p.dir-rtl {
+            text-align: left;
+        }
+
+.section {
+    clear: none;
+}
+
+.studyPurpose .sn {
+    font-size: 1.1em;
+}
+
+.pageNum {
+    display: none;
+}
+
+.docNav {
+    clear: both;
+    display: block;
+    margin-top: 1.5em;
+    text-align: center;
+}
+
+    .docNav:after, .docNav:before {
+        content: " ";
+        display: table;
+    }
+
+    .docNav:after {
+        clear: both;
+    }
+
+    .docClass-DailyText a .docNav em, .docNav .docClass-DailyText a em, .docNav a {
+        display: inline-block;
+        font-size: 1.35em;
+        font-weight: 300;
+        height: 2em;
+        line-height: 2em;
+        margin: 0 .25em .25em 0;
+        width: 2em;
+    }
+
+        .dir-ltr .docNav .docClass-DailyText a em, .dir-ltr .docNav a, .docClass-DailyText a .dir-ltr .docNav em, .docClass-DailyText a .docNav em.dir-ltr, .docNav .docClass-DailyText a em.dir-ltr, .docNav a.dir-ltr {
+            float: left;
+        }
+
+        .dir-ltr .floatEast, .dir-rtl .docNav .docClass-DailyText a em, .dir-rtl .docNav a, .docClass-DailyText a .dir-rtl .docNav em, .docClass-DailyText a .docNav em.dir-rtl, .docNav .docClass-DailyText a em.dir-rtl, .docNav a.dir-rtl, .floatEast.dir-ltr {
+            float: right;
+        }
+
+.dir-ltr .floatEast, .floatEast.dir-ltr {
+    text-align: right;
+}
+
+.dir-ltr .floatWest, .dir-rtl .floatEast, .floatEast.dir-rtl, .floatWest.dir-ltr {
+    float: left;
+    text-align: left;
+}
+
+.dir-rtl .floatWest, .floatWest.dir-rtl {
+    float: right;
+    text-align: right;
+}
+
+.floatEast, .floatWest {
+    max-width: 45%;
+}
+
+    .floatEast img, .floatWest img {
+        width: inherit;
+        height: inherit;
+    }
+
+ol.imgWestQuarter li > .sb, ol.imgWestQuarter li > p, ul.imgEastQuarter .sb, ul.imgEastQuarter p, ul.imgWestQuarter .sb, ul.imgWestQuarter li > .sb, ul.imgWestQuarter li > p, ul.imgWestQuarter p {
+    width: auto;
+}
+
+.north_center {
+    margin-top: 0;
+    margin-bottom: .5em;
+}
+
+    .dir-rtl .north_center, .north_center.dir-rtl {
+        margin-left: 0;
+    }
+
+    .dir-ltr .north_center, .north_center.dir-ltr {
+        margin-right: 0;
+        margin-left: auto;
+    }
+
+    .dir-rtl .north_center, .north_center.dir-rtl {
+        margin-right: auto;
+    }
+
+.sb + .north_center, p + .north_center {
+    padding-top: .5em;
+}
+
+.south_center {
+    vertical-align: bottom;
+}
+
+div.south_center {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.byline {
+    font-size: .85em;
+}
+
+.sa, .themeScrp {
+    font-size: 1.1em;
+}
+
+.themeScrp {
+    margin-bottom: 1.5em;
+}
+
+.bodyTxt + header {
+    margin-top: 2em;
+}
+
+.inline {
+    font-weight: 600;
+}
+
+.sa, .sa bold, .sa em {
+    font-weight: 300;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+    .clearfix:after, .clearfix:before {
+        content: " ";
+        display: table;
+    }
+
+.synopsis:after, .synopsis:before {
+    content: " ";
+    display: table;
+}
+
+.spacingTop {
+    margin-top: 1em;
+}
+
+.underline {
+    text-decoration: underline !important;
+}
+
+.ni {
+    color: #aaa;
+}
+
+.shadedHeader {
+    display: block;
+    padding: .25em 1em;
+    color: #fff;
+}
+
+.dir-ltr .si, .dir-ltr .sl, .dir-ltr .sp, .si.dir-ltr, .sl.dir-ltr, .sp.dir-ltr {
+    padding-left: 2em;
+}
+
+.dir-rtl .si, .dir-rtl .sl, .dir-rtl .sp, .si.dir-rtl, .sl.dir-rtl, .sp.dir-rtl {
+    padding-right: 2em;
+}
+
+.docClass-DailyText a .shadedHeader em, .shadedHeader .docClass-DailyText a em, .shadedHeader a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.shadedHeader.treasures {
+    background-color: #5A6A70;
+}
+
+.shadedHeader.ministry {
+    background-color: #C18626;
+}
+
+.shadedHeader.christianLiving {
+    background-color: #961526;
+}
+
+.s1, .s2, .s3, .s4 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+    .s1 .sb, .s1 p, .s2 .sb, .s2 p, .s3 .sb, .s3 p, .s4 .sb, .s4 p {
+        margin-top: 0;
+    }
+
+.s1, .s2, .s3, .s4, .sc, .sd, .se, .sf, .sg, .sh, .sm, .sn, .so.sb, .sq, .sr, p.so {
+    text-indent: 0;
+}
+
+.sa {
+    margin: 0 1.5em 1.2em;
+}
+
+blockquote .sa {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.si {
+    margin: .5em 0;
+}
+
+.sj {
+    text-indent: 26em;
+    text-indent: 0;
+}
+
+    .dir-ltr .sj, .sj.dir-ltr {
+        margin-left: 40%;
+    }
+
+    .dir-rtl .sj, .sj.dir-rtl {
+        margin-right: 40%;
+    }
+
+.su, .sv, .sx, .sy {
+    margin: .3em 0;
+}
+
+.sk.sb, p.sk {
+    text-indent: 1.5em;
+}
+
+.sl {
+    text-indent: -2em;
+}
+
+.sp, .su {
+    text-indent: -1em;
+}
+
+    .dir-ltr .su, .su.dir-ltr {
+        padding-left: 1em;
+    }
+
+    .dir-rtl .su, .su.dir-rtl {
+        padding-right: 1em;
+    }
+
+.sv {
+    text-indent: -1.5em;
+}
+
+.sx, .sy, .sz {
+    text-indent: -1em;
+}
+
+.dir-ltr .sv, .sv.dir-ltr {
+    padding-left: 4.5em;
+}
+
+.dir-rtl .sv, .sv.dir-rtl {
+    padding-right: 4.5em;
+}
+
+.dir-ltr .sx, .sx.dir-ltr {
+    padding-left: 1.5em;
+}
+
+.dir-rtl .sx, .sx.dir-rtl {
+    padding-right: 1.5em;
+}
+
+.dir-ltr .sy, .sy.dir-ltr {
+    padding-left: 3.5em;
+}
+
+.dir-rtl .sy, .sy.dir-rtl {
+    padding-right: 3.5em;
+}
+
+.dir-ltr .sz, .sz.dir-ltr {
+    margin-left: 2.5em;
+    padding-left: 1em;
+}
+
+.dir-rtl .sz, .sz.dir-rtl {
+    margin-right: 2.5em;
+    padding-right: 1em;
+}
+
+.dir-ltr .s5, .s5.dir-ltr {
+    margin-left: 1.5em;
+}
+
+.dir-rtl .s5, .s5.dir-rtl {
+    margin-right: 1.5em;
+}
+
+.dir-ltr .s6, .s6.dir-ltr {
+    margin-left: 3em;
+}
+
+.dir-rtl .s6, .s6.dir-rtl {
+    margin-right: 3em;
+}
+
+.dir-ltr .s7, .s7.dir-ltr {
+    margin-left: 4.5em;
+}
+
+.dir-rtl .s7, .s7.dir-rtl {
+    margin-right: 4.5em;
+}
+
+.dir-ltr .s8, .s8.dir-ltr {
+    margin-left: 6em;
+}
+
+.dir-rtl .s8, .s8.dir-rtl {
+    margin-right: 6em;
+}
+
+.dir-ltr .s9, .s9.dir-ltr {
+    margin-left: 7.5em;
+}
+
+.dir-rtl .s9, .s9.dir-rtl {
+    margin-right: 7.5em;
+}
+
+.dir-ltr .s0, .s0.dir-ltr {
+    margin-left: 9em;
+}
+
+.dir-rtl .s0, .s0.dir-rtl {
+    margin-right: 9em;
+}
+
+.article .sf, .article .sq {
+    border-top: 1px solid #ccc;
+    color: #64605d;
+    font-size: 1.1em;
+    font-weight: 300;
+    padding-top: .5em;
+}
+
+blockquote .sb, blockquote p, li .sb, li p, td .sb, td p {
+    margin-left: 0;
+    margin-right: 0;
+    text-indent: 0;
+}
+
+.bible, .bibleCitation, .docClass-BibleBook, .scrp {
+    font-style: normal;
+    text-indent: 0;
+}
+
+    .bible .sb, .bible p, .bibleCitation .sb, .bibleCitation p, .docClass-BibleBook .sb, .docClass-BibleBook p, .scrp .sb, .scrp p {
+        line-height: 1.5em;
+        margin: 0;
+    }
+
+    .bible .sb, .bibleCitation .sb, .docClass-BibleBook .sb, .scrp .sb {
+        text-indent: 1.25em;
+    }
+
+        .bible .sb:first-child, .bible .sb:first-of-type, .bibleCitation .sb:first-child, .bibleCitation .sb:first-of-type, .docClass-BibleBook .sb:first-child, .docClass-BibleBook .sb:first-of-type, .scrp .sb:first-child, .scrp .sb:first-of-type {
+            text-indent: 0;
+        }
+
+    .bible .ss, .bible h2, .bibleCitation .ss, .bibleCitation h2, .docClass-BibleBook .ss, .docClass-BibleBook h2, .scrp .ss, .scrp h2 {
+        color: inherit;
+        font-size: .8em;
+        margin: 0 auto;
+        text-align: center;
+        text-indent: 0;
+    }
+
+    .bible .sn, .bibleCitation .sn, .docClass-BibleBook .sn, .scrp .sn {
+        margin-top: 1em;
+        margin-bottom: .5em;
+    }
+
+    .bible > .sn:first-child + .sb, .bibleCitation > .sn:first-child + .sb, .docClass-BibleBook > .sn:first-child + .sb, .scrp > .sn:first-child + .sb {
+        text-indent: 0;
+    }
+
+    .bible .sw, .bibleCitation .sw, .docClass-BibleBook .sw, .scrp .sw {
+        font-size: .8em;
+        line-height: 1.2em;
+        margin: .5em 0;
+        padding: 0 2em;
+        text-indent: 2em;
+    }
+
+    .bible .cl, .bibleCitation .cl, .docClass-BibleBook .cl, .scrp .cl {
+        font-size: 2em;
+    }
+
+        .bible .cl strong, .bibleCitation .cl strong, .docClass-BibleBook .cl strong, .scrp .cl strong {
+            font-weight: 200;
+        }
+
+    .bible .vl, .bibleCitation .vl, .docClass-BibleBook .vl, .scrp .vl {
+        padding: 0 .25em;
+        font-weight: 400;
+    }
+
+    .bible .vx, .bibleCitation .vx, .docClass-BibleBook .vx, .scrp .vx {
+        font-weight: 600;
+    }
+
+    .bible .cl, .bible .vl, .bibleCitation .cl, .bibleCitation .vl, .docClass-BibleBook .cl, .docClass-BibleBook .vl, .scrp .cl, .scrp .vl {
+        font-family: "Helvetica Neue",Helvetica,"Droid Sans",Arial,"Arial Unicode","Arial Unicode MS",sans-serif;
+        color: #2878bb;
+        cursor: pointer;
+    }
+
+    .bible .sl.sb, .bible p.sl, .bibleCitation .sl.sb, .bibleCitation p.sl, .docClass-BibleBook .sl.sb, .docClass-BibleBook p.sl, .scrp .sl.sb, .scrp p.sl {
+        margin-top: .2em;
+        margin-bottom: 0;
+        text-indent: -3em;
+    }
+
+        .bible .sl.dir-rtl.sb, .bible p.sl.dir-rtl, .bibleCitation .sl.dir-rtl.sb, .bibleCitation p.sl.dir-rtl, .dir-rtl .bible .sl.sb, .dir-rtl .bible p.sl, .dir-rtl .bibleCitation .sl.sb, .dir-rtl .bibleCitation p.sl, .dir-rtl .docClass-BibleBook .sl.sb, .dir-rtl .docClass-BibleBook p.sl, .dir-rtl .scrp .sl.sb, .dir-rtl .scrp p.sl, .docClass-BibleBook .sl.dir-rtl.sb, .docClass-BibleBook p.sl.dir-rtl, .scrp .sl.dir-rtl.sb, .scrp p.sl.dir-rtl {
+            margin-right: .5em;
+        }
+
+        .bible .sl.dir-ltr.sb, .bible p.sl.dir-ltr, .bibleCitation .sl.dir-ltr.sb, .bibleCitation p.sl.dir-ltr, .dir-ltr .bible .sl.sb, .dir-ltr .bible p.sl, .dir-ltr .bibleCitation .sl.sb, .dir-ltr .bibleCitation p.sl, .dir-ltr .docClass-BibleBook .sl.sb, .dir-ltr .docClass-BibleBook p.sl, .dir-ltr .scrp .sl.sb, .dir-ltr .scrp p.sl, .docClass-BibleBook .sl.dir-ltr.sb, .docClass-BibleBook p.sl.dir-ltr, .scrp .sl.dir-ltr.sb, .scrp p.sl.dir-ltr {
+            margin-left: .5em;
+            margin-right: 0;
+            padding-left: 3em;
+        }
+
+        .bible .sl.dir-rtl.sb, .bible p.sl.dir-rtl, .bibleCitation .sl.dir-rtl.sb, .bibleCitation p.sl.dir-rtl, .dir-rtl .bible .sl.sb, .dir-rtl .bible p.sl, .dir-rtl .bibleCitation .sl.sb, .dir-rtl .bibleCitation p.sl, .dir-rtl .docClass-BibleBook .sl.sb, .dir-rtl .docClass-BibleBook p.sl, .dir-rtl .scrp .sl.sb, .dir-rtl .scrp p.sl, .docClass-BibleBook .sl.dir-rtl.sb, .docClass-BibleBook p.sl.dir-rtl, .scrp .sl.dir-rtl.sb, .scrp p.sl.dir-rtl {
+            margin-left: 0;
+            padding-right: 3em;
+        }
+
+    .bible .sz.sb, .bible p.sz, .bibleCitation .sz.sb, .bibleCitation p.sz, .docClass-BibleBook .sz.sb, .docClass-BibleBook p.sz, .scrp .sz.sb, .scrp p.sz {
+        margin: .2em 1em;
+        text-indent: -1em;
+    }
+
+li .sb, li p, ul li > .sb, ul li > p {
+    text-indent: 0 !important;
+}
+
+.bible .sz.dir-ltr.sb, .bible p.sz.dir-ltr, .bibleCitation .sz.dir-ltr.sb, .bibleCitation p.sz.dir-ltr, .dir-ltr .bible .sz.sb, .dir-ltr .bible p.sz, .dir-ltr .bibleCitation .sz.sb, .dir-ltr .bibleCitation p.sz, .dir-ltr .docClass-BibleBook .sz.sb, .dir-ltr .docClass-BibleBook p.sz, .dir-ltr .scrp .sz.sb, .dir-ltr .scrp p.sz, .docClass-BibleBook .sz.dir-ltr.sb, .docClass-BibleBook p.sz.dir-ltr, .scrp .sz.dir-ltr.sb, .scrp p.sz.dir-ltr {
+    padding-left: 2.5em;
+}
+
+.bible .sz.dir-rtl.sb, .bible p.sz.dir-rtl, .bibleCitation .sz.dir-rtl.sb, .bibleCitation p.sz.dir-rtl, .dir-rtl .bible .sz.sb, .dir-rtl .bible p.sz, .dir-rtl .bibleCitation .sz.sb, .dir-rtl .bibleCitation p.sz, .dir-rtl .docClass-BibleBook .sz.sb, .dir-rtl .docClass-BibleBook p.sz, .dir-rtl .scrp .sz.sb, .dir-rtl .scrp p.sz, .docClass-BibleBook .sz.dir-rtl.sb, .docClass-BibleBook p.sz.dir-rtl, .scrp .sz.dir-rtl.sb, .scrp p.sz.dir-rtl {
+    padding-right: 2.5em;
+}
+
+.bible sup, .bibleCitation sup, .docClass-BibleBook sup, .scrp sup {
+    vertical-align: super;
+    line-height: 1.3em;
+    font-size: .7em;
+}
+
+.bible .pageNum, .docClass-BibleBookChapterHeadings .pageNum {
+    display: none;
+}
+
+.bible .outline ul, .docClass-BibleBookChapterHeadings .outline ul {
+    list-style-type: none;
+    margin-top: 0;
+}
+
+    .bible .outline ul.dir-ltr, .dir-ltr .bible .outline ul, .dir-ltr .docClass-BibleBookChapterHeadings .outline ul, .docClass-BibleBookChapterHeadings .outline ul.dir-ltr {
+        padding-left: 0;
+    }
+
+    .bible .outline ul.dir-rtl, .dir-rtl .bible .outline ul, .dir-rtl .docClass-BibleBookChapterHeadings .outline ul, .docClass-BibleBookChapterHeadings .outline ul.dir-rtl {
+        padding-right: 0;
+    }
+
+    .bible .outline ul.outline li.chapterNo > .sb, .bible .outline ul.outline li.chapterNo > p, .docClass-BibleBookChapterHeadings .outline ul.outline li.chapterNo > .sb, .docClass-BibleBookChapterHeadings .outline ul.outline li.chapterNo > p {
+        line-height: 2em;
+    }
+
+.bible .outline li, .docClass-BibleBookChapterHeadings .outline li {
+    list-style-type: none;
+}
+
+    .bible .outline li.dir-ltr, .dir-ltr .bible .outline li, .dir-ltr .docClass-BibleBookChapterHeadings .outline li, .docClass-BibleBookChapterHeadings .outline li.dir-ltr {
+        padding-left: .75em;
+    }
+
+    .bible .outline li.dir-rtl, .dir-rtl .bible .outline li, .dir-rtl .docClass-BibleBookChapterHeadings .outline li, .docClass-BibleBookChapterHeadings .outline li.dir-rtl {
+        padding-right: .75em;
+    }
+
+.bible .outline .sb, .bible .outline p, .docClass-BibleBookChapterHeadings .outline .sb, .docClass-BibleBookChapterHeadings .outline p {
+    margin-bottom: 0;
+}
+
+.bible .outline .chapterNo, .docClass-BibleBookChapterHeadings .outline .chapterNo {
+    margin-top: .5em;
+}
+
+    .bible .outline .chapterNo.dir-ltr, .dir-ltr .bible .outline .chapterNo, .dir-ltr .docClass-BibleBookChapterHeadings .outline .chapterNo, .docClass-BibleBookChapterHeadings .outline .chapterNo.dir-ltr {
+        padding-left: 0;
+    }
+
+    .bible .outline .chapterNo.dir-rtl, .dir-rtl .bible .outline .chapterNo, .dir-rtl .docClass-BibleBookChapterHeadings .outline .chapterNo, .docClass-BibleBookChapterHeadings .outline .chapterNo.dir-rtl {
+        padding-right: 0;
+    }
+
+    .bible .outline .chapterNo > .sb, .bible .outline .chapterNo > p, .docClass-BibleBookChapterHeadings .outline .chapterNo > .sb, .docClass-BibleBookChapterHeadings .outline .chapterNo > p {
+        vertical-align: top;
+        margin-bottom: .5em;
+    }
+
+        .bible .outline .chapterNo > .dir-ltr.sb, .bible .outline .chapterNo > p.dir-ltr, .dir-ltr .bible .outline .chapterNo > .sb, .dir-ltr .bible .outline .chapterNo > p, .dir-ltr .docClass-BibleBookChapterHeadings .outline .chapterNo > .sb, .dir-ltr .docClass-BibleBookChapterHeadings .outline .chapterNo > p, .docClass-BibleBookChapterHeadings .outline .chapterNo > .dir-ltr.sb, .docClass-BibleBookChapterHeadings .outline .chapterNo > p.dir-ltr {
+            text-align: right;
+            margin-right: 0;
+        }
+
+        .bible .outline .chapterNo > .dir-rtl.sb, .bible .outline .chapterNo > p.dir-rtl, .dir-rtl .bible .outline .chapterNo > .sb, .dir-rtl .bible .outline .chapterNo > p, .dir-rtl .docClass-BibleBookChapterHeadings .outline .chapterNo > .sb, .dir-rtl .docClass-BibleBookChapterHeadings .outline .chapterNo > p, .docClass-BibleBookChapterHeadings .outline .chapterNo > .dir-rtl.sb, .docClass-BibleBookChapterHeadings .outline .chapterNo > p.dir-rtl {
+            text-align: left;
+            margin-left: 0;
+        }
+
+        .bible .outline .chapterNo > .sb .docClass-DailyText a em, .bible .outline .chapterNo > .sb a, .bible .outline .chapterNo > .sb a strong, .bible .outline .chapterNo > p .docClass-DailyText a em, .bible .outline .chapterNo > p a, .bible .outline .chapterNo > p a strong, .docClass-BibleBookChapterHeadings .outline .chapterNo > .sb .docClass-DailyText a em, .docClass-BibleBookChapterHeadings .outline .chapterNo > .sb a, .docClass-BibleBookChapterHeadings .outline .chapterNo > .sb a strong, .docClass-BibleBookChapterHeadings .outline .chapterNo > p .docClass-DailyText a em, .docClass-BibleBookChapterHeadings .outline .chapterNo > p a, .docClass-BibleBookChapterHeadings .outline .chapterNo > p a strong, .docClass-DailyText a .bible .outline .chapterNo > .sb em, .docClass-DailyText a .bible .outline .chapterNo > .sb em strong, .docClass-DailyText a .bible .outline .chapterNo > p em, .docClass-DailyText a .bible .outline .chapterNo > p em strong, .docClass-DailyText a .docClass-BibleBookChapterHeadings .outline .chapterNo > .sb em, .docClass-DailyText a .docClass-BibleBookChapterHeadings .outline .chapterNo > .sb em strong, .docClass-DailyText a .docClass-BibleBookChapterHeadings .outline .chapterNo > p em, .docClass-DailyText a .docClass-BibleBookChapterHeadings .outline .chapterNo > p em strong {
+            font-size: 1.3em;
+            font-weight: 200;
+            padding-top: 0;
+            vertical-align: top;
+        }
+
+li.listTitle, li.listTitle strong {
+    font-weight: 300;
+}
+
+.bible .outline .chapterNo > ul, .docClass-BibleBookChapterHeadings .outline .chapterNo > ul {
+    display: inline-block;
+    margin-top: .15em;
+}
+
+    .bible .outline .chapterNo > ul.dir-ltr, .dir-ltr .bible .outline .chapterNo > ul, .dir-ltr .docClass-BibleBookChapterHeadings .outline .chapterNo > ul, .docClass-BibleBookChapterHeadings .outline .chapterNo > ul.dir-ltr {
+        margin-left: 0;
+        padding-left: .5em;
+    }
+
+    .bible .outline .chapterNo > ul.dir-rtl, .dir-rtl .bible .outline .chapterNo > ul, .dir-rtl .docClass-BibleBookChapterHeadings .outline .chapterNo > ul, .docClass-BibleBookChapterHeadings .outline .chapterNo > ul.dir-rtl {
+        margin-right: 0;
+        padding-right: .5em;
+    }
+
+.docClass-BibleBookChapterHeadings .outline .chapterNo > ul {
+    max-width: 80%;
+}
+
+ul {
+    list-style: disc;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: 0;
+}
+
+    .dir-ltr ul, ul.dir-ltr {
+        padding-left: 1.5em;
+    }
+
+    .dir-rtl ul, ul.dir-rtl {
+        padding-right: 1.5em;
+    }
+
+.dir-ltr li .sb, .dir-ltr li p, li .dir-ltr.sb, li p.dir-ltr {
+    padding-left: 0 !important;
+}
+
+.dir-rtl li .sb, .dir-rtl li p, li .dir-rtl.sb, li p.dir-rtl {
+    padding-right: 0 !important;
+}
+
+li.listTitle {
+    margin-bottom: .75em;
+    font-size: 1.3em;
+}
+
+ol.imgWestEighth, ol.imgWestQuarter, ul.imgWestEighth, ul.imgWestQuarter {
+    list-style-type: none;
+    clear: both;
+}
+
+    .dir-ltr ol.imgWestEighth, .dir-ltr ol.imgWestQuarter, .dir-ltr ul.imgWestEighth, .dir-ltr ul.imgWestQuarter, ol.imgWestEighth.dir-ltr, ol.imgWestQuarter.dir-ltr, ul.imgWestEighth.dir-ltr, ul.imgWestQuarter.dir-ltr {
+        padding-left: 0;
+    }
+
+    .dir-rtl ol.imgWestEighth, .dir-rtl ol.imgWestQuarter, .dir-rtl ul.imgWestEighth, .dir-rtl ul.imgWestQuarter, ol.imgWestEighth.dir-rtl, ol.imgWestQuarter.dir-rtl, ul.imgWestEighth.dir-rtl, ul.imgWestQuarter.dir-rtl {
+        padding-right: 0;
+    }
+
+    ol.imgWestEighth:after, ol.imgWestEighth:before, ol.imgWestQuarter:after, ol.imgWestQuarter:before, ul.imgWestEighth:after, ul.imgWestEighth:before, ul.imgWestQuarter:after, ul.imgWestQuarter:before {
+        content: " ";
+        display: table;
+    }
+
+    ol.imgWestEighth li, ol.imgWestQuarter li, ul.imgWestEighth li, ul.imgWestQuarter li {
+        list-style-type: none;
+        margin: 2em 0;
+        padding: 0;
+        clear: both;
+    }
+
+        ol.imgWestEighth li li, ol.imgWestQuarter li li, ul.imgWestEighth li li, ul.imgWestQuarter li li {
+            margin: 0;
+        }
+
+        .dir-ltr ol.imgWestQuarter li > .sb, .dir-ltr ol.imgWestQuarter li > p, .dir-ltr ul.imgWestQuarter li > .sb, .dir-ltr ul.imgWestQuarter li > p, ol.imgWestQuarter li > .dir-ltr.sb, ol.imgWestQuarter li > p.dir-ltr, ul.imgWestQuarter li > .dir-ltr.sb, ul.imgWestQuarter li > p.dir-ltr {
+            margin-left: 27%;
+        }
+
+        .dir-rtl ol.imgWestQuarter li > .sb, .dir-rtl ol.imgWestQuarter li > p, .dir-rtl ul.imgWestQuarter li > .sb, .dir-rtl ul.imgWestQuarter li > p, ol.imgWestQuarter li > .dir-rtl.sb, ol.imgWestQuarter li > p.dir-rtl, ul.imgWestQuarter li > .dir-rtl.sb, ul.imgWestQuarter li > p.dir-rtl {
+            margin-right: 27%;
+        }
+
+        ol.imgWestQuarter li > .sb:first-of-type, ol.imgWestQuarter li > p:first-of-type, ul.imgWestQuarter li > .sb:first-of-type, ul.imgWestQuarter li > p:first-of-type {
+            margin-top: 0;
+        }
+
+ol.listSpacing li, ul.listSpacing li {
+    margin: 4em 0;
+}
+
+    ol.listSpacing li:first-of-type, ul.listSpacing li:first-of-type {
+        margin-top: 2em;
+    }
+
+ol.source, ul.source {
+    list-style-type: none !important;
+}
+
+    .dir-ltr ol.source, .dir-ltr ul.source, ol.source.dir-ltr, ul.source.dir-ltr {
+        padding-left: 30px;
+    }
+
+    .dir-rtl ol.source, .dir-rtl ul.source, ol.source.dir-rtl, ul.source.dir-rtl {
+        padding-right: 30px;
+    }
+
+    .dir-ltr ol.source li.listTitle, .dir-ltr ul.source li.listTitle, ol.source li.listTitle.dir-ltr, ul.source li.listTitle.dir-ltr {
+        margin-left: -45px;
+    }
+
+    .dir-rtl ol.source li.listTitle, .dir-rtl ul.source li.listTitle, ol.source li.listTitle.dir-rtl, ul.source li.listTitle.dir-rtl {
+        margin-right: -45px;
+    }
+
+ol .txtSrcBullet, ul .txtSrcBullet {
+    display: inline-block;
+    min-width: 30px;
+}
+
+    .dir-ltr ol .txtSrcBullet, .dir-ltr ul .txtSrcBullet, ol .txtSrcBullet.dir-ltr, ul .txtSrcBullet.dir-ltr {
+        margin-left: -30px;
+    }
+
+    .dir-rtl ol .txtSrcBullet, .dir-rtl ul .txtSrcBullet, ol .txtSrcBullet.dir-rtl, ul .txtSrcBullet.dir-rtl {
+        margin-right: -30px;
+    }
+
+ul.noMarker {
+    list-style-type: none;
+}
+
+    .dir-ltr ul.noMarker li, ul.noMarker li.dir-ltr {
+        margin-left: 0;
+    }
+
+    .dir-rtl ul.noMarker li, ul.noMarker li.dir-rtl {
+        margin-right: 0;
+    }
+
+    ul.noMarker li .noTopMargin.sb, ul.noMarker li p.noTopMargin {
+        margin-top: -.5em !important;
+    }
+
+    aside > ul.noMarker, ul.noMarker li > .sb + .sb, ul.noMarker li > .sb + p, ul.noMarker li > p + .sb, ul.noMarker li > p + p {
+        margin-top: 0;
+    }
+
+    ul.noMarker li .indent.sb, ul.noMarker li p.indent {
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+.dir-ltr ul.imgWestQuarter .sb, .dir-ltr ul.imgWestQuarter p, .dir-rtl ul.imgEastQuarter .sb, .dir-rtl ul.imgEastQuarter p, ul.imgEastQuarter .dir-rtl.sb, ul.imgEastQuarter p.dir-rtl, ul.imgWestQuarter .dir-ltr.sb, ul.imgWestQuarter p.dir-ltr {
+    margin-left: 27%;
+}
+
+.dir-ltr ul.imgEastQuarter .sb, .dir-ltr ul.imgEastQuarter p, .dir-rtl ul.imgWestQuarter .sb, .dir-rtl ul.imgWestQuarter p, ul.imgEastQuarter .dir-ltr.sb, ul.imgEastQuarter p.dir-ltr, ul.imgWestQuarter .dir-rtl.sb, ul.imgWestQuarter p.dir-rtl {
+    margin-right: 27%;
+}
+
+ul.noMarker li > P {
+    margin-bottom: 1em;
+}
+
+ul.noMarker + ul {
+    margin-top: 2em;
+}
+
+ul.imgEastQuarter::before, ul.imgWestQuarter::before {
+    content: " ";
+    display: table;
+}
+
+ul.imgEastQuarter::after, ul.imgWestQuarter::after {
+    clear: both;
+    content: " ";
+    display: table;
+}
+
+ul.imgEastQuarter li, ul.imgWestQuarter li {
+    clear: both;
+    list-style-type: none;
+}
+
+    ul.imgEastQuarter li div.east_right, ul.imgEastQuarter li div.west_left, ul.imgWestQuarter li div.east_right, ul.imgWestQuarter li div.west_left {
+        max-width: 22%;
+    }
+
+ul.listImgGrid li {
+    width: 32%;
+    display: inline-block;
+}
+
+    ul.listImgGrid li div {
+        max-width: 100%;
+    }
+
+ul.listImgGrid.threeColumn li {
+    width: 28%;
+    display: inline-block;
+    list-style: none;
+    vertical-align: top;
+    padding: 0 1% 0 0;
+    margin: 0;
+}
+
+ul.noIndent, ul.noIndent li {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+ul .indent {
+    margin-left: 2em !important;
+    margin-right: 2em !important;
+}
+
+ul li > .sb, ul li > p {
+    margin-bottom: .5em;
+}
+
+    .dir-ltr ul li > .sb, .dir-ltr ul li > p, ul li > .dir-ltr.sb, ul li > p.dir-ltr {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .dir-ltr ul li > .sb, .dir-ltr ul li > p, .dir-rtl ul li > .sb, .dir-rtl ul li > p, ul li > .dir-ltr.sb, ul li > .dir-rtl.sb, ul li > p.dir-ltr, ul li > p.dir-rtl {
+        padding-right: 0;
+        margin-right: 0;
+    }
+
+    .dir-rtl ul li > .sb, .dir-rtl ul li > p, ul li > .dir-rtl.sb, ul li > p.dir-rtl {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    ul li > .sa.sb, ul li > p.sa {
+        font-size: 1em;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+ul li blockquote {
+    overflow: visible;
+}
+
+    .dir-ltr ul li blockquote, ul li blockquote.dir-ltr {
+        margin-left: 0;
+    }
+
+    .dir-ltr ul li blockquote, .dir-rtl ul li blockquote, ul li blockquote.dir-ltr, ul li blockquote.dir-rtl {
+        margin-right: 0;
+    }
+
+    .dir-rtl ul li blockquote, ul li blockquote.dir-rtl {
+        margin-left: 0;
+    }
+
+.dir-ltr ol, ol.dir-ltr {
+    margin-left: 1em;
+    padding-left: 4%;
+}
+
+.dir-rtl ol, ol.dir-rtl {
+    margin-right: 1em;
+    padding-right: 4%;
+}
+
+.pGroup ul .sb:first-of-type, .pGroup ul p:first-of-type {
+    margin-bottom: .5em;
+}
+
+.pGroup ul .sb:nth-of-type(2), .pGroup ul p:nth-of-type(2) {
+    margin-top: .75em;
+}
+
+.pGroup ul div + .sb:first-of-type, .pGroup ul div + p:first-of-type {
+    margin-bottom: 1.5em;
+}
+
+ul + ul {
+    margin-top: 0;
+}
+
+aside ul.noMarker li .sb, aside ul.noMarker li p {
+    margin: 0 0 1em;
+}
+
+ul.mapListLocation {
+    clear: both;
+    margin-bottom: 20px;
+    margin-top: 2em;
+    overflow: hidden;
+}
+
+    ul.mapListLocation li {
+        display: block;
+        line-height: 1.5em;
+        width: 40%;
+    }
+
+        .dir-ltr ul.mapListLocation li, ul.mapListLocation li.dir-ltr {
+            float: left;
+            margin-right: 1.5em;
+        }
+
+        .dir-rtl ul.mapListLocation li, ul.mapListLocation li.dir-rtl {
+            float: right;
+            margin-left: 1.5em;
+        }
+
+        ul.mapListLocation li.listTitle, ul.mapListLocation li.listTitle .sb strong, ul.mapListLocation li.listTitle p strong {
+            float: none;
+            width: 100%;
+        }
+
+.document ul + ul {
+    margin-top: 1em;
+}
+
+ol.upperAlpha {
+    list-style-type: upper-alpha;
+}
+
+ol.lowerAlpha {
+    list-style-type: lower-alpha;
+}
+
+.lang-ar ol, .meps-lang-A ol {
+    -webkit-list-style-type: arabic-indic;
+    -moz-list-style-type: arabic-indic;
+    -ms-list-style-type: arabic-indic;
+    -o-list-style-type: arabic-indic;
+    list-style-type: arabic-indic;
+}
+
+.lang-as ol, .lang-bn ol, .meps-lang-AE ol, .meps-lang-BE ol {
+    -webkit-list-style-type: bengali;
+    -moz-list-style-type: bengali;
+    -ms-list-style-type: bengali;
+    -o-list-style-type: bengali;
+    list-style-type: bengali;
+}
+
+.lang-km ol, .meps-lang-CB ol {
+    -webkit-list-style-type: khmer;
+    -moz-list-style-type: khmer;
+    -ms-list-style-type: khmer;
+    -o-list-style-type: khmer;
+    list-style-type: khmer;
+}
+
+.lang-gu ol, .meps-lang-GU ol {
+    -webkit-list-style-type: gujarati;
+    -moz-list-style-type: gujarati;
+    -ms-list-style-type: gujarati;
+    -o-list-style-type: gujarati;
+    list-style-type: gujarati;
+}
+
+.lang-ksw ol, .lang-my ol, .meps-lang-BU ol, .meps-lang-KR ol {
+    -webkit-list-style-type: myanmar;
+    -moz-list-style-type: myanmar;
+    -ms-list-style-type: myanmar;
+    -o-list-style-type: myanmar;
+    list-style-type: myanmar;
+}
+
+.lang-or ol, .meps-lang-OI ol {
+    -webkit-list-style-type: oriya;
+    -moz-list-style-type: oriya;
+    -ms-list-style-type: oriya;
+    -o-list-style-type: oriya;
+    list-style-type: oriya;
+}
+
+.lang-fa ol, .meps-lang-PR ol {
+    -webkit-list-style-type: persian;
+    -moz-list-style-type: persian;
+    -ms-list-style-type: persian;
+    -o-list-style-type: persian;
+    list-style-type: persian;
+}
+
+    .lang-fa ol.lowerAlpha, .meps-lang-PR ol.lowerAlpha {
+        -webkit-list-style-type: persian-alpha;
+        -moz-list-style-type: persian-alpha;
+        -ms-list-style-type: persian-alpha;
+        -o-list-style-type: persian-alpha;
+        list-style-type: persian-alpha;
+    }
+
+.lang-syl ol, .meps-lang-SYL ol {
+    -webkit-list-style-type: bengali;
+    -moz-list-style-type: bengali;
+    -ms-list-style-type: bengali;
+    -o-list-style-type: bengali;
+    list-style-type: bengali;
+}
+
+ol.timeline {
+    list-style-type: none;
+    margin-top: 2em;
+    padding-top: 1em;
+}
+
+    .dir-ltr ol.timeline, ol.timeline.dir-ltr {
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+        border-left: 9px solid #ebebeb;
+    }
+
+        .dir-ltr ol.timeline.arrowCap, .dir-rtl ol.timeline.arrowCap, ol.timeline.arrowCap.dir-ltr, ol.timeline.arrowCap.dir-rtl {
+            margin-left: 7%;
+        }
+
+    .dir-rtl ol.timeline, ol.timeline.dir-rtl {
+        margin-right: 0 !important;
+        padding-right: 0 !important;
+        border-right: 9px solid #ebebeb;
+    }
+
+    ol.timeline.arrowCap {
+        position: relative;
+        width: 90%;
+    }
+
+        .dir-ltr ol.timeline.arrowCap, .dir-rtl ol.timeline.arrowCap, ol.timeline.arrowCap.dir-ltr, ol.timeline.arrowCap.dir-rtl {
+            margin-right: 7%;
+        }
+
+        ol.timeline.arrowCap:after {
+            content: '';
+            display: block;
+            position: absolute;
+            height: 0;
+            width: 0;
+            left: -25px;
+            border-top: 20px solid #ebebeb;
+            border-left: 20px inset transparent;
+            border-right: 20px inset transparent;
+        }
+
+    ol.timeline li {
+        list-style-type: none;
+        position: relative;
+        padding-bottom: .5em;
+        min-height: 3em;
+    }
+
+        .dir-ltr ol.timeline li, ol.timeline li.dir-ltr {
+            padding-left: 30px;
+        }
+
+        .dir-rtl ol.timeline li, ol.timeline li.dir-rtl {
+            padding-right: 30px;
+        }
+
+    ol.timeline > li:before {
+        content: "";
+        width: 1px;
+        height: 1px;
+        background-color: #9e9b9a;
+        position: absolute;
+        top: .75em;
+        top: calc(.75em + 1px);
+        margin-top: -5px;
+        border: 4px solid #9e9b9a;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+    }
+
+.dir-ltr ol.timeline > li:before {
+    left: -9px;
+}
+
+.dir-rtl ol.timeline > li:before {
+    right: -9px;
+}
+
+ol.timeline > li:after {
+    content: "";
+    width: 20px;
+    height: 1px;
+    border-top: 1px solid #c5c3c2;
+    position: absolute;
+    top: .75em;
+}
+
+.dir-ltr ol.timeline > li:after {
+    left: 0;
+}
+
+.dir-rtl ol.timeline > li:after {
+    right: 0;
+}
+
+ol.timeline > li.timeBCE:before {
+    border-color: #ffae00;
+    background-color: #ffae00;
+}
+
+ol.timeline > li.timeCE:before {
+    border-color: #3fa2bf;
+    background-color: #3fa2bf;
+}
+
+ol.timeline > li.timeCirca:after {
+    border-top: 1px dashed #c5c3c2;
+}
+
+ol.timeline ol.timeline {
+    margin-top: 0;
+}
+
+    .dir-ltr ol.timeline ol.timeline, ol.timeline ol.timeline.dir-ltr {
+        border-left: none;
+        margin-left: -30px;
+    }
+
+.dir-ltr ol.numberedDiagram li li, .dir-ltr ol.numberedDiagram li ul li .sb, .dir-ltr ol.numberedDiagram li ul li p, ol.numberedDiagram li li.dir-ltr, ol.numberedDiagram li ul li .dir-ltr.sb, ol.numberedDiagram li ul li p.dir-ltr {
+    margin-left: 0;
+}
+
+.dir-rtl ol.timeline ol.timeline, ol.timeline ol.timeline.dir-rtl {
+    border-right: none;
+    margin-right: -30px;
+}
+
+.dir-rtl ol.numberedDiagram li li, .dir-rtl ol.numberedDiagram li ul li .sb, .dir-rtl ol.numberedDiagram li ul li p, ol.numberedDiagram li li.dir-rtl, ol.numberedDiagram li ul li .dir-rtl.sb, ol.numberedDiagram li ul li p.dir-rtl {
+    margin-right: 0;
+}
+
+ol.timeline li.timeline-bigFinish {
+    position: absolute;
+    bottom: -10em;
+}
+
+    .dir-ltr ol.timeline li.timeline-bigFinish, ol.timeline li.timeline-bigFinish.dir-ltr {
+        left: -25px;
+    }
+
+    .dir-rtl ol.timeline li.timeline-bigFinish, ol.timeline li.timeline-bigFinish.dir-rtl {
+        right: -25px;
+    }
+
+    ol.timeline li.timeline-bigFinish h4 {
+        font-size: 2em;
+        font-weight: 700;
+    }
+
+.dir-ltr ol.numberedDiagram, ol.numberedDiagram.dir-ltr {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.dir-rtl ol.numberedDiagram, ol.numberedDiagram.dir-rtl {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+ol.numberedDiagram > li {
+    counter-increment: customlistcounter;
+    position: relative;
+    list-style: none;
+    margin: .5em 0;
+    padding: 5px;
+}
+
+    ol.numberedDiagram > li:before {
+        content: counter(customlistcounter) " ";
+        font-weight: 700;
+        color: #fff;
+        position: absolute;
+        top: .25em;
+        background-color: #adb1aa;
+        display: block;
+        text-align: center;
+        -moz-border-radius: 2em;
+        -webkit-border-radius: 2em;
+        border-radius: 2em;
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+    }
+
+    .dir-ltr ol.numberedDiagram > li > .sb, .dir-ltr ol.numberedDiagram > li > p, ol.numberedDiagram > li > .dir-ltr.sb, ol.numberedDiagram > li > p.dir-ltr {
+        margin-left: 3em;
+    }
+
+    .dir-rtl ol.numberedDiagram > li > .sb, .dir-rtl ol.numberedDiagram > li > p, ol.numberedDiagram > li > .dir-rtl.sb, ol.numberedDiagram > li > p.dir-rtl {
+        margin-right: 3em;
+    }
+
+    .dir-ltr ol.numberedDiagram > li ul, ol.numberedDiagram > li ul.dir-ltr {
+        margin-left: 4%;
+    }
+
+    .dir-rtl ol.numberedDiagram > li ul, ol.numberedDiagram > li ul.dir-rtl {
+        margin-right: 4%;
+    }
+
+    ol.numberedDiagram > li ul li {
+        list-style: disc;
+        counter-increment: none;
+        min-height: inherit;
+    }
+
+        ol.numberedDiagram > li ul li .sb, ol.numberedDiagram > li ul li p {
+            margin: 0;
+        }
+
+.dir-ltr ol.numberedDiagram.imgWestQuarter > li ul, .dir-ltr ol.numberedDiagram.imgWestQuarter > li > .sb, .dir-ltr ol.numberedDiagram.imgWestQuarter > li > p, ol.numberedDiagram.imgWestQuarter > li ul.dir-ltr, ol.numberedDiagram.imgWestQuarter > li > .dir-ltr.sb, ol.numberedDiagram.imgWestQuarter > li > p.dir-ltr {
+    margin-left: 34%;
+}
+
+.dir-rtl ol.numberedDiagram.imgWestQuarter > li ul, .dir-rtl ol.numberedDiagram.imgWestQuarter > li > .sb, .dir-rtl ol.numberedDiagram.imgWestQuarter > li > p, ol.numberedDiagram.imgWestQuarter > li ul.dir-rtl, ol.numberedDiagram.imgWestQuarter > li > .dir-rtl.sb, ol.numberedDiagram.imgWestQuarter > li > p.dir-rtl {
+    margin-right: 34%;
+}
+
+.dir-ltr ol.numberedDiagram.imgWestQuarter > li:before {
+    left: 26%;
+}
+
+.dir-rtl ol.numberedDiagram.imgWestQuarter > li:before {
+    right: 26%;
+}
+
+ul.outline {
+    display: block;
+    line-height: 1.3em;
+    list-style: none inside;
+    margin: 0;
+    padding: 0;
+}
+
+    ul.outline ul {
+        padding-left: 16px;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .docClass-DailyText a ul.outline em, ul.outline .docClass-DailyText a em, ul.outline a {
+        font-weight: 400;
+        text-decoration: none;
+    }
+
+.boxTtl, .boxTtl strong {
+    font-weight: 300;
+}
+
+ul.outline li {
+    display: block;
+    float: none;
+    margin-bottom: .25em;
+}
+
+    ul.outline li .sb, ul.outline li p {
+        display: inline-block;
+        padding-left: 1em !important;
+        text-indent: -1em !important;
+    }
+
+        .dir-ltr ul.outline li .sb, .dir-ltr ul.outline li p, ul.outline li .dir-ltr.sb, ul.outline li p.dir-ltr {
+            margin-left: 0;
+        }
+
+        .dir-rtl ul.outline li .sb, .dir-rtl ul.outline li p, ul.outline li .dir-rtl.sb, ul.outline li p.dir-rtl {
+            margin-right: 0;
+        }
+
+    ul.outline li.L1 {
+        margin-bottom: .75em;
+    }
+
+.tableDiv {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    overflow: auto;
+}
+
+    .tableDiv table caption, .tableDiv table caption .sb, .tableDiv table caption p {
+        margin-bottom: 0;
+    }
+
+.pGroup > .tableDiv {
+    margin-top: .75em;
+}
+
+.ss + .tableDiv, h2 + .tableDiv, h3 + .tableDiv {
+    margin-top: 0;
+}
+
+.tableDiv + .tableDiv {
+    border-top: 1px solid #dbd8d3;
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+.tableDiv.gridlines table, .tableDiv.gridlines td, .tableDiv.gridlines th, .tableDiv.gridlines tr {
+    border: 1px solid #ddd;
+}
+
+.tableDiv.stripe tr:nth-child(even) {
+    background-color: #f2f1ef;
+}
+
+.tableDiv.wide {
+    font-size: .8em;
+    max-width: none;
+    width: 100%;
+}
+
+    .tableDiv.wide td {
+        min-width: 5em;
+    }
+
+        .tableDiv.wide td span.b {
+            white-space: nowrap;
+        }
+
+.tableDiv.half {
+    width: 49%;
+}
+
+div.imgWestEighth, div.imgWestQuarter, ol.imgWestEighth, ol.imgWestQuarter, ul.imgWestEighth, ul.imgWestQuarter {
+    width: 100%;
+    padding: 0;
+}
+
+.tableDiv.full table {
+    min-width: 100%;
+}
+
+.tableDiv table {
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+}
+
+    .dir-ltr .tableDiv table caption, .tableDiv table caption.dir-ltr {
+        text-align: left;
+    }
+
+    .dir-rtl .tableDiv table caption, .tableDiv table caption.dir-rtl {
+        text-align: right;
+    }
+
+    .dir-ltr .tableDiv table th, .tableDiv table th.dir-ltr {
+        text-align: left;
+    }
+
+    .dir-rtl .tableDiv table th, .tableDiv table th.dir-rtl {
+        text-align: right;
+    }
+
+    .tableDiv table td, .tableDiv table th {
+        padding: 10px .5em;
+        min-width: 50%;
+        vertical-align: top;
+    }
+
+        .tableDiv table td .sb, .tableDiv table td p, .tableDiv table th .sb, .tableDiv table th p {
+            text-indent: 0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .tableDiv table td ol:first-child, .tableDiv table td ul:first-child, .tableDiv table th ol:first-child, .tableDiv table th ul:first-child {
+            margin: 0;
+        }
+
+.tableDiv.rowBorder tr {
+    border-bottom: 1px solid #e0dfdc;
+}
+
+    .tableDiv.rowBorder tr:last-child {
+        border-bottom: none;
+    }
+
+.tableDiv .shaded {
+    background-color: #f2f1ef;
+}
+
+.tableDiv .publication th {
+    background-color: #f0f0f0;
+    font-size: .9em;
+}
+
+.chart {
+    background-color: #fff;
+    color: #333;
+    clear: both;
+}
+
+.diagram, .mapElement {
+    margin: 2em auto;
+    background-color: #e7e7e5;
+    color: #65605e;
+    clear: both;
+}
+
+    .diagram ol, .diagram ul, .mapElement ol, .mapElement ul {
+        margin-top: 0;
+    }
+
+    .diagram aside > ul, .mapElement aside > ul {
+        margin: 0;
+    }
+
+.blockTeach, .boxSupplement, .boxTeach, .closingContent {
+    margin: 2em auto;
+    border: none;
+    list-style-type: initial;
+    clear: both;
+    padding: 0;
+}
+
+    .blockTeach .boxTtl, .boxSupplement .boxTtl, .boxTeach .boxTtl, .closingContent .boxTtl {
+        padding-bottom: .5em;
+    }
+
+    .blockTeach:first-child, .boxSupplement:first-child, .boxTeach:first-child, .closingContent:first-child {
+        margin-top: 3em;
+    }
+
+    .blockTeach:after, .blockTeach:before, .boxSupplement:after, .boxSupplement:before, .boxTeach:after, .boxTeach:before, .closingContent:after, .closingContent:before {
+        content: " ";
+        display: table;
+    }
+
+    .blockTeach.wide, .boxSupplement.wide, .boxTeach.wide, .closingContent.wide {
+        overflow: auto;
+        margin-bottom: 1em;
+    }
+
+    .blockTeach aside > ul, .boxSupplement aside > ul, .boxTeach aside > ul, .closingContent aside > ul {
+        margin: .5em 0;
+    }
+
+    .blockTeach.bgTransparent, .boxSupplement.bgTransparent, .boxTeach.bgTransparent, .closingContent.bgTransparent {
+        background-color: transparent;
+        border: none;
+    }
+
+    .blockTeach.rule .boxContent + .groupFootnote, .blockTeach.rule .boxSubTtl + .boxContent, .blockTeach.rule .boxSubTtl + .diagram, .blockTeach.rule .boxSubTtl + .mapElement, .blockTeach.rule .boxTtl + .boxContent, .blockTeach.rule .boxTtl + .diagram, .blockTeach.rule .boxTtl + .mapElement, .blockTeach.rule .diagram + .groupFootnote, .blockTeach.rule .mapElement + .groupFootnote, .boxSupplement.rule .boxContent + .groupFootnote, .boxSupplement.rule .boxSubTtl + .boxContent, .boxSupplement.rule .boxSubTtl + .diagram, .boxSupplement.rule .boxSubTtl + .mapElement, .boxSupplement.rule .boxTtl + .boxContent, .boxSupplement.rule .boxTtl + .diagram, .boxSupplement.rule .boxTtl + .mapElement, .boxSupplement.rule .diagram + .groupFootnote, .boxSupplement.rule .mapElement + .groupFootnote, .boxTeach.rule .boxContent + .groupFootnote, .boxTeach.rule .boxSubTtl + .boxContent, .boxTeach.rule .boxSubTtl + .diagram, .boxTeach.rule .boxSubTtl + .mapElement, .boxTeach.rule .boxTtl + .boxContent, .boxTeach.rule .boxTtl + .diagram, .boxTeach.rule .boxTtl + .mapElement, .boxTeach.rule .diagram + .groupFootnote, .boxTeach.rule .mapElement + .groupFootnote, .closingContent.rule .boxContent + .groupFootnote, .closingContent.rule .boxSubTtl + .boxContent, .closingContent.rule .boxSubTtl + .diagram, .closingContent.rule .boxSubTtl + .mapElement, .closingContent.rule .boxTtl + .boxContent, .closingContent.rule .boxTtl + .diagram, .closingContent.rule .boxTtl + .mapElement, .closingContent.rule .diagram + .groupFootnote, .closingContent.rule .mapElement + .groupFootnote {
+        background-color: #fff;
+        border-left: 1px solid #e7e7e5;
+        border-right: 1px solid #e7e7e5;
+        border-bottom: 1px solid #e7e7e5;
+    }
+
+    .blockTeach.rule .boxTtl.rule, .boxSupplement.rule .boxTtl.rule, .boxTeach.rule .boxTtl.rule, .closingContent.rule .boxTtl.rule {
+        border: 1px solid #e7e7e5 !important;
+        background-color: #fff !important;
+        color: #64605d !important;
+    }
+
+    .blockTeach .openingContent, .boxSupplement .openingContent, .boxTeach .openingContent, .closingContent .openingContent {
+        padding: 1.5em 4% 1em;
+        margin-bottom: 0;
+    }
+
+        .blockTeach .openingContent + .boxContent, .blockTeach .openingContent + .diagram, .blockTeach .openingContent + .mapElement, .boxSupplement .openingContent + .boxContent, .boxSupplement .openingContent + .diagram, .boxSupplement .openingContent + .mapElement, .boxTeach .openingContent + .boxContent, .boxTeach .openingContent + .diagram, .boxTeach .openingContent + .mapElement, .closingContent .openingContent + .boxContent, .closingContent .openingContent + .diagram, .closingContent .openingContent + .mapElement {
+            margin-top: 0;
+        }
+
+    .blockTeach .groupEndnote, .blockTeach .groupFootnote, .boxSupplement .groupEndnote, .boxSupplement .groupFootnote, .boxTeach .groupEndnote, .boxTeach .groupFootnote, .closingContent .groupEndnote, .closingContent .groupFootnote {
+        padding: 1em 4%;
+    }
+
+    .blockTeach .north_center, .boxSupplement .north_center, .boxTeach .north_center, .closingContent .north_center {
+        margin-bottom: 0;
+    }
+
+        .blockTeach .north_center figure, .boxSupplement, .boxSupplement .north_center figure, .boxTeach .north_center figure, .closingContent .north_center figure {
+            background-color: #e7e7e5;
+        }
+
+    .blockTeach aside .boxContent, .blockTeach aside .diagram, .blockTeach aside .mapElement {
+        background-color: #fff;
+        border: 1px solid #e7e7e5;
+    }
+
+    .blockTeach aside .boxTtl + .boxContent, .blockTeach aside .boxTtl + .diagram, .blockTeach aside .boxTtl + .mapElement {
+        border-top: none;
+        border-left: 1px solid #e7e7e5;
+        border-right: 1px solid #e7e7e5;
+        border-bottom: 1px solid #e7e7e5;
+    }
+
+.blockTeach, .boxSupplement {
+    margin: 1.5em auto;
+}
+
+    .boxSupplement.floatEast {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 0 2%;
+    }
+
+        .boxSupplement.floatEast .boxContent, .boxSupplement.floatEast .diagram, .boxSupplement.floatEast .mapElement, .boxTtl {
+            margin-top: 0;
+        }
+
+        .boxSupplement.floatEast.dir-ltr, .dir-ltr .boxSupplement.floatEast {
+            text-align: left;
+            margin-left: 3%;
+        }
+
+        .boxSupplement.floatEast.dir-rtl, .dir-rtl .boxSupplement.floatEast {
+            text-align: right;
+            margin-right: 3%;
+        }
+
+.docClass-Glossary .ss, .docClass-Glossary h2, .docClass-TitlePage .sb, .docClass-TitlePage .st, .docClass-TitlePage h1, .docClass-TitlePage p {
+    text-align: center;
+}
+
+.boxTtl {
+    color: #65605e;
+    padding: .5em 4%;
+    font-size: 1.3em;
+    margin-bottom: 0;
+    line-height: 1.2;
+    overflow: auto;
+    background-color: #e7e7e5;
+}
+
+    .boxTtl.dir-ltr, .dir-ltr .boxTtl {
+        border-left: 5px solid #9E9C9B;
+        padding-left: 3%;
+    }
+
+    .boxTtl.dir-rtl, .dir-rtl .boxTtl {
+        border-right: 5px solid #9E9C9B;
+        padding-right: 3%;
+    }
+
+    .boxTtl.emphasized {
+        font-weight: 600;
+    }
+
+.blockTeach .boxTtl, .closingContent .boxTtl {
+    padding: .5em 4%;
+    background-color: #9E9C9B;
+    color: #ebebeb;
+}
+
+    .blockTeach .boxTtl.dir-ltr, .closingContent .boxTtl.dir-ltr, .dir-ltr .blockTeach .boxTtl, .dir-ltr .closingContent .boxTtl {
+        border-left: none;
+    }
+
+    .blockTeach .boxTtl.dir-rtl, .closingContent .boxTtl.dir-rtl, .dir-rtl .blockTeach .boxTtl, .dir-rtl .closingContent .boxTtl {
+        border-right: none;
+    }
+
+    .blockTeach .boxTtl.emphasized, .closingContent .boxTtl.emphasized {
+        color: #fff;
+    }
+
+.boxSubTtl {
+    background-color: #e7e7e5;
+    padding: 0 4% 10px;
+    margin: 0;
+}
+
+    .boxSubTtl.rule.dir-ltr, .dir-ltr .boxSubTtl.rule {
+        border-left: 2px solid #9E9C9B;
+        padding-left: 3%;
+    }
+
+    .boxSubTtl.rule.dir-rtl, .dir-rtl .boxSubTtl.rule {
+        border-right: 2px solid #9E9C9B;
+        padding-right: 3%;
+    }
+
+    .boxSubTtl .sb, .boxSubTtl p {
+        padding: 0;
+        margin: 0;
+    }
+
+.boxContent, .diagram, .mapElement {
+    padding: 1.5em 4% 1em;
+    overflow: auto;
+}
+
+    .boxContent blockquote, .diagram blockquote, .mapElement blockquote {
+        font-size: 1.15em;
+    }
+
+    .boxContent > div.half:first-child, .boxContent > div.quarter:first-child, .diagram > div.half:first-child, .diagram > div.quarter:first-child, .mapElement > div.half:first-child, .mapElement > div.quarter:first-child {
+        margin-top: 1em;
+    }
+
+    .boxContent > blockquote, .diagram > blockquote, .mapElement > blockquote {
+        margin-left: 0;
+        margin-right: 0;
+        overflow: auto;
+    }
+
+    .boxContent .ss, .boxContent .st, .boxContent h1, .boxContent h2, .boxContent h3, .diagram .ss, .diagram .st, .diagram h1, .diagram h2, .diagram h3, .mapElement .ss, .mapElement .st, .mapElement h1, .mapElement h2, .mapElement h3 {
+        color: #64605d;
+    }
+
+    .boxContent h3, .diagram h3, .mapElement h3 {
+        font-size: 1.25em;
+    }
+
+    .boxContent > .ss, .boxContent > h2, .boxContent > h3, .diagram > .ss, .diagram > h2, .diagram > h3, .mapElement > .ss, .mapElement > h2, .mapElement > h3 {
+        margin-top: 0;
+    }
+
+    .boxContent + div.groupEndnote, .boxContent + div.groupFootnote, .diagram + div.groupEndnote, .diagram + div.groupFootnote, .mapElement + div.groupEndnote, .mapElement + div.groupFootnote {
+        border-top: none;
+        margin-top: 0;
+    }
+
+    .boxContent .sb:first-child, .boxContent p:first-child, .diagram .sb:first-child, .diagram p:first-child, .mapElement .sb:first-child, .mapElement p:first-child {
+        margin-top: 0;
+    }
+
+    .boxContent .sb, .boxContent p, .diagram .sb, .diagram p, .mapElement .sb, .mapElement p {
+        margin-bottom: .5em;
+        text-indent: 0;
+    }
+
+        .boxContent .dir-ltr.sb, .boxContent p.dir-ltr, .diagram .dir-ltr.sb, .diagram p.dir-ltr, .dir-ltr .boxContent .sb, .dir-ltr .boxContent p, .dir-ltr .diagram .sb, .dir-ltr .diagram p, .dir-ltr .mapElement .sb, .dir-ltr .mapElement p, .mapElement .dir-ltr.sb, .mapElement p.dir-ltr {
+            margin-left: 0;
+        }
+
+        .boxContent .dir-rtl.sb, .boxContent p.dir-rtl, .diagram .dir-rtl.sb, .diagram p.dir-rtl, .dir-rtl .boxContent .sb, .dir-rtl .boxContent p, .dir-rtl .diagram .sb, .dir-rtl .diagram p, .dir-rtl .mapElement .sb, .dir-rtl .mapElement p, .mapElement .dir-rtl.sb, .mapElement p.dir-rtl {
+            margin-right: 0;
+        }
+
+    .boxContent ol, .boxContent ul, .diagram ol, .diagram ul, .mapElement ol, .mapElement ul {
+        margin-top: 0;
+    }
+
+        .boxContent ol.noMarker.dir-ltr, .boxContent ul.noMarker.dir-ltr, .diagram ol.noMarker.dir-ltr, .diagram ul.noMarker.dir-ltr, .dir-ltr .boxContent ol.noMarker, .dir-ltr .boxContent ul.noMarker, .dir-ltr .diagram ol.noMarker, .dir-ltr .diagram ul.noMarker, .dir-ltr .mapElement ol.noMarker, .dir-ltr .mapElement ul.noMarker, .mapElement ol.noMarker.dir-ltr, .mapElement ul.noMarker.dir-ltr {
+            padding-left: 0;
+        }
+
+        .boxContent ol.noMarker.dir-rtl, .boxContent ul.noMarker.dir-rtl, .diagram ol.noMarker.dir-rtl, .diagram ul.noMarker.dir-rtl, .dir-rtl .boxContent ol.noMarker, .dir-rtl .boxContent ul.noMarker, .dir-rtl .diagram ol.noMarker, .dir-rtl .diagram ul.noMarker, .dir-rtl .mapElement ol.noMarker, .dir-rtl .mapElement ul.noMarker, .mapElement ol.noMarker.dir-rtl, .mapElement ul.noMarker.dir-rtl {
+            padding-right: 0;
+        }
+
+.blockTeach .boxContent > ul, .blockTeach .diagram > ul, .blockTeach .mapElement > ul, .boxTeach .boxContent > ul, .boxTeach .diagram > ul, .boxTeach .mapElement > ul, .closingContent .boxContent > ul, .closingContent .diagram > ul, .closingContent .mapElement > ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+}
+
+    .blockTeach .boxContent > ul.dir-ltr, .blockTeach .diagram > ul.dir-ltr, .blockTeach .mapElement > ul.dir-ltr, .boxTeach .boxContent > ul.dir-ltr, .boxTeach .diagram > ul.dir-ltr, .boxTeach .mapElement > ul.dir-ltr, .closingContent .boxContent > ul.dir-ltr, .closingContent .diagram > ul.dir-ltr, .closingContent .mapElement > ul.dir-ltr, .dir-ltr .blockTeach .boxContent > ul, .dir-ltr .blockTeach .diagram > ul, .dir-ltr .blockTeach .mapElement > ul, .dir-ltr .boxTeach .boxContent > ul, .dir-ltr .boxTeach .diagram > ul, .dir-ltr .boxTeach .mapElement > ul, .dir-ltr .closingContent .boxContent > ul, .dir-ltr .closingContent .diagram > ul, .dir-ltr .closingContent .mapElement > ul {
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .blockTeach .boxContent > ul.dir-rtl, .blockTeach .diagram > ul.dir-rtl, .blockTeach .mapElement > ul.dir-rtl, .boxTeach .boxContent > ul.dir-rtl, .boxTeach .diagram > ul.dir-rtl, .boxTeach .mapElement > ul.dir-rtl, .closingContent .boxContent > ul.dir-rtl, .closingContent .diagram > ul.dir-rtl, .closingContent .mapElement > ul.dir-rtl, .dir-rtl .blockTeach .boxContent > ul, .dir-rtl .blockTeach .diagram > ul, .dir-rtl .blockTeach .mapElement > ul, .dir-rtl .boxTeach .boxContent > ul, .dir-rtl .boxTeach .diagram > ul, .dir-rtl .boxTeach .mapElement > ul, .dir-rtl .closingContent .boxContent > ul, .dir-rtl .closingContent .diagram > ul, .dir-rtl .closingContent .mapElement > ul {
+        margin-right: 0;
+        padding-right: 0;
+    }
+
+.blockTeach .boxContent > .sb + ul, .blockTeach .boxContent > p + ul, .blockTeach .diagram > .sb + ul, .blockTeach .diagram > p + ul, .blockTeach .mapElement > .sb + ul, .blockTeach .mapElement > p + ul, .boxTeach .boxContent > .sb + ul, .boxTeach .boxContent > p + ul, .boxTeach .diagram > .sb + ul, .boxTeach .diagram > p + ul, .boxTeach .mapElement > .sb + ul, .boxTeach .mapElement > p + ul, .closingContent .boxContent > .sb + ul, .closingContent .boxContent > p + ul, .closingContent .diagram > .sb + ul, .closingContent .diagram > p + ul, .closingContent .mapElement > .sb + ul, .closingContent .mapElement > p + ul {
+    margin-top: 0;
+    list-style-type: inherit;
+}
+
+    .blockTeach .boxContent > .sb + ul.dir-ltr, .blockTeach .boxContent > p + ul.dir-ltr, .blockTeach .diagram > .sb + ul.dir-ltr, .blockTeach .diagram > p + ul.dir-ltr, .blockTeach .mapElement > .sb + ul.dir-ltr, .blockTeach .mapElement > p + ul.dir-ltr, .boxTeach .boxContent > .sb + ul.dir-ltr, .boxTeach .boxContent > p + ul.dir-ltr, .boxTeach .diagram > .sb + ul.dir-ltr, .boxTeach .diagram > p + ul.dir-ltr, .boxTeach .mapElement > .sb + ul.dir-ltr, .boxTeach .mapElement > p + ul.dir-ltr, .closingContent .boxContent > .sb + ul.dir-ltr, .closingContent .boxContent > p + ul.dir-ltr, .closingContent .diagram > .sb + ul.dir-ltr, .closingContent .diagram > p + ul.dir-ltr, .closingContent .mapElement > .sb + ul.dir-ltr, .closingContent .mapElement > p + ul.dir-ltr, .dir-ltr .blockTeach .boxContent > .sb + ul, .dir-ltr .blockTeach .boxContent > p + ul, .dir-ltr .blockTeach .diagram > .sb + ul, .dir-ltr .blockTeach .diagram > p + ul, .dir-ltr .blockTeach .mapElement > .sb + ul, .dir-ltr .blockTeach .mapElement > p + ul, .dir-ltr .boxTeach .boxContent > .sb + ul, .dir-ltr .boxTeach .boxContent > p + ul, .dir-ltr .boxTeach .diagram > .sb + ul, .dir-ltr .boxTeach .diagram > p + ul, .dir-ltr .boxTeach .mapElement > .sb + ul, .dir-ltr .boxTeach .mapElement > p + ul, .dir-ltr .closingContent .boxContent > .sb + ul, .dir-ltr .closingContent .boxContent > p + ul, .dir-ltr .closingContent .diagram > .sb + ul, .dir-ltr .closingContent .diagram > p + ul, .dir-ltr .closingContent .mapElement > .sb + ul, .dir-ltr .closingContent .mapElement > p + ul {
+        margin-left: 1em;
+        padding-left: .5em;
+    }
+
+    .blockTeach .boxContent > .sb + ul.dir-rtl, .blockTeach .boxContent > p + ul.dir-rtl, .blockTeach .diagram > .sb + ul.dir-rtl, .blockTeach .diagram > p + ul.dir-rtl, .blockTeach .mapElement > .sb + ul.dir-rtl, .blockTeach .mapElement > p + ul.dir-rtl, .boxTeach .boxContent > .sb + ul.dir-rtl, .boxTeach .boxContent > p + ul.dir-rtl, .boxTeach .diagram > .sb + ul.dir-rtl, .boxTeach .diagram > p + ul.dir-rtl, .boxTeach .mapElement > .sb + ul.dir-rtl, .boxTeach .mapElement > p + ul.dir-rtl, .closingContent .boxContent > .sb + ul.dir-rtl, .closingContent .boxContent > p + ul.dir-rtl, .closingContent .diagram > .sb + ul.dir-rtl, .closingContent .diagram > p + ul.dir-rtl, .closingContent .mapElement > .sb + ul.dir-rtl, .closingContent .mapElement > p + ul.dir-rtl, .dir-rtl .blockTeach .boxContent > .sb + ul, .dir-rtl .blockTeach .boxContent > p + ul, .dir-rtl .blockTeach .diagram > .sb + ul, .dir-rtl .blockTeach .diagram > p + ul, .dir-rtl .blockTeach .mapElement > .sb + ul, .dir-rtl .blockTeach .mapElement > p + ul, .dir-rtl .boxTeach .boxContent > .sb + ul, .dir-rtl .boxTeach .boxContent > p + ul, .dir-rtl .boxTeach .diagram > .sb + ul, .dir-rtl .boxTeach .diagram > p + ul, .dir-rtl .boxTeach .mapElement > .sb + ul, .dir-rtl .boxTeach .mapElement > p + ul, .dir-rtl .closingContent .boxContent > .sb + ul, .dir-rtl .closingContent .boxContent > p + ul, .dir-rtl .closingContent .diagram > .sb + ul, .dir-rtl .closingContent .diagram > p + ul, .dir-rtl .closingContent .mapElement > .sb + ul, .dir-rtl .closingContent .mapElement > p + ul {
+        margin-right: 1em;
+        padding-right: .5em;
+    }
+
+.blockTeach .boxContent ul.noMarker li .sb, .blockTeach .boxContent ul.noMarker li p, .blockTeach .diagram ul.noMarker li .sb, .blockTeach .diagram ul.noMarker li p, .blockTeach .mapElement ul.noMarker li .sb, .blockTeach .mapElement ul.noMarker li p, .boxTeach .boxContent ul.noMarker li .sb, .boxTeach .boxContent ul.noMarker li p, .boxTeach .diagram ul.noMarker li .sb, .boxTeach .diagram ul.noMarker li p, .boxTeach .mapElement ul.noMarker li .sb, .boxTeach .mapElement ul.noMarker li p, .closingContent .boxContent ul.noMarker li .sb, .closingContent .boxContent ul.noMarker li p, .closingContent .diagram ul.noMarker li .sb, .closingContent .diagram ul.noMarker li p, .closingContent .mapElement ul.noMarker li .sb, .closingContent .mapElement ul.noMarker li p {
+    line-height: normal;
+}
+
+.blockTeach .boxContent blockquote, .blockTeach .diagram blockquote, .blockTeach .mapElement blockquote, .boxTeach .boxContent blockquote, .boxTeach .diagram blockquote, .boxTeach .mapElement blockquote, .closingContent .boxContent blockquote, .closingContent .diagram blockquote, .closingContent .mapElement blockquote {
+    display: inline-table;
+}
+
+.blockTeach .boxContent .sc.sb, .blockTeach .boxContent .si.sb, .blockTeach .boxContent p.sc, .blockTeach .boxContent p.si, .blockTeach .diagram .sc.sb, .blockTeach .diagram .si.sb, .blockTeach .diagram p.sc, .blockTeach .diagram p.si, .blockTeach .mapElement .sc.sb, .blockTeach .mapElement .si.sb, .blockTeach .mapElement p.sc, .blockTeach .mapElement p.si, .boxTeach .boxContent .sc.sb, .boxTeach .boxContent .si.sb, .boxTeach .boxContent p.sc, .boxTeach .boxContent p.si, .boxTeach .diagram .sc.sb, .boxTeach .diagram .si.sb, .boxTeach .diagram p.sc, .boxTeach .diagram p.si, .boxTeach .mapElement .sc.sb, .boxTeach .mapElement .si.sb, .boxTeach .mapElement p.sc, .boxTeach .mapElement p.si, .closingContent .boxContent .sc.sb, .closingContent .boxContent .si.sb, .closingContent .boxContent p.sc, .closingContent .boxContent p.si, .closingContent .diagram .sc.sb, .closingContent .diagram .si.sb, .closingContent .diagram p.sc, .closingContent .diagram p.si, .closingContent .mapElement .sc.sb, .closingContent .mapElement .si.sb, .closingContent .mapElement p.sc, .closingContent .mapElement p.si {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.boxSubTtl + .boxContent, .boxSubTtl + .diagram, .boxSubTtl + .mapElement, .boxTtl + .boxContent, .boxTtl + .diagram, .boxTtl + .mapElement {
+    padding-top: 1em;
+    margin-top: 0;
+}
+
+.studyPurpose {
+    margin-top: 1em;
+}
+
+    .studyPurpose .sb, .studyPurpose p {
+        margin-bottom: .5em;
+    }
+
+    .studyPurpose > .sb, .studyPurpose > p {
+        padding-top: 2%;
+    }
+
+    .studyPurpose .boxContent, .studyPurpose .diagram, .studyPurpose .mapElement {
+        padding: 1% 4%;
+    }
+
+aside .tableDiv {
+    margin-top: 0;
+}
+
+div.imgWestEighth:after, div.imgWestEighth:before, div.imgWestQuarter:after, div.imgWestQuarter:before, ol.imgWestEighth:after, ol.imgWestEighth:before, ol.imgWestQuarter:after, ol.imgWestQuarter:before, ul.imgWestEighth:after, ul.imgWestEighth:before, ul.imgWestQuarter:after, ul.imgWestQuarter:before {
+    content: " ";
+    display: table;
+}
+
+div.imgWestEighth:after, div.imgWestQuarter:after, ol.imgWestEighth:after, ol.imgWestQuarter:after, ul.imgWestEighth:after, ul.imgWestQuarter:after {
+    clear: both;
+}
+
+div.imgWestQuarter > .sb, div.imgWestQuarter > p {
+    width: auto;
+}
+
+    .dir-ltr div.imgWestQuarter > .sb, .dir-ltr div.imgWestQuarter > p, div.imgWestQuarter > .dir-ltr.sb, div.imgWestQuarter > p.dir-ltr {
+        margin-left: 27%;
+    }
+
+    .dir-rtl div.imgWestQuarter > .sb, .dir-rtl div.imgWestQuarter > p, div.imgWestQuarter > .dir-rtl.sb, div.imgWestQuarter > p.dir-rtl {
+        margin-right: 27%;
+    }
+
+    div.imgWestQuarter > .sb:first-of-type, div.imgWestQuarter > p:first-of-type {
+        margin-top: 0;
+    }
+
+div.imgEighthQuarter {
+    padding: 0;
+    width: 100%;
+}
+
+    div.imgEighthQuarter > .sb, div.imgEighthQuarter > p {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+        .dir-ltr div.imgEighthQuarter > .sb, .dir-ltr div.imgEighthQuarter > p, div.imgEighthQuarter > .dir-ltr.sb, div.imgEighthQuarter > p.dir-ltr {
+            margin-left: 14%;
+        }
+
+        .dir-rtl div.imgEighthQuarter > .sb, .dir-rtl div.imgEighthQuarter > p, div.imgEighthQuarter > .dir-rtl.sb, div.imgEighthQuarter > p.dir-rtl {
+            margin-right: 14%;
+        }
+
+        div.imgEighthQuarter > .sb:first-of-type, div.imgEighthQuarter > p:first-of-type {
+            margin-top: 0;
+        }
+
+.imgGrid div.south_center, .imgGrid div.south_left, .imgGrid div.south_right {
+    display: inline-block;
+    margin: 1em 0;
+    vertical-align: top;
+    clear: none;
+}
+
+    .dir-ltr .imgGrid div.south_center, .dir-ltr .imgGrid div.south_left, .dir-ltr .imgGrid div.south_right, .imgGrid div.south_center.dir-ltr, .imgGrid div.south_left.dir-ltr, .imgGrid div.south_right.dir-ltr {
+        padding-right: 2.7%;
+    }
+
+    .dir-rtl .imgGrid div.south_center, .dir-rtl .imgGrid div.south_left, .dir-rtl .imgGrid div.south_right, .imgGrid div.south_center.dir-rtl, .imgGrid div.south_left.dir-rtl, .imgGrid div.south_right.dir-rtl {
+        padding-left: 2.7%;
+    }
+
+.imgGrid.threeColumn > P {
+    display: none;
+}
+
+div.east_center, div.east_left, div.east_right, div.north_center.floatEast, div.north_center.floatWest, div.north_left.floatWest, div.north_right.floatEast, div.south_center.floatEast, div.south_center.floatWest, div.south_left.floatWest, div.south_right.floatEast, div.west_center, div.west_left, div.west_right {
+    display: block;
+    margin: 0 0 .5em;
+    max-width: 47%;
+}
+
+.imgGrid.threeColumn div.south_center.quarter, .imgGrid.threeColumn div.south_left.quarter, .imgGrid.threeColumn div.south_right.quarter {
+    margin: 2% 0;
+    max-width: 22%;
+}
+
+    .dir-ltr .imgGrid.threeColumn div.south_center.quarter, .dir-ltr .imgGrid.threeColumn div.south_left.quarter, .dir-ltr .imgGrid.threeColumn div.south_right.quarter, .imgGrid.threeColumn div.south_center.quarter.dir-ltr, .imgGrid.threeColumn div.south_left.quarter.dir-ltr, .imgGrid.threeColumn div.south_right.quarter.dir-ltr {
+        padding-right: 10%;
+    }
+
+    .dir-rtl .imgGrid.threeColumn div.south_center.quarter, .dir-rtl .imgGrid.threeColumn div.south_left.quarter, .dir-rtl .imgGrid.threeColumn div.south_right.quarter, .imgGrid.threeColumn div.south_center.quarter.dir-rtl, .imgGrid.threeColumn div.south_left.quarter.dir-rtl, .imgGrid.threeColumn div.south_right.quarter.dir-rtl {
+        padding-left: 10%;
+    }
+
+    .imgGrid.threeColumn div.south_center.quarter:nth-of-type(3n), .imgGrid.threeColumn div.south_left.quarter:nth-of-type(3n), .imgGrid.threeColumn div.south_right.quarter:nth-of-type(3n) {
+        clear: right;
+    }
+
+.dir-ltr .imgGrid.threeColumn div.south_center.quarter:nth-of-type(3n), .dir-ltr .imgGrid.threeColumn div.south_left.quarter:nth-of-type(3n), .dir-ltr .imgGrid.threeColumn div.south_right.quarter:nth-of-type(3n) {
+    padding-right: 0;
+}
+
+.dir-rtl .imgGrid.threeColumn div.south_center.quarter:nth-of-type(3n), .dir-rtl .imgGrid.threeColumn div.south_left.quarter:nth-of-type(3n), .dir-rtl .imgGrid.threeColumn div.south_right.quarter:nth-of-type(3n) {
+    padding-left: 0;
+}
+
+.imgGrid.threeColumn div.south_center.quarter:nth-of-type(1n), .imgGrid.threeColumn div.south_center.quarter:nth-of-type(2n), .imgGrid.threeColumn div.south_left.quarter:nth-of-type(1n), .imgGrid.threeColumn div.south_left.quarter:nth-of-type(2n), .imgGrid.threeColumn div.south_right.quarter:nth-of-type(1n), .imgGrid.threeColumn div.south_right.quarter:nth-of-type(2n) {
+    clear: none;
+}
+
+.dir-ltr .imgGrid.threeColumn div.south_center.quarter:nth-of-type(1n), .dir-ltr .imgGrid.threeColumn div.south_center.quarter:nth-of-type(2n), .dir-ltr .imgGrid.threeColumn div.south_left.quarter:nth-of-type(1n), .dir-ltr .imgGrid.threeColumn div.south_left.quarter:nth-of-type(2n), .dir-ltr .imgGrid.threeColumn div.south_right.quarter:nth-of-type(1n), .dir-ltr .imgGrid.threeColumn div.south_right.quarter:nth-of-type(2n) {
+    padding-right: 10%;
+}
+
+.dir-rtl .imgGrid.threeColumn div.south_center.quarter:nth-of-type(1n), .dir-rtl .imgGrid.threeColumn div.south_center.quarter:nth-of-type(2n), .dir-rtl .imgGrid.threeColumn div.south_left.quarter:nth-of-type(1n), .dir-rtl .imgGrid.threeColumn div.south_left.quarter:nth-of-type(2n), .dir-rtl .imgGrid.threeColumn div.south_right.quarter:nth-of-type(1n), .dir-rtl .imgGrid.threeColumn div.south_right.quarter:nth-of-type(2n) {
+    padding-left: 10%;
+}
+
+.imgGrid.threeColumn.alignBottom div {
+    vertical-align: bottom;
+}
+
+.dir-ltr .imgGrid .imgGrid div.south_center:nth-of-type(odd), .dir-ltr .imgGrid div.south_left:nth-of-type(odd), .dir-ltr .imgGrid div.south_right:nth-of-type(odd) {
+    padding-right: 4.5%;
+}
+
+.dir-rtl .imgGrid .imgGrid div.south_center:nth-of-type(odd), .dir-rtl .imgGrid div.south_left:nth-of-type(odd), .dir-rtl .imgGrid div.south_right:nth-of-type(odd) {
+    padding-left: 4.5%;
+}
+
+.dir-ltr .imgGrid div.south_center:nth-of-type(even), .dir-ltr .imgGrid div.south_left:nth-of-type(even), .dir-ltr .imgGrid div.south_right:nth-of-type(even) {
+    padding-right: 0;
+}
+
+.dir-rtl .imgGrid div.south_center:nth-of-type(even), .dir-rtl .imgGrid div.south_left:nth-of-type(even), .dir-rtl .imgGrid div.south_right:nth-of-type(even) {
+    padding-left: 0;
+}
+
+div.north_center, div.north_left, div.north_right, div.south_center, div.south_left, div.south_right {
+    float: none;
+    clear: both;
+}
+
+    .dir-ltr div.east_center, .dir-ltr div.east_left, .dir-ltr div.east_right, .dir-ltr div.north_center.floatEast, .dir-ltr div.north_right.floatEast, .dir-ltr div.south_center.floatEast, .dir-ltr div.south_right.floatEast, div.east_center.dir-ltr, div.east_left.dir-ltr, div.east_right.dir-ltr, div.north_center.floatEast.dir-ltr, div.north_right.floatEast.dir-ltr, div.south_center.floatEast.dir-ltr, div.south_right.floatEast.dir-ltr {
+        padding-left: 3%;
+        float: right;
+        clear: right;
+    }
+
+    .dir-ltr div.north_center.floatWest, .dir-ltr div.north_left.floatWest, .dir-ltr div.south_center.floatWest, .dir-ltr div.south_left.floatWest, .dir-ltr div.west_center, .dir-ltr div.west_left, .dir-ltr div.west_right, .dir-rtl div.east_center, .dir-rtl div.east_left, .dir-rtl div.east_right, .dir-rtl div.north_center.floatEast, .dir-rtl div.north_right.floatEast, .dir-rtl div.south_center.floatEast, .dir-rtl div.south_right.floatEast, div.east_center.dir-rtl, div.east_left.dir-rtl, div.east_right.dir-rtl, div.north_center.floatEast.dir-rtl, div.north_center.floatWest.dir-ltr, div.north_left.floatWest.dir-ltr, div.north_right.floatEast.dir-rtl, div.south_center.floatEast.dir-rtl, div.south_center.floatWest.dir-ltr, div.south_left.floatWest.dir-ltr, div.south_right.floatEast.dir-rtl, div.west_center.dir-ltr, div.west_left.dir-ltr, div.west_right.dir-ltr {
+        padding-right: 3%;
+        float: left;
+        clear: left;
+    }
+
+    .dir-rtl div.north_center.floatWest, .dir-rtl div.north_left.floatWest, .dir-rtl div.south_center.floatWest, .dir-rtl div.south_left.floatWest, .dir-rtl div.west_center, .dir-rtl div.west_left, .dir-rtl div.west_right, div.north_center.floatWest.dir-rtl, div.north_left.floatWest.dir-rtl, div.south_center.floatWest.dir-rtl, div.south_left.floatWest.dir-rtl, div.west_center.dir-rtl, div.west_left.dir-rtl, div.west_right.dir-rtl {
+        padding-left: 3%;
+        float: right;
+        clear: right;
+    }
+
+div.half {
+    max-width: 47%;
+}
+
+div.quarter {
+    max-width: 22%;
+}
+
+div.eighth {
+    max-width: 11%;
+}
+
+.docClass-DailyText > .st.sb, .docClass-DailyText > p.st {
+    font-size: 2.5em;
+    color: #65605E;
+    margin-bottom: 1em;
+    font-weight: 300;
+}
+
+    .docClass-DailyText > .st.sb strong, .docClass-DailyText > p.st strong {
+        font-weight: 300;
+    }
+
+.docClass-DailyText .ss, .docClass-DailyText .ss.sb, .docClass-DailyText h2, .docClass-DailyText p.ss {
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+    .docClass-DailyText .ss.sb:nth-child(1n+3), .docClass-DailyText .ss:nth-child(1n+3), .docClass-DailyText h2:nth-child(1n+3), .docClass-DailyText p.ss:nth-child(1n+3) {
+        border-top: #CCC8C6 1px solid;
+        padding-top: 1em;
+        margin-top: 1em;
+    }
+
+    .docClass-DailyText .ss + .ss.sb, .docClass-DailyText .ss + p.ss, .docClass-DailyText .ss.sb + .ss.sb, .docClass-DailyText .ss.sb + p.ss, .docClass-DailyText h2 + .ss.sb, .docClass-DailyText h2 + p.ss, .docClass-DailyText p.ss + .ss.sb, .docClass-DailyText p.ss + p.ss {
+        border-top: none;
+        padding-top: 0;
+        margin-top: 0;
+        margin-bottom: .5em;
+    }
+
+.docClass-DailyText .sa.sb, .docClass-DailyText .sa.sb em, .docClass-DailyText .themeScrp.sb, .docClass-DailyText .themeScrp.sb em, .docClass-DailyText p.sa, .docClass-DailyText p.sa em, .docClass-DailyText p.themeScrp, .docClass-DailyText p.themeScrp em {
+    font-weight: 600;
+    font-style: normal;
+    color: inherit;
+    font-size: inherit;
+    text-indent: 0;
+    margin: 1.5em 0 .5em;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+    .docClass-DailyText .sa.sb a, .docClass-DailyText .sa.sb a em, .docClass-DailyText .sa.sb em a, .docClass-DailyText .sa.sb em a em, .docClass-DailyText .themeScrp.sb a, .docClass-DailyText .themeScrp.sb a em, .docClass-DailyText .themeScrp.sb em a, .docClass-DailyText .themeScrp.sb em a em, .docClass-DailyText a .sa.sb em, .docClass-DailyText a .sa.sb em em, .docClass-DailyText a .sa.sb em em em, .docClass-DailyText a .themeScrp.sb em, .docClass-DailyText a .themeScrp.sb em em, .docClass-DailyText a .themeScrp.sb em em em, .docClass-DailyText a p.sa em, .docClass-DailyText a p.sa em em, .docClass-DailyText a p.sa em em em, .docClass-DailyText a p.themeScrp em, .docClass-DailyText a p.themeScrp em em, .docClass-DailyText a p.themeScrp em em em, .docClass-DailyText p.sa a, .docClass-DailyText p.sa a em, .docClass-DailyText p.sa em a, .docClass-DailyText p.sa em a em, .docClass-DailyText p.themeScrp a, .docClass-DailyText p.themeScrp a em, .docClass-DailyText p.themeScrp em a, .docClass-DailyText p.themeScrp em a em {
+        font-weight: 500 !important;
+    }
+
+.dir-ltr .docClass-Song ol, .docClass-Song ol.dir-ltr {
+    padding-left: 1.5em;
+    margin-left: 0;
+}
+
+.dir-rtl .docClass-Song ol, .docClass-Song ol.dir-rtl {
+    padding-right: 1.5em;
+    margin-right: 0;
+}
+
+.dir-ltr .docClass-Song li .sp, .docClass-Song li .sp.dir-ltr {
+    padding-left: 1em;
+}
+
+.dir-rtl .docClass-Song li .sp, .docClass-Song li .sp.dir-rtl {
+    padding-right: 1em;
+}
+
+.dir-ltr .docClass-Song li .sz, .docClass-Song li .sz.dir-ltr {
+    margin-left: 1.5em;
+}
+
+.dir-rtl .docClass-Song li .sz, .docClass-Song li .sz.dir-rtl {
+    margin-right: 1.5em;
+}
+
+.docClass-Song .bodyTxt .sb, .docClass-Song .bodyTxt p {
+    margin-top: .125em;
+    margin-bottom: .125em;
+}
+
+    .docClass-Song .bodyTxt .sl.sb, .docClass-Song .bodyTxt p.sl {
+        margin-top: 1em;
+    }
+
+.docClass-Song .contextTtl {
+    margin-bottom: 0;
+}
+
+    .docClass-Song .contextTtl + .st, .docClass-Song .contextTtl + h1 {
+        margin-top: 0;
+    }
+
+.docClass-Song .themeScrp {
+    margin-top: -.75em;
+    margin-bottom: 0;
+}
+
+.docClass-Song .closingContent .sb, .docClass-Song .closingContent p {
+    color: #64605d;
+    font-size: .9em;
+}
+
+.docClass-Song .chorus {
+    margin: .5em 0 1.5em;
+}
+
+.docClass-Song .se {
+    color: #65605E;
+}
+
+.docClass-Glossary ul.dl {
+    list-style: none;
+}
+
+    .dir-ltr .docClass-Glossary ul.dl, .docClass-Glossary ul.dl.dir-ltr {
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .dir-rtl .docClass-Glossary ul.dl, .docClass-Glossary ul.dl.dir-rtl {
+        margin-right: 0;
+        padding-right: 0;
+    }
+
+.docClass-Glossary h3.inline {
+    color: #000;
+    display: inline;
+    font-size: 1em;
+    line-height: 1.4em;
+    margin: 0;
+}
+
+    .dir-ltr .docClass-Glossary h3.inline, .docClass-Glossary h3.inline.dir-ltr {
+        float: left;
+        padding-right: .25em;
+    }
+
+    .dir-rtl .docClass-Glossary h3.inline, .docClass-Glossary h3.inline.dir-rtl {
+        float: right;
+        padding-left: .25em;
+    }
+
+.docClass-Glossary h3.dt strong {
+    color: #000;
+    font-weight: 600;
+}
+
+.docClass-Glossary .dd {
+    display: block;
+    margin-top: 1em;
+}
+
+    .dir-ltr .docClass-Glossary .dd, .docClass-Glossary .dd.dir-ltr {
+        margin-left: 2em;
+    }
+
+    .dir-rtl .docClass-Glossary .dd, .docClass-Glossary .dd.dir-rtl {
+        margin-right: 2em;
+    }
+
+.docClass-Glossary .dl .dt:not(:first-child) {
+    margin-top: 1em;
+}
+
+.docClass-Glossary .sb {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-indent: 0;
+}
+
+    .dir-rtl .docClass-Glossary .sb, .docClass-Glossary .sb.dir-rtl {
+        margin-left: .25em;
+    }
+
+    .dir-ltr .docClass-Glossary .sb, .docClass-Glossary .sb.dir-ltr {
+        margin-right: .25em;
+        margin-left: 0;
+    }
+
+    .dir-rtl .docClass-Glossary .sb, .docClass-Glossary .sb.dir-rtl {
+        margin-right: 0;
+    }
+
+.publication.docClass-Glossary h3 {
+    color: #000 !important;
+}
+
+.docClass-TitlePage .contextTtl {
+    margin-bottom: 2em;
+}
+
+    .dir-ltr .docClass-TitlePage .contextTtl, .docClass-TitlePage .contextTtl.dir-ltr {
+        text-align: left;
+    }
+
+    .dir-rtl .docClass-TitlePage .contextTtl, .docClass-TitlePage .contextTtl.dir-rtl {
+        text-align: right;
+    }
+
+.docClass-TitlePage ul {
+    list-style-position: inside;
+}
+
+.dc68 .boxContent, .dc68 .diagram, .dc68 .mapElement, .dc78 .boxContent, .dc78 .diagram, .dc78 .mapElement, .docClass-AwakeTOC .boxContent, .docClass-AwakeTOC .diagram, .docClass-AwakeTOC .mapElement, .docClass-WatchtowerTOC .boxContent, .docClass-WatchtowerTOC .diagram, .docClass-WatchtowerTOC .mapElement {
+    border: none;
+    background-color: transparent;
+    color: #333;
+    margin: 0;
+}
+
+.dc68 .copyrightInfo.dir-ltr, .dc78 .copyrightInfo.dir-ltr, .dir-ltr .dc68 .copyrightInfo, .dir-ltr .dc78 .copyrightInfo, .dir-ltr .docClass-AwakeTOC .copyrightInfo, .dir-ltr .docClass-WatchtowerTOC .copyrightInfo, .docClass-AwakeTOC .copyrightInfo.dir-ltr, .docClass-WatchtowerTOC .copyrightInfo.dir-ltr {
+    text-align: left;
+}
+
+.dc68 .copyrightInfo.dir-rtl, .dc78 .copyrightInfo.dir-rtl, .dir-rtl .dc68 .copyrightInfo, .dir-rtl .dc78 .copyrightInfo, .dir-rtl .docClass-AwakeTOC .copyrightInfo, .dir-rtl .docClass-WatchtowerTOC .copyrightInfo, .docClass-AwakeTOC .copyrightInfo.dir-rtl, .docClass-WatchtowerTOC .copyrightInfo.dir-rtl {
+    text-align: right;
+}
+
+.dc68 .copyrightInfo .st, .dc68 .copyrightInfo h1, .dc78 .copyrightInfo .st, .dc78 .copyrightInfo h1, .docClass-AwakeTOC .copyrightInfo .st, .docClass-AwakeTOC .copyrightInfo h1, .docClass-WatchtowerTOC .copyrightInfo .st, .docClass-WatchtowerTOC .copyrightInfo h1 {
+    font-size: 1em;
+}
+
+.docClass-AwakeTOC .groupTOC h3.rule, .docClass-WatchtowerTOC .groupTOC h3.rule {
+    border: none;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.docClass-AwakeTOC .groupStudySched .groupTOC .sc.sb, .docClass-AwakeTOC .groupStudySched .groupTOC p.sc, .docClass-WatchtowerTOC .groupStudySched .groupTOC .sc.sb, .docClass-WatchtowerTOC .groupStudySched .groupTOC p.sc {
+    margin-top: .5em;
+    margin-bottom: 0;
+    font-size: 1.5em;
+    font-weight: 200;
+}
+
+    .docClass-AwakeTOC .groupStudySched .groupTOC .sc.sb strong, .docClass-AwakeTOC .groupStudySched .groupTOC p.sc strong, .docClass-WatchtowerTOC .groupStudySched .groupTOC .sc.sb strong, .docClass-WatchtowerTOC .groupStudySched .groupTOC p.sc strong {
+        font-weight: 200;
+    }
+
+    .docClass-AwakeTOC .groupStudySched .groupTOC .sc.sb + .sc.sb, .docClass-AwakeTOC .groupStudySched .groupTOC .sc.sb + p.sc, .docClass-AwakeTOC .groupStudySched .groupTOC p.sc + .sc.sb, .docClass-AwakeTOC .groupStudySched .groupTOC p.sc + p.sc, .docClass-WatchtowerTOC .groupStudySched .groupTOC .sc.sb + .sc.sb, .docClass-WatchtowerTOC .groupStudySched .groupTOC .sc.sb + p.sc, .docClass-WatchtowerTOC .groupStudySched .groupTOC p.sc + .sc.sb, .docClass-WatchtowerTOC .groupStudySched .groupTOC p.sc + p.sc {
+        margin-top: 0;
+        font-size: inherit;
+        font-weight: 300;
+    }
+
+        .docClass-AwakeTOC .groupStudySched .groupTOC .sc.sb + .sc.sb strong, .docClass-AwakeTOC .groupStudySched .groupTOC .sc.sb + p.sc strong, .docClass-AwakeTOC .groupStudySched .groupTOC p.sc + .sc.sb strong, .docClass-AwakeTOC .groupStudySched .groupTOC p.sc + p.sc strong, .docClass-WatchtowerTOC .groupStudySched .groupTOC .sc.sb + .sc.sb strong, .docClass-WatchtowerTOC .groupStudySched .groupTOC .sc.sb + p.sc strong, .docClass-WatchtowerTOC .groupStudySched .groupTOC p.sc + .sc.sb strong, .docClass-WatchtowerTOC .groupStudySched .groupTOC p.sc + p.sc strong {
+            font-weight: 300;
+        }
+
+.docClass-AwakeTOC .groupStudySched .groupTOC h3:not(:first-of-type), .docClass-WatchtowerTOC .groupStudySched .groupTOC h3:not(:first-of-type) {
+    margin-top: 1.5em;
+}
+
+.docClass-AwakeTOC .closingContent, .docClass-WatchtowerTOC .closingContent {
+    margin: 2em auto;
+    border: none;
+    list-style-type: initial;
+    padding: 1em 4%;
+}
+
+    .docClass-AwakeTOC .closingContent .boxTtl, .docClass-WatchtowerTOC .closingContent .boxTtl {
+        padding-bottom: .5em;
+    }
+
+    .docClass-AwakeTOC .closingContent > .ss, .docClass-AwakeTOC .closingContent > h2, .docClass-WatchtowerTOC .closingContent > .ss, .docClass-WatchtowerTOC .closingContent > h2 {
+        margin-top: 0;
+    }
+
+    .docClass-AwakeTOC .closingContent h4, .docClass-WatchtowerTOC .closingContent h4 {
+        font-size: 1.5em;
+        font-weight: 200;
+    }
+
+    .docClass-AwakeTOC .closingContent h5, .docClass-WatchtowerTOC .closingContent h5 {
+        font-size: 1.3em;
+        font-weight: 200;
+    }
+
+    .docClass-AwakeTOC .closingContent .sb + h5, .docClass-AwakeTOC .closingContent p + h5, .docClass-WatchtowerTOC .closingContent .sb + h5, .docClass-WatchtowerTOC .closingContent p + h5 {
+        margin-top: -.25em;
+    }
+
+.docClass-WatchingWorld .mapElement {
+    background-color: inherit;
+}
+
+.docClass-MultimediaContainer .pGroup > .stdCaption {
+    line-height: 1.5em;
+    margin-bottom: .75em;
+    padding: 0;
+    margin-top: 0;
+    font-weight: 300;
+    font-size: 1em;
+    color: #333;
+}
+
+    .dir-ltr .docClass-MultimediaContainer .pGroup > .stdCaption, .docClass-MultimediaContainer .pGroup > .stdCaption.dir-ltr {
+        border-right: none;
+        margin-left: 0;
+    }
+
+    .dir-rtl .docClass-MultimediaContainer .pGroup > .stdCaption, .docClass-MultimediaContainer .pGroup > .stdCaption.dir-rtl {
+        border-left: none;
+        margin-right: 0;
+    }
+
+    .dir-ltr .docClass-MultimediaContainer .pGroup > .stdCaption .sb, .dir-ltr .docClass-MultimediaContainer .pGroup > .stdCaption p, .docClass-MultimediaContainer .pGroup > .stdCaption .dir-ltr.sb, .docClass-MultimediaContainer .pGroup > .stdCaption p.dir-ltr {
+        text-align: left;
+    }
+
+    .dir-rtl .docClass-MultimediaContainer .pGroup > .stdCaption .sb, .dir-rtl .docClass-MultimediaContainer .pGroup > .stdCaption p, .docClass-MultimediaContainer .pGroup > .stdCaption .dir-rtl.sb, .docClass-MultimediaContainer .pGroup > .stdCaption p.dir-rtl {
+        text-align: right;
+    }
+
+.pub-int .v ruby {
+    line-height: 2.7em;
+    padding: 0 0 .35em;
+    font-family: WtGreekAplous,DeviceUI,sans-serif !important;
+    color: #666;
+}
+
+    .pub-int .v ruby rt {
+        font-size: .75em;
+        font-family: WtClearText,Georgia,serif !important;
+        font-weight: 500 !important;
+    }
+
+.pub-int .v.highlight rt, .pub-int .v.highlight ruby, .pub-int .v.hl rt, .pub-int .v.hl ruby {
+    color: #ad2052;
+}
+
+.article.search .sb, .article.search p, .tooltipContent .sb, .tooltipContent p, .unstyled .sb, .unstyled p {
+    font-size: 1em !important;
+    color: #333 !important;
+    margin-top: 0 !important;
+    margin-bottom: .5em !important;
+}
+
+.article.search .figcaption, .article.search img, .tooltipContent .figcaption, .tooltipContent img, .unstyled .figcaption, .unstyled img {
+    display: none;
+}
+
+.article.search .boxTtl, .article.search .contentTtl, .article.search .ss, .article.search .st, .article.search h1, .article.search h2, .article.search h3, .article.search h4, .article.search h5, .article.search h6, .tooltipContent .boxTtl, .tooltipContent .contentTtl, .tooltipContent .ss, .tooltipContent .st, .tooltipContent h1, .tooltipContent h2, .tooltipContent h3, .tooltipContent h4, .tooltipContent h5, .tooltipContent h6, .unstyled .boxTtl, .unstyled .contentTtl, .unstyled .ss, .unstyled .st, .unstyled h1, .unstyled h2, .unstyled h3, .unstyled h4, .unstyled h5, .unstyled h6 {
+    color: #333;
+    font-size: 1em !important;
+    font-weight: 600 !important;
+    text-indent: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: .5em !important;
+    margin-bottom: .5em !important;
+}
+
+    .article.search .boxTtl strong, .article.search .contentTtl strong, .article.search .ss strong, .article.search .st strong, .article.search h1 strong, .article.search h2 strong, .article.search h3 strong, .article.search h4 strong, .article.search h5 strong, .article.search h6 strong, .tooltipContent .boxTtl strong, .tooltipContent .contentTtl strong, .tooltipContent .ss strong, .tooltipContent .st strong, .tooltipContent h1 strong, .tooltipContent h2 strong, .tooltipContent h3 strong, .tooltipContent h4 strong, .tooltipContent h5 strong, .tooltipContent h6 strong, .unstyled .boxTtl strong, .unstyled .contentTtl strong, .unstyled .ss strong, .unstyled .st strong, .unstyled h1 strong, .unstyled h2 strong, .unstyled h3 strong, .unstyled h4 strong, .unstyled h5 strong, .unstyled h6 strong {
+        font-weight: 600 !important;
+    }
+
+.article.search .ss, .article.search h2, .article.search h3, .article.search h4, .tooltipContent .ss, .tooltipContent h2, .tooltipContent h3, .tooltipContent h4, .unstyled .ss, .unstyled h2, .unstyled h3, .unstyled h4 {
+    display: inline;
+}
+
+    .article.search .ss strong, .article.search .st strong, .article.search h1 strong, .article.search h2 strong, .article.search h3 strong, .article.search h4 strong, .article.search h5 strong, .article.search h6 strong, .tooltipContent .ss strong, .tooltipContent .st strong, .tooltipContent h1 strong, .tooltipContent h2 strong, .tooltipContent h3 strong, .tooltipContent h4 strong, .tooltipContent h5 strong, .tooltipContent h6 strong, .unstyled .ss strong, .unstyled .st strong, .unstyled h1 strong, .unstyled h2 strong, .unstyled h3 strong, .unstyled h4 strong, .unstyled h5 strong, .unstyled h6 strong {
+        font-weight: 700 !important;
+    }
+
+.article.search .east_left, .article.search .east_right, .article.search .north_center, .article.search .south_center, .article.search .west_left, .article.search .west_right, .article.search figure, .tooltipContent .east_left, .tooltipContent .east_right, .tooltipContent .north_center, .tooltipContent .south_center, .tooltipContent .west_left, .tooltipContent .west_right, .tooltipContent figure, .unstyled .east_left, .unstyled .east_right, .unstyled .north_center, .unstyled .south_center, .unstyled .west_left, .unstyled .west_right, .unstyled figure {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.article.search .blockTeach, .article.search .boxContent, .article.search .boxSupplement, .article.search .boxSupplement.rule .boxTtl.rule, .article.search .boxTeach, .article.search .boxTtl, .article.search .chart, .article.search .closingContent, .article.search .diagram, .article.search .figcaption, .article.search .groupEndnote, .article.search .groupFootnote, .article.search .mapElement, .article.search .openingContent, .article.search .sf, .article.search .sq, .article.search .studyPurpose, .article.search aside, .article.search caption, .article.search figcaption, .tooltipContent .blockTeach, .tooltipContent .boxContent, .tooltipContent .boxSupplement, .tooltipContent .boxSupplement.rule .boxTtl.rule, .tooltipContent .boxTeach, .tooltipContent .boxTtl, .tooltipContent .chart, .tooltipContent .closingContent, .tooltipContent .diagram, .tooltipContent .figcaption, .tooltipContent .groupEndnote, .tooltipContent .groupFootnote, .tooltipContent .mapElement, .tooltipContent .openingContent, .tooltipContent .sf, .tooltipContent .sq, .tooltipContent .studyPurpose, .tooltipContent aside, .tooltipContent caption, .tooltipContent figcaption, .unstyled .blockTeach, .unstyled .boxContent, .unstyled .boxSupplement, .unstyled .boxSupplement.rule .boxTtl.rule, .unstyled .boxTeach, .unstyled .boxTtl, .unstyled .chart, .unstyled .closingContent, .unstyled .diagram, .unstyled .figcaption, .unstyled .groupEndnote, .unstyled .groupFootnote, .unstyled .mapElement, .unstyled .openingContent, .unstyled .sf, .unstyled .sq, .unstyled .studyPurpose, .unstyled aside, .unstyled caption, .unstyled figcaption {
+    font-size: 1em !important;
+    padding: 0 !important;
+    margin: .5em 0 !important;
+    border: none !important;
+    background-color: transparent !important;
+    color: #333 !important;
+}
+
+.article.search .pGroup > div.stdCaption, .article.search .ruleAbove, .article.search .stdCaption, .article.search .stdPullQuote, .tooltipContent .pGroup > div.stdCaption, .tooltipContent .ruleAbove, .tooltipContent .stdCaption, .tooltipContent .stdPullQuote, .unstyled .pGroup > div.stdCaption, .unstyled .ruleAbove, .unstyled .stdCaption, .unstyled .stdPullQuote {
+    border: none;
+}
+
+.article.search .boxContent ul, .article.search .diagram ul, .article.search .mapElement ul, .tooltipContent .boxContent ul, .tooltipContent .diagram ul, .tooltipContent .mapElement ul, .unstyled .boxContent ul, .unstyled .diagram ul, .unstyled .mapElement ul {
+    padding: 0 !important;
+}
+
+    .article.search .boxContent ul li, .article.search .diagram ul li, .article.search .mapElement ul li, .tooltipContent .boxContent ul li, .tooltipContent .diagram ul li, .tooltipContent .mapElement ul li, .unstyled .boxContent ul li, .unstyled .diagram ul li, .unstyled .mapElement ul li {
+        padding: 0 0 .25em !important;
+    }
+
+.article.search .timeline, .tooltipContent .timeline, .unstyled .timeline {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+    .article.search .timeline.dir-ltr, .dir-ltr .article.search .timeline, .dir-ltr .tooltipContent .timeline, .dir-ltr .unstyled .timeline, .tooltipContent .timeline.dir-ltr, .unstyled .timeline.dir-ltr {
+        border-left: none;
+    }
+
+    .article.search .timeline.dir-rtl, .dir-rtl .article.search .timeline, .dir-rtl .tooltipContent .timeline, .dir-rtl .unstyled .timeline, .tooltipContent .timeline.dir-rtl, .unstyled .timeline.dir-rtl {
+        border-right: none;
+    }
+
+    .article.search .timeline > li, .tooltipContent .timeline > li, .unstyled .timeline > li {
+        min-height: 1em;
+    }
+
+        .article.search .timeline > li:before, .tooltipContent .timeline > li:before, .unstyled .timeline > li:before {
+            display: none;
+        }
+
+        .article.search .timeline > li:after, .tooltipContent .timeline > li:after, .unstyled .timeline > li:after {
+            display: none;
+        }
+
+.heavy_unstyled.article.search *, .heavy_unstyled.tooltipContent *, .unstyled.heavy_unstyled * {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.article.search .sz:after, .tooltipContent .sz:after, .unstyled .sz:after {
+    content: ' ';
+}
+
+.article.search .sl.sb, .article.search .sz.sb, .article.search p.sl, .article.search p.sz, .tooltipContent .sl.sb, .tooltipContent .sz.sb, .tooltipContent p.sl, .tooltipContent p.sz, .unstyled .sl.sb, .unstyled .sz.sb, .unstyled p.sl, .unstyled p.sz {
+    margin-top: .25em !important;
+    margin-bottom: .25em !important;
+}
+
+.resultsContainer .article.search .sb + .sb:before, .resultsContainer .article.search .sb + p:before, .resultsContainer .article.search p + .sb:before, .resultsContainer .article.search p + p:before, .resultsContainer .tooltipContent .sb + .sb:before, .resultsContainer .tooltipContent .sb + p:before, .resultsContainer .tooltipContent p + .sb:before, .resultsContainer .tooltipContent p + p:before, .resultsContainer .unstyled .sb + .sb:before, .resultsContainer .unstyled .sb + p:before, .resultsContainer .unstyled p + .sb:before, .resultsContainer .unstyled p + p:before {
+    content: ' ';
+}
+
+.resultsContainer .article.search .sb, .resultsContainer .article.search .sb div, .resultsContainer .article.search aside, .resultsContainer .article.search aside div, .resultsContainer .article.search caption, .resultsContainer .article.search caption div, .resultsContainer .article.search div.blockTeach, .resultsContainer .article.search div.blockTeach div, .resultsContainer .article.search div.bodyTxt, .resultsContainer .article.search div.bodyTxt div, .resultsContainer .article.search div.boxContent, .resultsContainer .article.search div.boxContent div, .resultsContainer .article.search div.diagram, .resultsContainer .article.search div.diagram div, .resultsContainer .article.search div.groupEndnote, .resultsContainer .article.search div.groupEndnote div, .resultsContainer .article.search div.groupFootnote, .resultsContainer .article.search div.groupFootnote div, .resultsContainer .article.search div.mapElement, .resultsContainer .article.search div.mapElement div, .resultsContainer .article.search div.pGroup, .resultsContainer .article.search div.pGroup div, .resultsContainer .article.search div.reviewPoint, .resultsContainer .article.search div.reviewPoint div, .resultsContainer .article.search div.section, .resultsContainer .article.search div.section div, .resultsContainer .article.search p, .resultsContainer .article.search p div, .resultsContainer .tooltipContent .sb, .resultsContainer .tooltipContent .sb div, .resultsContainer .tooltipContent aside, .resultsContainer .tooltipContent aside div, .resultsContainer .tooltipContent caption, .resultsContainer .tooltipContent caption div, .resultsContainer .tooltipContent div.blockTeach, .resultsContainer .tooltipContent div.blockTeach div, .resultsContainer .tooltipContent div.bodyTxt, .resultsContainer .tooltipContent div.bodyTxt div, .resultsContainer .tooltipContent div.boxContent, .resultsContainer .tooltipContent div.boxContent div, .resultsContainer .tooltipContent div.diagram, .resultsContainer .tooltipContent div.diagram div, .resultsContainer .tooltipContent div.groupEndnote, .resultsContainer .tooltipContent div.groupEndnote div, .resultsContainer .tooltipContent div.groupFootnote, .resultsContainer .tooltipContent div.groupFootnote div, .resultsContainer .tooltipContent div.mapElement, .resultsContainer .tooltipContent div.mapElement div, .resultsContainer .tooltipContent div.pGroup, .resultsContainer .tooltipContent div.pGroup div, .resultsContainer .tooltipContent div.reviewPoint, .resultsContainer .tooltipContent div.reviewPoint div, .resultsContainer .tooltipContent div.section, .resultsContainer .tooltipContent div.section div, .resultsContainer .tooltipContent p, .resultsContainer .tooltipContent p div, .resultsContainer .unstyled .sb, .resultsContainer .unstyled .sb div, .resultsContainer .unstyled aside, .resultsContainer .unstyled aside div, .resultsContainer .unstyled caption, .resultsContainer .unstyled caption div, .resultsContainer .unstyled div.blockTeach, .resultsContainer .unstyled div.blockTeach div, .resultsContainer .unstyled div.bodyTxt, .resultsContainer .unstyled div.bodyTxt div, .resultsContainer .unstyled div.boxContent, .resultsContainer .unstyled div.boxContent div, .resultsContainer .unstyled div.diagram, .resultsContainer .unstyled div.diagram div, .resultsContainer .unstyled div.groupEndnote, .resultsContainer .unstyled div.groupEndnote div, .resultsContainer .unstyled div.groupFootnote, .resultsContainer .unstyled div.groupFootnote div, .resultsContainer .unstyled div.mapElement, .resultsContainer .unstyled div.mapElement div, .resultsContainer .unstyled div.pGroup, .resultsContainer .unstyled div.pGroup div, .resultsContainer .unstyled div.reviewPoint, .resultsContainer .unstyled div.reviewPoint div, .resultsContainer .unstyled div.section, .resultsContainer .unstyled div.section div, .resultsContainer .unstyled p, .resultsContainer .unstyled p div {
+    display: inline;
+}
+
+.resultsContainer .article.search .pageNum, .resultsContainer .tooltipContent .pageNum, .resultsContainer .unstyled .pageNum {
+    display: none;
+}
+
+.resultsContainer .article.search b, .resultsContainer .article.search strong, .resultsContainer .tooltipContent b, .resultsContainer .tooltipContent strong, .resultsContainer .unstyled b, .resultsContainer .unstyled strong {
+    font-weight: 300;
+}
+
+.resultsContainer .article.search .cl, .resultsContainer .tooltipContent .cl, .resultsContainer .unstyled .cl {
+    font-size: 1.5em;
+}
+
+.article.search .bible .cl, .tooltipContent .bible .cl, .unstyled .bible .cl {
+    font-weight: 400;
+    font-size: 1.2em;
+}

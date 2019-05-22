@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<JWChinese.Droid.CenteredGridView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/primaryCenteredGridView"
+    android:paddingLeft="@dimen/bible_nav_chapter_horizontal_padding"
+    android:paddingTop="@dimen/bible_nav_chapter_vertical_padding"
+    android:paddingBottom="@dimen/bible_nav_chapter_vertical_padding"
+    android:fadingEdge="none"
+    android:clipToPadding="false"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:horizontalSpacing="@dimen/bible_nav_chapter_grid_spacing"
+    android:verticalSpacing="@dimen/bible_nav_chapter_grid_spacing"
+    android:stretchMode="none"
+    android:columnWidth="@dimen/bible_nav_chapter_grid_width"
+    android:numColumns="auto_fit" />

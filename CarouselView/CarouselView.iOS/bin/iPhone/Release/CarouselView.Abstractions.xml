@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CarouselView.Abstractions</name>
+    </assembly>
+    <members>
+        <member name="T:CarouselView.Abstractions.CarouselViewControl">
+            <summary>
+            CarouselView Interface
+            </summary>
+        </member>
+    </members>
+</doc>

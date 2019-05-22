@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <color name="primary">#2f64a8</color>
+  <color name="primaryDark">#2f64a8</color>
+  <color name="accent">#2f64a8</color>
+  <color name="highlight">#442f64a8</color>
+  <color name="secondary">#ff9d9d9d</color>
+  <color name="statusBarColor">#ff1a4884</color>
+
+  <!--<color name="window_background">#3c3836</color>-->
+  <color name="window_background">#662f64a8</color>
+
+  <color name="textHighlight">#ecebe7</color>
+  <color name="buttonDark">#274368</color>
+  <color name="white">#ffffff</color>
+  <color name="black">#000000</color>
+
+  <color name="gridView_selectedItem">#1976D2</color>
+</resources>

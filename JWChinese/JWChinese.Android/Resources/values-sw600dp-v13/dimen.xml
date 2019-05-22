@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <dimen name="bible_nav_bible_book_grid_height">52.0dip</dimen>
+  <dimen name="bible_nav_bible_book_grid_width">92.0dip</dimen>
+  <dimen name="bible_nav_bible_book_scroll_view_padding">16.0dip</dimen>
+  <dimen name="bible_nav_chapter_grid_height">68.0dip</dimen>
+  <dimen name="bible_nav_chapter_grid_width">68.0dip</dimen>
+</resources>

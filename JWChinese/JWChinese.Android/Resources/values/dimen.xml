@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <dimen name="btn_flat_corner_radius">1dp</dimen>
+
+  <dimen name="bible_nav_bible_book_grid_cell_padding">8.0dip</dimen>
+  <dimen name="bible_nav_bible_book_grid_height">60.0dip</dimen>
+  <dimen name="bible_nav_bible_book_grid_horizontal_spacing">2.0dip</dimen>
+  <dimen name="bible_nav_bible_book_grid_spacing">2.0dip</dimen>
+  <dimen name="bible_nav_bible_book_grid_vertical_spacing">2.0dip</dimen>
+  <dimen name="bible_nav_bible_book_grid_width">60.0dip</dimen>
+  <dimen name="bible_nav_bible_book_scroll_view_padding">4.0dip</dimen>
+  <dimen name="bible_nav_bible_book_text_size">16.0sp</dimen>
+  
+  <dimen name="bible_nav_chapter_grid_height">60.0dip</dimen>
+  <dimen name="bible_nav_chapter_grid_width">60.0dip</dimen>
+  <dimen name="bible_nav_chapter_grid_spacing">2.0dip</dimen>
+  <dimen name="bible_nav_chapter_grid_text_size">22.0sp</dimen>
+  <dimen name="bible_nav_chapter_horizontal_padding">27.0dip</dimen>
+  <dimen name="bible_nav_chapter_vertical_padding">27.0dip</dimen>
+</resources>

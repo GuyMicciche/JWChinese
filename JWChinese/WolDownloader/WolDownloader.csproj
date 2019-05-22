@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4C1AF895-204D-4630-93DE-D6B2568BDB6B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WolDownloader</RootNamespace>
+    <AssemblyName>WolDownloader</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkProfile>Profile259</TargetFrameworkProfile>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug .NET Native|AnyCPU'">
+    <OutputPath>bin\Debug .NET Native\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Objects\Article.cs" />
+    <Compile Include="Objects\BibleBook.cs" />
+    <Compile Include="Objects\BibleBookGroup.cs" />
+    <Compile Include="Objects\PublicationType.cs" />
+    <Compile Include="Objects\Language.cs" />
+    <Compile Include="Objects\ArticleType.cs" />
+    <Compile Include="Objects\Publication.cs" />
+    <Compile Include="WolDownloader.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WolLibrary.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="HtmlAgilityPack, Version=1.8.0.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\HtmlAgilityPack.1.8.0\lib\portable-net45+netcore45+wpa81+wp8+MonoAndroid+MonoTouch\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http, Version=1.5.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Net.Http.2.2.29\lib\portable-net40+sl4+win8+wp71+wpa81\System.Net.Http.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http.Extensions, Version=1.5.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Net.Http.2.2.29\lib\portable-net40+sl4+win8+wp71+wpa81\System.Net.Http.Extensions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives, Version=1.5.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Net.Http.2.2.29\lib\portable-net40+sl4+win8+wp71+wpa81\System.Net.Http.Primitives.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="TidyNetPortable, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\TidyNetPortable.1.0.0\lib\TidyNetPortable.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\Library\Publications\es.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\Library\Library.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\Library\Publications\nwt.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\Library\Publications\it-chs.xml" />
+    <EmbeddedResource Include="Assets\Library\Publications\it-en.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\Library\Library.json" />
+    <EmbeddedResource Include="Assets\Library\Publications\be.xml" />
+    <EmbeddedResource Include="Assets\Library\Publications\bh.xml" />
+    <EmbeddedResource Include="Assets\Library\Publications\bm.xml" />
+    <EmbeddedResource Include="Assets\Library\Publications\bt.xml" />
+    <EmbeddedResource Include="Assets\Library\Publications\cf.xml" />
+    <EmbeddedResource Include="Assets\Library\Publications\cl.xml" />
+    <EmbeddedResource Include="Assets\Library\Publications\fg.xml" />
+    <EmbeddedResource Include="Assets\Library\Publications\hf.xml" />
+    <EmbeddedResource Include="Assets\Library\Publications\ia.xml" />
+    <EmbeddedResource Include="Assets\Library\Publications\ip-1.xml" />
+    <EmbeddedResource Include="Assets\Library\Publications\ip-2.xml" />
+    <EmbeddedResource Include="Assets\Library\Publications\jd.xml" />
+    <EmbeddedResource Include="Assets\Library\Publications\jl.xml" />
+    <EmbeddedResource Include="Assets\Library\Publications\jr.xml" />
+    <EmbeddedResource Include="Assets\Library\Publications\kr.xml" />
+    <EmbeddedResource Include="Assets\Library\Publications\kt.xml" />
+    <EmbeddedResource Include="Assets\Library\Publications\lc.xml" />
+    <EmbeddedResource Include="Assets\Library\Publications\ld.xml" />
+    <EmbeddedResource Include="Assets\Library\Publications\lf.xml" />
+    <EmbeddedResource Include="Assets\Library\Publications\ll.xml" />
+    <EmbeddedResource Include="Assets\Library\Publications\lr.xml" />
+    <EmbeddedResource Include="Assets\Library\Publications\lv.xml" />
+    <EmbeddedResource Include="Assets\Library\Publications\mb.xml" />
+    <EmbeddedResource Include="Assets\Library\Publications\my.xml" />
+    <EmbeddedResource Include="Assets\Library\Publications\rs.xml" />
+    <EmbeddedResource Include="Assets\Library\Publications\sn.xml" />
+    <EmbeddedResource Include="Assets\Library\Publications\t-30.xml" />
+    <EmbeddedResource Include="Assets\Library\Publications\t-31.xml" />
+    <EmbeddedResource Include="Assets\Library\Publications\t-32.xml" />
+    <EmbeddedResource Include="Assets\Library\Publications\t-33.xml" />
+    <EmbeddedResource Include="Assets\Library\Publications\t-34.xml" />
+    <EmbeddedResource Include="Assets\Library\Publications\t-35.xml" />
+    <EmbeddedResource Include="Assets\Library\Publications\t-36.xml" />
+    <EmbeddedResource Include="Assets\Library\Publications\t-37.xml" />
+    <EmbeddedResource Include="Assets\Library\Publications\wt.xml" />
+    <EmbeddedResource Include="Assets\Library\Publications\yc.xml" />
+    <EmbeddedResource Include="Assets\Library\Publications\yp1.xml" />
+    <EmbeddedResource Include="Assets\Library\Publications\yp2.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\Library\Publications\snnw.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\Library\Publications\sjj.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\Library\Publications\gf.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\Library\Publications\we.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\Library\Publications\ypq.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\Library\Publications\rj.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <Import Project="..\..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets'))" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties Assets_4Library_4Library_1json__JSONSchema="https://raw.githubusercontent.com/DotNetAnalyzers/StyleCopAnalyzers/master/StyleCop.Analyzers/StyleCop.Analyzers/Settings/stylecop.schema.json" />
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

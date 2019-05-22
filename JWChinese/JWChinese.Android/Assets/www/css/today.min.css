@@ -1,0 +1,111 @@
+﻿#navigationDailyTextToday a.dir-ltr, #navigationDailyTextToday a.dir-rtl, .dir-ltr #navigationDailyTextToday a, .dir-rtl #navigationDailyTextToday a {
+    margin-left: -12px;
+}
+
+.todayItems {
+    margin-top: 1em;
+    padding: .5em 0;
+}
+
+.todayItem:not(:first-child) {
+    margin-top: 2em;
+}
+
+.todayItem .itemCaption {
+    border-top: 1px solid #d3d3d3;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: .5em;
+}
+
+    .dir-ltr .todayItem .itemCaption, .todayItem .itemCaption.dir-ltr {
+        border-left: 5px solid #d3d3d3;
+        padding-left: 10px;
+    }
+
+.dir-ltr .todayItem .itemData, .dir-rtl .todayItem .itemData, .todayItem .itemData.dir-ltr, .todayItem .itemData.dir-rtl {
+    padding-left: 2%;
+}
+
+.dir-rtl .todayItem .itemCaption, .todayItem .itemCaption.dir-rtl {
+    border-right: 5px solid #d3d3d3;
+    padding-right: 10px;
+}
+
+.todayItem .itemCaption .ref {
+    font-size: .9em;
+}
+
+.dir-ltr .todayItem .itemData, .dir-rtl .todayItem .itemData, .todayItem .itemData.dir-ltr, .todayItem .itemData.dir-rtl {
+    padding-right: 2%;
+}
+
+.todayItem .itemData header {
+    margin-bottom: 0;
+}
+
+    .todayItem .itemData header h2 {
+        margin-top: 0;
+    }
+
+.todayItem h2 {
+    margin-top: 1.25em;
+}
+
+.resultNavControls {
+    max-width: none;
+    width: 100%;
+}
+
+#navigationDailyTextToday {
+    z-index: 2;
+    top: -2px;
+}
+
+    #navigationDailyTextToday a {
+        padding: 0;
+        -moz-border-radius: 12px;
+        -webkit-border-radius: 12px;
+        border-radius: 12px;
+    }
+
+        #navigationDailyTextToday a.dir-ltr, #navigationDailyTextToday a.dir-rtl, .dir-ltr #navigationDailyTextToday a, .dir-rtl #navigationDailyTextToday a {
+            margin-right: -12px;
+        }
+
+#footerNextDay {
+    z-index: 1;
+}
+
+#todayNav {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 640px;
+}
+
+#footerNextDay.dir-ltr, #footerNextWeek.dir-ltr, #footerPrevDay.dir-ltr, #navigationDailyTextToday.dir-ltr, .dir-ltr #footerNextDay, .dir-ltr #footerNextWeek, .dir-ltr #footerPrevDay, .dir-ltr #navigationDailyTextToday {
+    margin-left: -12px;
+}
+
+#footerNextDay.dir-rtl, #footerNextWeek.dir-rtl, #footerPrevDay.dir-rtl, #navigationDailyTextToday.dir-rtl, .dir-rtl #footerNextDay, .dir-rtl #footerNextWeek, .dir-rtl #footerPrevDay, .dir-rtl #navigationDailyTextToday {
+    margin-right: -12px;
+}
+
+#todayNav li {
+    width: 18%;
+    position: relative;
+    padding: 0;
+}
+
+#todayNav a {
+    border-color: #fff;
+    border-style: solid;
+    border-width: 2px;
+}
+
+@media screen and (max-width:480px) {
+    #todayNav li {
+        width: 22%;
+    }
+}

@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="clr-namespace:JWChinese"
+    xmlns:flv="clr-namespace:DLToolkit.Forms.Controls;assembly=DLToolkit.Forms.Controls.FlowListView"
+    xmlns:behaviors="clr-namespace:Corcav.Behaviors;assembly=Corcav.Behaviors" 
+    x:Class="JWChinese.BiblePage"
+    Title="{Binding Title}"
+    BackgroundColor="#e8eaed">
+    <ContentPage.Resources>
+        <OnPlatform x:TypeArguments="ResourceDictionary">
+            <OnPlatform.iOS>
+                <ResourceDictionary>
+                    <Style x:Key="BookLabel" TargetType="Label">
+                        <Setter Property="FontSize" Value="Medium"/>
+                    </Style>
+                </ResourceDictionary>
+            </OnPlatform.iOS>
+            <OnPlatform.Android>
+                <ResourceDictionary>
+                    <Style x:Key="BookLabel" TargetType="Label">
+                        <Setter Property="FontSize" Value="Large"/>
+                    </Style>
+
+                    <ControlTemplate x:Key="AndroidLibraryGridView">
+                        <ScrollView x:Name="MainScrollView" Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                            <Grid x:Name="LibraryGrid">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="0"/>
+                                </Grid.ColumnDefinitions>
+                                <StackLayout x:Name="Primary" Grid.Row="0" Grid.Column="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                                    <Label Text="HEBREW-ARAMAIC SCRIPTURES" Margin="0,8,0,2" Style="{StaticResource BookLabel}" TextColor="#5d6166"/>
+                                    <local:LibraryGridView x:Name="HebrewGridLayout" Command="{TemplateBinding BindingContext.BookSelected}" ItemsSource="{TemplateBinding BindingContext.HebrewBibleBooks}" />
+                                </StackLayout>
+                                <StackLayout x:Name="Secondary" Grid.Row="1" Grid.Column="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                                    <Label Text="CHRISTIAN GREEK SCRIPTURES" Margin="0,8,0,2" Style="{StaticResource BookLabel}" TextColor="#5d6166"/>
+                                    <local:LibraryGridView x:Name="GreekGridLayout" Command="{TemplateBinding BindingContext.BookSelected}" ItemsSource="{TemplateBinding BindingContext.GreekBibleBooks}" />
+                                </StackLayout>
+                            </Grid>
+                        </ScrollView>
+                    </ControlTemplate>
+                </ResourceDictionary>
+            </OnPlatform.Android>
+            <OnPlatform.WinPhone>
+                <ResourceDictionary>
+                    <Style x:Key="BookLabel" TargetType="Label">
+                        <Setter Property="FontSize" Value="Small"/>
+                    </Style>
+                </ResourceDictionary>
+            </OnPlatform.WinPhone>
+        </OnPlatform>
+    </ContentPage.Resources>
+
+    <!--<ContentView>
+        <OnPlatform x:TypeArguments="View">
+            <OnPlatform.WinPhone>
+                <Label Text="UWP" />
+            </OnPlatform.WinPhone>
+            <OnPlatform.Android>
+                <Label Text="Android" />
+            </OnPlatform.Android>
+            <OnPlatform.iOS>
+                <Label Text="iOS" />
+            </OnPlatform.iOS>
+        </OnPlatform>
+    </ContentView>-->
+
+    <ScrollView Orientation="Vertical">
+        <Grid x:Name="LibraryGrid">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="0"/>
+            </Grid.ColumnDefinitions>
+
+            <StackLayout x:Name="Primary" Grid.Row="0" Grid.Column="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                <Label Text="HEBREW-ARAMAIC SCRIPTURES" Margin="0,8,0,2" Style="{StaticResource BookLabel}" TextColor="#5d6166"/>
+                <local:FlowLayout x:Name="HebrewFlowLayout" Command="{Binding BookSelected}"
+                                    RowSpacing="2" ColumnSpacing="2"
+                                    WidthRequest="50" ItemsSource="{Binding HebrewBibleBooks}">
+                    <!--SizeChanged="FlowLayout_SizeChanged>"-->
+                    <local:FlowLayout.ItemTemplate>
+                        <DataTemplate>
+                            <local:ExtendedButton
+                                        HorizontalOptions="FillAndExpand"
+                                        Text="{Binding StandardBookName}"
+                                        SizeChanged="ExtendedButton_SizeChanged"
+                                        HorizontalContentAlignment="Start"
+                                        BackgroundColor="#274368"
+                                        BorderColor="#274368"
+                                        BorderRadius="0"
+                                        BorderWidth="0"
+                                        TextColor="White"
+                                        HeightRequest="50"
+                                        MinimumHeightRequest="50"
+                                        Command="{Binding BindingContext.BookSelected, Source={x:Reference Name=HebrewFlowLayout}}"
+                                        CommandParameter="{Binding}"
+                                        WidthRequest="50"
+                                        MinimumWidthRequest="50"/>
+                        </DataTemplate>
+                    </local:FlowLayout.ItemTemplate>
+                </local:FlowLayout>
+            </StackLayout>
+
+            <StackLayout x:Name="Secondary" Grid.Row="1" Grid.Column="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                <Label Text="CHRISTIAN GREEK SCRIPTURES" Margin="0,8,0,2" Style="{StaticResource BookLabel}" TextColor="#5d6166"/>
+                <local:FlowLayout x:Name="GreekFlowLayout" Command="{Binding BookSelected}"
+                                    RowSpacing="2" ColumnSpacing="2"
+                                    WidthRequest="50" ItemsSource="{Binding GreekBibleBooks}">
+                    <!--SizeChanged="FlowLayout_SizeChanged>"-->
+                    <local:FlowLayout.ItemTemplate>
+                        <DataTemplate>
+                            <local:ExtendedButton
+                                        HorizontalOptions="FillAndExpand"
+                                        Text="{Binding StandardBookName}"
+                                        SizeChanged="ExtendedButton_SizeChanged"
+                                        HorizontalContentAlignment="Start"
+                                        BackgroundColor="#274368"
+                                        BorderColor="#274368"
+                                        BorderRadius="0"
+                                        BorderWidth="0"
+                                        TextColor="White"
+                                        Command="{Binding BindingContext.BookSelected, Source={x:Reference Name=GreekFlowLayout}}"
+                                        CommandParameter="{Binding}"
+                                        HeightRequest="50"
+                                        MinimumHeightRequest="50"/>
+                        </DataTemplate>
+                    </local:FlowLayout.ItemTemplate>
+                </local:FlowLayout>
+            </StackLayout>
+        </Grid>
+    </ScrollView>
+</ContentPage>
+
+<!--<local:LibraryGridView x:Name="hebrewGridLayout"
+                                    Rounded="False"
+                                    IsNumber="False"
+                                    Spacing="2"
+                                    ButtonWidth="0"
+                                    ButtonHeight="50"
+                                    ViewBackgroundColor="Transparent"
+                                    TextColor="White"
+                                    BorderColor="#274368"
+                                    BackgroundColor="#274368"
+                                    OutlineColor="Transparent"
+                                    SelectedTextColor="White"
+                                    SelectedBackgroundColor="#274368"
+                                    SelectedBorderColor="#274368"
+                                    SelectedFrameBackgroundColor="#274368"
+                                    HorizontalOptions="StartAndExpand"
+                                    VerticalOptions="StartAndExpand"
+                                    ItemsSource="{Binding HebrewBibleBooks}" />-->
+
+
+<!--<local:LibraryGridView x:Name="greekGridLayout"
+                                    Rounded="False"
+                                    IsNumber="False"
+                                    Spacing="2"
+                                    ButtonWidth="0"
+                                    ButtonHeight="50"
+                                    ViewBackgroundColor="Transparent"
+                                    TextColor="White"
+                                    BorderColor="#274368"
+                                    BackgroundColor="#274368"
+                                    OutlineColor="Transparent"
+                                    SelectedTextColor="White"
+                                    SelectedBackgroundColor="#274368"
+                                    SelectedBorderColor="#274368"
+                                    SelectedFrameBackgroundColor="#274368"
+                                    HorizontalOptions="StartAndExpand"
+                                    VerticalOptions="StartAndExpand"
+                                    ItemsSource="{Binding GreekBibleBooks}" />-->

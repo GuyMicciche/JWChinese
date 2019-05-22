@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+			  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+              xmlns:local="clr-namespace:JWChinese"
+              xmlns:cv="clr-namespace:Xamarin.Forms;assembly=Xamarin.Forms.CarouselView"
+              xmlns:controls="clr-namespace:CarouselView.Abstractions;assembly=CarouselView.Abstractions"
+			  x:Class="JWChinese.DailyTextPage">
+    <ContentView HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+        <local:ArticleView BindingContext="{Binding ArticleWebViewSource}"/>
+
+        <!--<controls:CarouselViewControl ItemsSource="{Binding ArticleWebViewSources, Mode=TwoWay}"
+                                      Position="{Binding ArticleIndex, Mode=TwoWay}"
+                                      IsSwipingEnabled="true"
+                                      AnimateTransition="false"
+                                      ShowArrows="True"
+                                      VerticalOptions="FillAndExpand" 
+			                          HorizontalOptions="FillAndExpand"
+                                      ShowIndicators="false">
+            <controls:CarouselViewControl.ItemTemplate>
+                <DataTemplate>
+                    <local:ArticleView/>
+                </DataTemplate>
+            </controls:CarouselViewControl.ItemTemplate>
+        </controls:CarouselViewControl>-->
+        
+        
+        <!--<StackLayout>
+            <cv:CarouselView ItemsSource="{Binding ArticleWebViewSources, Mode=TwoWay}" Position="{Binding ArticleIndex, Mode=TwoWay}">
+                <cv:CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <local:ArticleView/>
+                    </DataTemplate>
+                </cv:CarouselView.ItemTemplate>
+            </cv:CarouselView>
+        </StackLayout>-->
+    </ContentView>
+</ContentPage>

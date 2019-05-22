@@ -1,0 +1,6 @@
+MainPackage=S:\Programming\Workbench\2017\JWChinese\JWChinese\JWChinese.UWP\bin\ARM\Release\Upload\JWChinese.UWP_3.0.1.0_ARM.appx
+SymbolPackage=S:\Programming\Workbench\2017\JWChinese\JWChinese\JWChinese.UWP\bin\ARM\Release\Upload\JWChinese.UWP_3.0.1.0\JWChinese.UWP_3.0.1.0_ARM.appxsym
+ResourcePack=S:\Programming\Workbench\2017\JWChinese\JWChinese\JWChinese.UWP\bin\ARM\Release\JWChinese.UWP_3.0.1.0_scale-100.appx
+ResourcePack=S:\Programming\Workbench\2017\JWChinese\JWChinese\JWChinese.UWP\bin\ARM\Release\JWChinese.UWP_3.0.1.0_scale-125.appx
+ResourcePack=S:\Programming\Workbench\2017\JWChinese\JWChinese\JWChinese.UWP\bin\ARM\Release\JWChinese.UWP_3.0.1.0_scale-150.appx
+ResourcePack=S:\Programming\Workbench\2017\JWChinese\JWChinese\JWChinese.UWP\bin\ARM\Release\JWChinese.UWP_3.0.1.0_scale-400.appx

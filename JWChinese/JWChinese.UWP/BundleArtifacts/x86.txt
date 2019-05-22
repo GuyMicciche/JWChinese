@@ -1,0 +1,2 @@
+MainPackage=S:\Programming\Workbench\2017\JWChinese\JWChinese\JWChinese.UWP\bin\x86\Release\JWChinese.UWP_3.0.1.0_x86.appx
+SymbolPackage=S:\Programming\Workbench\2017\JWChinese\JWChinese\JWChinese.UWP\AppPackages\JWChinese.UWP_3.0.1.0_Test\JWChinese.UWP_3.0.1.0_x86.appxsym

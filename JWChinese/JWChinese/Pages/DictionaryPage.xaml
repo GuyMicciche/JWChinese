@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<local:CustomPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:JWChinese;assembly=JWChinese"
+             xmlns:flv="clr-namespace:DLToolkit.Forms.Controls;assembly=DLToolkit.Forms.Controls.FlowListView"
+             x:Class="JWChinese.DictionaryPage" Title="{Binding Title}" Subtitle="{Binding Subtitle}"
+             BackgroundColor="#e8eaed">
+    <local:CustomPage.Resources>
+        <OnPlatform x:TypeArguments="ResourceDictionary">
+            <OnPlatform.iOS>
+                <ResourceDictionary>
+                    <Style x:Key="BigLabel" TargetType="Label">
+                        <Setter Property="FontSize" Value="Large"/>
+                    </Style>
+                    <Style x:Key="SmallLabel" TargetType="Label">
+                        <Setter Property="FontSize" Value="Small"/>
+                    </Style>
+                </ResourceDictionary>
+            </OnPlatform.iOS>
+            <OnPlatform.Android>
+                <ResourceDictionary>
+                    <Style x:Key="BigLabel" TargetType="Label">
+                        <Setter Property="FontSize" Value="Large"/>
+                    </Style>
+                    <Style x:Key="SmallLabel" TargetType="Label">
+                        <Setter Property="FontSize" Value="Small"/>
+                    </Style>
+                </ResourceDictionary>
+            </OnPlatform.Android>
+            <OnPlatform.WinPhone>
+                <ResourceDictionary>
+                    <Style x:Key="BigLabel" TargetType="Label">
+                        <Setter Property="FontSize" Value="Medium"/>
+                    </Style>
+                    <Style x:Key="SmallLabel" TargetType="Label">
+                        <Setter Property="FontSize" Value="Micro"/>
+                    </Style>
+                </ResourceDictionary>
+            </OnPlatform.WinPhone>
+        </OnPlatform>
+    </local:CustomPage.Resources>
+    
+    <Grid x:Name="LayoutRoot">
+        <ListView x:Name="DictionaryListView" HasUnevenRows="True" SeparatorVisibility="None"
+                  ItemsSource="{Binding Words}"
+                  SelectedItem="{Binding SelectedWord, Mode=TwoWay}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.ContextActions>
+                            <MenuItem Command="{Binding Path=BindingContext.DeleteWord, Source={x:Reference Name=DictionaryListView}}" CommandParameter="{Binding .}" Text="Delete" IsDestructive="True" />
+                        </ViewCell.ContextActions>
+                        <Grid Padding="15,8,15,8" SizeChanged="Grid_SizeChanged">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"></RowDefinition>
+                                <RowDefinition Height="Auto"></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <Label Grid.Row="0"  TextColor="#2878bb" Text="{Binding Chinese}" Style="{StaticResource BigLabel}"/>
+                            <Label Grid.Row="1"  TextColor="#5d6066" Text="{Binding English}" Style="{StaticResource SmallLabel}"/>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <!--<local:GridView x:Name="DictionaryGridView"
+                                    ItemsSource="{Binding Words}" TappedCommand="{Binding WordSelected}"
+                                    HasUnevenRows="True" RowHeight="{Binding GridViewRowHeight}" VerticalOptions="CenterAndExpand"
+                                    MinItemWidth="150">
+            <local:GridView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.Height>
+                            <OnPlatform x:TypeArguments="x:Double" WinPhone="100"/>
+                        </ViewCell.Height>
+                        <ViewCell.ContextActions>
+                            <MenuItem Command="{Binding Path=BindingContext.DeleteWord, Source={x:Reference Name=DictionaryGridView}}" CommandParameter="{Binding .}" Text="Delete" IsDestructive="True" />
+                        </ViewCell.ContextActions>
+                        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                            <Grid SizeChanged="Grid_SizeChanged" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"></RowDefinition>
+                                    --><!--<RowDefinition Height="*"></RowDefinition>--><!--
+                                </Grid.RowDefinitions>
+                                <Label Grid.Row="0"  TextColor="#2878bb" Text="{Binding Chinese}" HorizontalTextAlignment="Center" Style="{StaticResource BigLabel}"/>
+                                --><!--<Label Grid.Row="1"  TextColor="#5d6066" Text="{Binding English}" HorizontalTextAlignment="Center" Style="{StaticResource SmallLabel}"/>--><!--
+                            </Grid>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </local:GridView.ItemTemplate>
+        </local:GridView>-->
+    </Grid>
+</local:CustomPage>

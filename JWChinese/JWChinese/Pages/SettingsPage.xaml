@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="JWChinese.SettingsPage"
+             xmlns:behaviors="clr-namespace:Corcav.Behaviors;assembly=Corcav.Behaviors"
+             Title="{Binding Title}"
+             BackgroundColor="#e8eaed">
+    <TableView Intent="Settings" HasUnevenRows="true">
+        <TableSection Title="Database">
+            <TextCell Text="Update Database" Detail="">
+                <behaviors:Interaction.Behaviors>
+                    <behaviors:BehaviorCollection>
+                        <behaviors:EventToCommand EventName="Tapped"
+                                    Command="{Binding UpdateDatabase}"
+                                    CommandParameter="0" />
+                    </behaviors:BehaviorCollection>
+                </behaviors:Interaction.Behaviors>
+            </TextCell>
+        </TableSection>
+        <TableSection Title="Article Reader">
+            <SwitchCell x:Name="ReferenceSymbolsSwitch" Text="Show References" />
+            <SwitchCell x:Name="PrimaryEnglishSwitch" Text="Primary Language:" OnChanged="SwitchCell_OnChanged" />
+            <ViewCell>
+                <StackLayout>
+                    <Grid HorizontalOptions="FillAndExpand" Padding="10,0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Label x:Name="textSize" Grid.Row="0" Text="{Binding TextSize}" VerticalOptions="Center" />
+                        <Slider x:Name="TextSettingsSlider" Grid.Row="1" ValueChanged="Slider_ValueChanged" />
+                    </Grid>
+                </StackLayout>
+            </ViewCell>
+        </TableSection>
+        <TableSection Title="Dedication">
+            <TextCell Text="Jehovah God" Detail="Jehovah is completely responsible for this project. Give thanks and praise to Jehovah!"/>
+        </TableSection>
+        <TableSection Title="Information">
+            <TextCell Text="About JW Chinese" Detail="This application is intended for people who have the desire to talk about Jehovah. If English or Chinese is your native language, and you have the desire to learn about Jehovah in the other language, than this application is perfect for you. All of the information, text, Bible, and spiritual food contained in this application was published by Watch Tower Bible and Tract Society of Pennsylvania. Ultimately, the food came by means of Jesus Christ, who entrusted this to the Faithful and Discreet Slave, and they distributed the food to the people of Earth. And there is even fragments left over. (Mark 6:35-52)"/>
+        </TableSection>
+        <TableSection Title="References">
+            <TextCell Text="Jehovah God"/>
+            <TextCell Text="The Bible" Detail="New World Translation">
+                <behaviors:Interaction.Behaviors>
+                    <behaviors:BehaviorCollection>
+                        <behaviors:EventToCommand EventName="Tapped"
+                                Command="{Binding JWLink}"
+                                CommandParameter="0" />
+                    </behaviors:BehaviorCollection>
+                </behaviors:Interaction.Behaviors>
+            </TextCell>
+            <TextCell Text="Jehovah's Witnesses" Detail="jw.org">
+                <behaviors:Interaction.Behaviors>
+                    <behaviors:BehaviorCollection>
+                        <behaviors:EventToCommand EventName="Tapped"
+                                Command="{Binding JWLink}"
+                                CommandParameter="1" />
+                    </behaviors:BehaviorCollection>
+                </behaviors:Interaction.Behaviors>
+            </TextCell>
+            <TextCell Text="Watchtower Online Library" Detail="wol.jw.org">
+                <behaviors:Interaction.Behaviors>
+                    <behaviors:BehaviorCollection>
+                        <behaviors:EventToCommand EventName="Tapped"
+                                Command="{Binding JWLink}"
+                                CommandParameter="2" />
+                    </behaviors:BehaviorCollection>
+                </behaviors:Interaction.Behaviors>
+            </TextCell>
+            <TextCell Text="JW Broadcasting" Detail="tv.jw.org">
+                <behaviors:Interaction.Behaviors>
+                    <behaviors:BehaviorCollection>
+                        <behaviors:EventToCommand EventName="Tapped"
+                                Command="{Binding JWLink}"
+                                CommandParameter="3" />
+                    </behaviors:BehaviorCollection>
+                </behaviors:Interaction.Behaviors>
+            </TextCell>
+        </TableSection>
+        <TableSection Title="Copyright">
+            <TextCell Text="© 2019"/>
+        </TableSection>
+        <TableSection Title="Version">
+            <TextCell Text="3.1.0.0"/>
+        </TableSection>
+    </TableView>
+    
+    <!--<ContentPage.Content>
+        <ContentView Padding="15,0,15,0">
+            <TableView Intent="Form">
+                <TableView.Root>
+                    <TableRoot>
+                        <TableSection Title="Switches">
+                            <SwitchCell Text="Notifications" />
+                            <SwitchCell Text="Airplane Mode" />
+                        </TableSection>
+                        <TableSection Title="Dedication">
+                            <TextCell Text="Jehovah is completely responsible for this projection. Thanks!"/>
+                        </TableSection>
+                        <TableSection Title="Information">
+                            <TextCell Text="This application is intended for people who have the desire to talk about Jehovah. If English, or Chinese is your native language, and you have the desire to learn about Jehovah in the other language, than this application is perfect for you. All of the information, text, Bible, and spiritual food contained in this application was fed by means of Jesus Christ, who passed the food to the Faithful and Discreet Slave, and they distribute the fragments to the people of Earth. And there is even fragments left over. (Mark 6:35-52)"/>
+                        </TableSection>
+                        <TableSection Title="References">
+                            <TextCell Text="Jehovah God" Command="{Binding JWLink}" CommandParameter="-1" />
+                            <TextCell Text="The Bible" Command="{Binding JWLink}" CommandParameter="0" />
+                            <TextCell Text="Jehovah's Witnesses" Command="{Binding JWLink}" CommandParameter="1" />
+                            <TextCell Text="Watchtower Online Library" Command="{Binding JWLink}" CommandParameter="2" />
+                            <TextCell Text="JW Broadcasting" Command="{Binding JWLink}" CommandParameter="3" />
+                        </TableSection>
+                        <TableSection Title="Copyright">
+                            <TextCell Text="© 2017"/>
+                        </TableSection>
+                        <TableSection Title="Version">
+                            <TextCell Text="1.0.0.79"/>
+                        </TableSection>
+                    </TableRoot>
+                </TableView.Root>
+            </TableView>
+        </ContentView>
+    </ContentPage.Content>-->
+</ContentPage>
+
+
+<!--<TableView>
+    <TableView.Root>
+        <TableRoot>
+            <TableSection Title="Switches">
+                <SwitchCell Text="Notifications" />
+                <SwitchCell Text="Airplane Mode" />
+            </TableSection>
+            <TableSection Title="Entries">
+                <EntryCell Label="Login" Placeholder="Username" />
+                <EntryCell Label="Password" Placeholder="Password" />
+            </TableSection>
+            <TableSection Title="Views">
+                <ViewCell>
+                    <ViewCell.View>
+                        <Slider/>
+                    </ViewCell.View>
+                </ViewCell>
+            </TableSection>
+        </TableRoot>
+    </TableView.Root>
+</TableView>-->

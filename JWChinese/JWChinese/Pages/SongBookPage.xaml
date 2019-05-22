@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="clr-namespace:JWChinese"
+    x:Class="JWChinese.SongBookPage" Title="{Binding Title}"
+    BackgroundColor="#e8eaed">
+    <local:CustomPage.Resources>
+        <OnPlatform x:TypeArguments="ResourceDictionary">
+            <OnPlatform.iOS>
+                <ResourceDictionary>
+
+                </ResourceDictionary>
+            </OnPlatform.iOS>
+            <OnPlatform.Android>
+                <ResourceDictionary>
+                    <ControlTemplate x:Key="AndroidNumbersGridView">
+                        <Grid x:Name="ChapterGrid" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                            <local:LibraryGridView x:Name="NumbersGridView" Animate="True"
+                                               Command="{TemplateBinding BindingContext.SongTapped}" IsNumber="True" ItemsSource="{TemplateBinding BindingContext.SongNumbers}"/>
+                        </Grid>
+                    </ControlTemplate>
+                </ResourceDictionary>
+            </OnPlatform.Android>
+            <OnPlatform.WinPhone>
+                <ResourceDictionary>
+
+                </ResourceDictionary>
+            </OnPlatform.WinPhone>
+        </OnPlatform>
+    </local:CustomPage.Resources>
+    
+    <ScrollView Orientation="Vertical">
+        <Grid x:Name="ChapterGrid">
+            <ContentView HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                <ContentView.Content>
+                    <local:ChapterGridView x:Name="chapterGrid" TappedCommand="{Binding SongTapped}"
+                                    Rounded="False"
+                                    IsNumber="True"
+                                    ButtonWidth="60"
+                                    ButtonHeight="60"
+                                    ViewBackgroundColor="Transparent"
+                                    TextColor="#ffffff"
+                                    BorderColor="#9d9d9d"
+                                    BackgroundColor="#9d9d9d"
+                                    OutlineColor="Transparent"
+                                    SelectedTextColor="#ffffff"
+                                    SelectedBackgroundColor="#544c63"
+                                    SelectedBorderColor="#544c63"
+                                    SelectedFrameBackgroundColor="#544c63"
+                                    HorizontalOptions="StartAndExpand"
+                                    VerticalOptions="StartAndExpand"
+                                    ItemsSource="{Binding SongNumbers}" />
+                </ContentView.Content>
+            </ContentView>
+        </Grid>
+    </ScrollView>
+</ContentPage>

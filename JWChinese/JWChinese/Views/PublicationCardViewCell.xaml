@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ViewCell xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:JWChinese"
+             x:Class="JWChinese.PublicationCardViewCell">
+    <ViewCell.View>
+        <StackLayout>
+            <Frame x:Name="MainFrame" Padding="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                <Grid x:Name="MainGrid" Padding="1" RowSpacing="1" ColumnSpacing="1" VerticalOptions="FillAndExpand" BackgroundColor="#E3E3E3">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <ContentView Grid.Row="0" Grid.Column="0">
+                        <Image Source="{Binding PublicationImage}" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" />
+                    </ContentView>
+                    <ContentView Grid.Row="0" Grid.Column="1">
+                        <StackLayout BackgroundColor="White">
+                            <StackLayout.Resources>
+                                <ResourceDictionary>
+                                    <local:StringToVisibilityConverter x:Key="visibility" />
+                                </ResourceDictionary>
+                            </StackLayout.Resources>
+                            <StackLayout Spacing="0" Padding="9,9,0,0" VerticalOptions="StartAndExpand">
+                                <Label x:Name="TitleLabel" FontSize="11" TextColor="#66605d" FormattedText="{Binding Title, Mode=TwoWay}" IsVisible="{Binding Title, Converter={StaticResource visibility}}" />
+                                <Label x:Name="DetailsLabel" FontSize="16" TextColor="#000000" FormattedText="{Binding Description, Mode=TwoWay}}" />
+                            </StackLayout>
+                            </StackLayout>
+                    </ContentView>
+                </Grid>
+            </Frame>
+        </StackLayout>
+    </ViewCell.View>
+</ViewCell>

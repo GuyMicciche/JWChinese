@@ -1,0 +1,821 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Library>
+
+  <!--BIBLE-->
+  <Bible PublicationRootKeyId="79">
+    <BibleBook BibleBookGroup="0" BookNumber="1" Chapters="50">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="Ge" StandardBookAbbreviation="Gen." StandardBookName="Genesis"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="创" StandardBookAbbreviation="创" StandardBookName="创世记"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Chuàng" StandardBookAbbreviation="Chuàng" StandardBookName="Chuàngshìjì"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="0" BookNumber="2" Chapters="40">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="Ex" StandardBookAbbreviation="Ex." StandardBookName="Exodus"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="出" StandardBookAbbreviation="出" StandardBookName="出埃及记"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Chū" StandardBookAbbreviation="Chū" StandardBookName="Chū’āijíjì"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="0" BookNumber="3" Chapters="27">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="Le" StandardBookAbbreviation="Lev." StandardBookName="Leviticus"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="利" StandardBookAbbreviation="利" StandardBookName="利未记"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Lì" StandardBookAbbreviation="Lì" StandardBookName="Lìwèijì"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="0" BookNumber="4" Chapters="36">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="Nu" StandardBookAbbreviation="Num." StandardBookName="Numbers"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="民" StandardBookAbbreviation="民" StandardBookName="民数记"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Mín" StandardBookAbbreviation="Mín" StandardBookName="Mínshùjì"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="0" BookNumber="5" Chapters="34">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="De" StandardBookAbbreviation="Deut." StandardBookName="Deuteronomy"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="申" StandardBookAbbreviation="申" StandardBookName="申命记"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Shēn" StandardBookAbbreviation="Shēn" StandardBookName="Shēnmìngjì"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="1" BookNumber="6" Chapters="24">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="Jos" StandardBookAbbreviation="Josh." StandardBookName="Joshua"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="书" StandardBookAbbreviation="书" StandardBookName="约书亚记"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Shū" StandardBookAbbreviation="Shū" StandardBookName="Yuēshūyàjì"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="1" BookNumber="7" Chapters="21">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="Jg" StandardBookAbbreviation="Judg." StandardBookName="Judges"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="士" StandardBookAbbreviation="士" StandardBookName="士师记"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Shì" StandardBookAbbreviation="Shì" StandardBookName="Shìshījì"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="1" BookNumber="8" Chapters="4">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="Ru" StandardBookAbbreviation="Ruth" StandardBookName="Ruth"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="得" StandardBookAbbreviation="得" StandardBookName="路得记"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Dé" StandardBookAbbreviation="Dé" StandardBookName="Lùdéjì"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="1" BookNumber="9" Chapters="31">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="1Sa" StandardBookAbbreviation="1 Sam." StandardBookName="1 Samuel"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="撒上" StandardBookAbbreviation="撒上" StandardBookName="撒母耳记上"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Sāshàng" StandardBookAbbreviation="Sāshàng" StandardBookName="Sāmǔ’ěrjì Shàng"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="1" BookNumber="10" Chapters="24">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="2Sa" StandardBookAbbreviation="2 Sam." StandardBookName="2 Samuel"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="撒下" StandardBookAbbreviation="撒下" StandardBookName="撒母耳记下"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Sāxià" StandardBookAbbreviation="Sāxià" StandardBookName="Sāmǔ’ěrjì Xià"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="1" BookNumber="11" Chapters="22">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="1Ki" StandardBookAbbreviation="1 Ki." StandardBookName="1 Kings"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="王上" StandardBookAbbreviation="王上" StandardBookName="列王纪上"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Wángshàng" StandardBookAbbreviation="Wángshàng" StandardBookName="Lièwángjì Shàng"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="1" BookNumber="12" Chapters="25">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="2Ki" StandardBookAbbreviation="2 Ki." StandardBookName="2 Kings"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="王下" StandardBookAbbreviation="王下" StandardBookName="列王纪下"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Wángxià" StandardBookAbbreviation="Wángxià" StandardBookName="Lièwángjì Xià"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="1" BookNumber="13" Chapters="29">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="1Ch" StandardBookAbbreviation="1 Chron." StandardBookName="1 Chronicles"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="代上" StandardBookAbbreviation="代上" StandardBookName="历代志上"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Dàishàng" StandardBookAbbreviation="Dàishàng" StandardBookName="Lìdàizhì Shàng"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="1" BookNumber="14" Chapters="36">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="2Ch" StandardBookAbbreviation="2 Chron." StandardBookName="2 Chronicles"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="代下" StandardBookAbbreviation="代下" StandardBookName="历代志下"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Dàixià" StandardBookAbbreviation="Dàixià" StandardBookName="Lìdàizhì Xià"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="1" BookNumber="15" Chapters="10">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="Ezr" StandardBookAbbreviation="Ezra" StandardBookName="Ezra"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="拉" StandardBookAbbreviation="拉" StandardBookName="以斯拉记"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Sī" StandardBookAbbreviation="Sī" StandardBookName="Yǐsīlājì"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="1" BookNumber="16" Chapters="13">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="Ne" StandardBookAbbreviation="Neh." StandardBookName="Nehemiah"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="尼" StandardBookAbbreviation="尼" StandardBookName="尼希米记"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Ní" StandardBookAbbreviation="Ní" StandardBookName="Níxīmǐjì"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="1" BookNumber="17" Chapters="10">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="Es" StandardBookAbbreviation="Esther" StandardBookName="Esther"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="斯" StandardBookAbbreviation="斯" StandardBookName="以斯帖记"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Sī" StandardBookAbbreviation="Sī" StandardBookName="Yǐsītiējì"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="2" BookNumber="18" Chapters="42">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="Job" StandardBookAbbreviation="Job" StandardBookName="Job"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="伯" StandardBookAbbreviation="伯" StandardBookName="约伯记"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Bó" StandardBookAbbreviation="Bó" StandardBookName="Yuēbójì"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="2" BookNumber="19" Chapters="150">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="Ps" StandardBookAbbreviation="Ps." StandardBookName="Psalms"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="诗" StandardBookAbbreviation="诗" StandardBookName="诗篇"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Shī" StandardBookAbbreviation="Shī" StandardBookName="Shīpiān"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="2" BookNumber="20" Chapters="31">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="Pr" StandardBookAbbreviation="Prov." StandardBookName="Proverbs"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="箴" StandardBookAbbreviation="箴" StandardBookName="箴言"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Zhēn" StandardBookAbbreviation="Zhēn" StandardBookName="Zhēnyán"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="2" BookNumber="21" Chapters="12">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="Ec" StandardBookAbbreviation="Eccl." StandardBookName="Ecclesiastes"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="传" StandardBookAbbreviation="传" StandardBookName="传道书"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Chuán" StandardBookAbbreviation="Chuán" StandardBookName="Chuándàoshū"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="2" BookNumber="22" Chapters="8">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="Ca" StandardBookAbbreviation="Song of Sol." StandardBookName="Song of Solomon"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="歌" StandardBookAbbreviation="歌" StandardBookName="雅歌"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Gē" StandardBookAbbreviation="Gē" StandardBookName="Yǎgē"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="3" BookNumber="23" Chapters="66">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="Isa" StandardBookAbbreviation="Isa." StandardBookName="Isaiah"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="赛" StandardBookAbbreviation="赛" StandardBookName="以赛亚书"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Sài" StandardBookAbbreviation="Sài" StandardBookName="Yǐsàiyàshū"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="3" BookNumber="24" Chapters="52">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="Jer" StandardBookAbbreviation="Jer." StandardBookName="Jeremiah"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="耶" StandardBookAbbreviation="耶" StandardBookName="耶利米书"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Yē" StandardBookAbbreviation="Yē" StandardBookName="Yēlìmǐshū"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="3" BookNumber="25" Chapters="5">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="La" StandardBookAbbreviation="Lam." StandardBookName="Lamentations"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="哀" StandardBookAbbreviation="哀" StandardBookName="耶利米哀歌"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Āi" StandardBookAbbreviation="Āi" StandardBookName="Yēlìmǐ Āigē"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="3" BookNumber="26" Chapters="48">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="Eze" StandardBookAbbreviation="Ezek." StandardBookName="Ezekiel"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="结" StandardBookAbbreviation="结" StandardBookName="以西结书"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Xī" StandardBookAbbreviation="Xī" StandardBookName="Yǐxījiéshū"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="3" BookNumber="27" Chapters="12">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="Da" StandardBookAbbreviation="Dan." StandardBookName="Daniel"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="但" StandardBookAbbreviation="但" StandardBookName="但以理书"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Dàn" StandardBookAbbreviation="Dàn" StandardBookName="Dànyǐlǐshū"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="3" BookNumber="28" Chapters="14">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="Ho" StandardBookAbbreviation="Hos." StandardBookName="Hosea"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="何" StandardBookAbbreviation="何" StandardBookName="何西阿书"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Hé" StandardBookAbbreviation="Hé" StandardBookName="Héxī’āshū"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="3" BookNumber="29" Chapters="3">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="Joe" StandardBookAbbreviation="Joel" StandardBookName="Joel"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="珥" StandardBookAbbreviation="珥" StandardBookName="约珥书"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Ěr" StandardBookAbbreviation="Ěr" StandardBookName="Yuē’ěrshū"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="3" BookNumber="30" Chapters="9">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="Am" StandardBookAbbreviation="Amos" StandardBookName="Amos"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="摩" StandardBookAbbreviation="摩" StandardBookName="阿摩司书"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Mó" StandardBookAbbreviation="Mó" StandardBookName="Āmósīshū"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="3" BookNumber="31" Chapters="1">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="Ob" StandardBookAbbreviation="Obad." StandardBookName="Obadiah"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="俄" StandardBookAbbreviation="俄" StandardBookName="俄巴底亚书"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="É" StandardBookAbbreviation="É" StandardBookName="Ébādǐyàshū"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="3" BookNumber="32" Chapters="4">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="Jon" StandardBookAbbreviation="Jonah" StandardBookName="Jonah"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="拿" StandardBookAbbreviation="拿" StandardBookName="约拿书"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Ná" StandardBookAbbreviation="Ná" StandardBookName="Yuēnáshū"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="3" BookNumber="33" Chapters="7">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="Mic" StandardBookAbbreviation="Mic." StandardBookName="Micah"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="弥" StandardBookAbbreviation="弥" StandardBookName="弥迦书"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Mí" StandardBookAbbreviation="Mí" StandardBookName="Míjiāshū"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="3" BookNumber="34" Chapters="3">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="Na" StandardBookAbbreviation="Nah." StandardBookName="Nahum"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="鸿" StandardBookAbbreviation="鸿" StandardBookName="那鸿书"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Hóng" StandardBookAbbreviation="Hóng" StandardBookName="Nāhóngshū"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="3" BookNumber="35" Chapters="3">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="Hab" StandardBookAbbreviation="Hab." StandardBookName="Habakkuk"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="哈" StandardBookAbbreviation="哈" StandardBookName="哈巴谷书"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Hā" StandardBookAbbreviation="Hā" StandardBookName="Hābāgǔshū"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="3" BookNumber="36" Chapters="3">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="Zep" StandardBookAbbreviation="Zeph." StandardBookName="Zephaniah"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="番" StandardBookAbbreviation="番" StandardBookName="西番雅书"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Fān" StandardBookAbbreviation="Fān" StandardBookName="Xīfānyǎshū"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="3" BookNumber="37" Chapters="2">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="Hag" StandardBookAbbreviation="Hag." StandardBookName="Haggai"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="该" StandardBookAbbreviation="该" StandardBookName="哈该书"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Gāi" StandardBookAbbreviation="Gāi" StandardBookName="Hāgāishū"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="3" BookNumber="38" Chapters="14">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="Zec" StandardBookAbbreviation="Zech." StandardBookName="Zechariah"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="亚" StandardBookAbbreviation="亚" StandardBookName="撒迦利亚书"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Yà" StandardBookAbbreviation="Yà" StandardBookName="Sājiālìyàshū"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="3" BookNumber="39" Chapters="4">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="Mal" StandardBookAbbreviation="Mal." StandardBookName="Malachi"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="玛" StandardBookAbbreviation="玛" StandardBookName="玛拉基书"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Lā" StandardBookAbbreviation="Lā" StandardBookName="Mǎlājīshū"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="4" BookNumber="40" Chapters="28">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="Mt" StandardBookAbbreviation="Matt." StandardBookName="Matthew"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="太" StandardBookAbbreviation="太" StandardBookName="马太福音"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Tài" StandardBookAbbreviation="Tài" StandardBookName="Mǎtài Fúyīn"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="4" BookNumber="41" Chapters="16">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="Mr" StandardBookAbbreviation="Mark" StandardBookName="Mark"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="可" StandardBookAbbreviation="可" StandardBookName="马可福音"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Kě" StandardBookAbbreviation="Kě" StandardBookName="Mǎkě Fúyīn"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="4" BookNumber="42" Chapters="24">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="Lu" StandardBookAbbreviation="Luke" StandardBookName="Luke"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="路" StandardBookAbbreviation="路" StandardBookName="路加福音"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Lù" StandardBookAbbreviation="Lù" StandardBookName="Lùjiā Fúyīn"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="4" BookNumber="43" Chapters="21">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="Joh" StandardBookAbbreviation="John" StandardBookName="John"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="约" StandardBookAbbreviation="约" StandardBookName="约翰福音"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Yuē" StandardBookAbbreviation="Yuē" StandardBookName="Yuēhàn Fúyīn"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="5" BookNumber="44" Chapters="28">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="Ac" StandardBookAbbreviation="Acts" StandardBookName="Acts"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="徒" StandardBookAbbreviation="徒" StandardBookName="使徒行传"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Tú" StandardBookAbbreviation="Tú" StandardBookName="Shǐtú Xíngzhuàn"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="6" BookNumber="45" Chapters="16">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="Ro" StandardBookAbbreviation="Rom." StandardBookName="Romans"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="罗" StandardBookAbbreviation="罗" StandardBookName="罗马书"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Luó" StandardBookAbbreviation="Luó" StandardBookName="Luómǎshū"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="6" BookNumber="46" Chapters="16">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="1Co" StandardBookAbbreviation="1 Cor." StandardBookName="1 Corinthians"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="林前" StandardBookAbbreviation="林前" StandardBookName="哥林多前书"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Línqián" StandardBookAbbreviation="Línqián" StandardBookName="Gēlínduō Qiánshū"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="6" BookNumber="47" Chapters="13">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="2Co" StandardBookAbbreviation="2 Cor." StandardBookName="2 Corinthians"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="林后" StandardBookAbbreviation="林后" StandardBookName="哥林多后书"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Línhòu" StandardBookAbbreviation="Línhòu" StandardBookName="Gēlínduō Hòushū"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="6" BookNumber="48" Chapters="6">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="Ga" StandardBookAbbreviation="Gal." StandardBookName="Galatians"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="加" StandardBookAbbreviation="加" StandardBookName="加拉太书"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Jiā" StandardBookAbbreviation="Jiā" StandardBookName="Jiālātàishū"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="6" BookNumber="49" Chapters="6">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="Eph" StandardBookAbbreviation="Eph." StandardBookName="Ephesians"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="弗" StandardBookAbbreviation="弗" StandardBookName="以弗所书"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Fú" StandardBookAbbreviation="Fú" StandardBookName="Yǐfúsuǒshū"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="6" BookNumber="50" Chapters="4">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="Php" StandardBookAbbreviation="Phil." StandardBookName="Philippians"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="腓" StandardBookAbbreviation="腓" StandardBookName="腓立比书"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Féi" StandardBookAbbreviation="Féi" StandardBookName="Féilìbǐshū"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="6" BookNumber="51" Chapters="4">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="Col" StandardBookAbbreviation="Col." StandardBookName="Colossians"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="西" StandardBookAbbreviation="西" StandardBookName="歌罗西书"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Xī" StandardBookAbbreviation="Xī" StandardBookName="Gēluóxīshū"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="6" BookNumber="52" Chapters="5">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="1Th" StandardBookAbbreviation="1 Thess." StandardBookName="1 Thessalonians"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="帖前" StandardBookAbbreviation="帖前" StandardBookName="帖撒罗尼迦前书"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Tiēqián" StandardBookAbbreviation="Tiēqián" StandardBookName="Tiēsāluóníjiā Qiánshū"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="6" BookNumber="53" Chapters="3">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="2Th" StandardBookAbbreviation="2 Thess." StandardBookName="2 Thessalonians"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="帖后" StandardBookAbbreviation="帖后" StandardBookName="帖撒罗尼迦后书"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Tiēhòu" StandardBookAbbreviation="Tiēhòu" StandardBookName="Tiēsāluóníjiā Hòushū"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="6" BookNumber="54" Chapters="6">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="1Ti" StandardBookAbbreviation="1 Tim." StandardBookName="1 Timothy"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="提前" StandardBookAbbreviation="提前" StandardBookName="提摩太前书"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Tíqián" StandardBookAbbreviation="Tíqián" StandardBookName="Tímótài Qiánshū"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="6" BookNumber="55" Chapters="4">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="2Ti" StandardBookAbbreviation="2 Tim." StandardBookName="2 Timothy"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="提后" StandardBookAbbreviation="提后" StandardBookName="提摩太后书"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Tíhòu" StandardBookAbbreviation="Tíhòu" StandardBookName="Tímótài Hòushū"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="6" BookNumber="56" Chapters="3">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="Tit" StandardBookAbbreviation="Titus" StandardBookName="Titus"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="多" StandardBookAbbreviation="多" StandardBookName="提多书"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Duō" StandardBookAbbreviation="Duō" StandardBookName="Tíduōshū"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="6" BookNumber="57" Chapters="1">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="Phm" StandardBookAbbreviation="Philem." StandardBookName="Philemon"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="门" StandardBookAbbreviation="门" StandardBookName="腓利门书"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Mén" StandardBookAbbreviation="Mén" StandardBookName="Féilìménshū"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="6" BookNumber="58" Chapters="13">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="Heb" StandardBookAbbreviation="Heb." StandardBookName="Hebrews"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="来" StandardBookAbbreviation="来" StandardBookName="希伯来书"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Lái" StandardBookAbbreviation="Lái" StandardBookName="Xībóláishū"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="6" BookNumber="59" Chapters="5">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="Jas" StandardBookAbbreviation="Jas." StandardBookName="James"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="雅" StandardBookAbbreviation="雅" StandardBookName="雅各书"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Yǎ" StandardBookAbbreviation="Yǎ" StandardBookName="Yǎgèshū"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="6" BookNumber="60" Chapters="5">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="1Pe" StandardBookAbbreviation="1 Pet." StandardBookName="1 Peter"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="彼前" StandardBookAbbreviation="彼前" StandardBookName="彼得前书"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Bǐqián" StandardBookAbbreviation="Bǐqián" StandardBookName="Bǐdé Qiánshū"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="6" BookNumber="61" Chapters="3">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="2Pe" StandardBookAbbreviation="2 Pet." StandardBookName="2 Peter"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="彼后" StandardBookAbbreviation="彼后" StandardBookName="彼得后书"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Bǐhòu" StandardBookAbbreviation="Bǐhòu" StandardBookName="Bǐdé Hòushū"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="6" BookNumber="62" Chapters="5">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="1Jo" StandardBookAbbreviation="1 John" StandardBookName="1 John"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="约一" StandardBookAbbreviation="约一" StandardBookName="约翰一书"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Yuēyì" StandardBookAbbreviation="Yuēyì" StandardBookName="Yuēhàn Yìshū"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="6" BookNumber="63" Chapters="1">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="2Jo" StandardBookAbbreviation="2 John" StandardBookName="2 John"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="约二" StandardBookAbbreviation="约二" StandardBookName="约翰二书"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Yuē’è" StandardBookAbbreviation="Yuē’è" StandardBookName="Yuēhàn Èrshū"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="6" BookNumber="64" Chapters="1">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="3Jo" StandardBookAbbreviation="3 John" StandardBookName="3 John"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="约三" StandardBookAbbreviation="约三" StandardBookName="约翰三书"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Yuēsān" StandardBookAbbreviation="Yuēsān" StandardBookName="Yuēhàn Sānshū"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="6" BookNumber="65" Chapters="1">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="Jude" StandardBookAbbreviation="Jude" StandardBookName="Jude"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="犹" StandardBookAbbreviation="犹" StandardBookName="犹大书"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Yóu" StandardBookAbbreviation="Yóu" StandardBookName="Yóudàshū"/>
+    </BibleBook>
+    <BibleBook BibleBookGroup="7" BookNumber="66" Chapters="22">
+      <English MepsLanguageId="0" OfficialBookAbbreviation="Re" StandardBookAbbreviation="Rev." StandardBookName="Revelation"/>
+      <Chinese MepsLanguageId="279" OfficialBookAbbreviation="启" StandardBookAbbreviation="启" StandardBookName="启示录"/>
+      <Pinyin MepsLanguageId="-279" OfficialBookAbbreviation="Qǐ" StandardBookAbbreviation="Qǐ" StandardBookName="Qǐshìlù"/>
+    </BibleBook>
+  </Bible>
+
+  <Publications>
+    <!--INSIGHT-->
+    <!--<Insight KeySymbol="it" PublicationRootKeyId="87" ImageAsset="images/329b/it_tile-200.jpg">
+      <English MepsLanguageId="0" ShortTitle="Insight" Title="Insight on the Scriptures"/>
+      <Chinese MepsLanguageId="279" ShortTitle="洞悉" Title="《洞悉圣经》"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Dòngxī" Title="Dòngxī Shèngjīng"/>
+    </Insight>-->
+    <Book KeySymbol="it" PublicationRootKeyId="87" ImageAsset="images/32/it_tile-200.jpg">
+      <English MepsLanguageId="0" ShortTitle="Insight" Title="Insight on the Scriptures"/>
+      <Chinese MepsLanguageId="279" ShortTitle="洞悉" Title="《洞悉圣经》"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Dòngxī" Title="Dòngxī Shèngjīng"/>
+    </Book>
+
+    <!--DAILY TEXT-->
+    <!--<DailyText KeySymbol="es" PublicationRootKeyId="74" ImageAsset="images/05/1102017012_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="Examining the Scriptures—2019" Title="Examining the Scriptures Daily—2019"/>
+      <Chinese MepsLanguageId="279" ShortTitle="考查圣经2019年" Title="天天考查圣经——2019"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Kǎochá Shèngjīng 2019 Nián" Title="Tiāntiān Kǎochá Shèngjīng——2019"/>
+    </DailyText>-->
+    <Book KeySymbol="es" PublicationRootKeyId="74" ImageAsset="images/05/1102017012_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="Examining the Scriptures—2019" Title="Examining the Scriptures Daily—2019"/>
+      <Chinese MepsLanguageId="279" ShortTitle="考查圣经2019年" Title="天天考查圣经——2019"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Kǎochá Shèngjīng 2019 Nián" Title="Tiāntiān Kǎochá Shèngjīng——2019"/>
+    </Book>
+
+    <!--BOOKS-->
+    <!--<Book KeySymbol="bt" PublicationRootKeyId="" ImageAsset="">
+      <English MepsLanguageId="0" ShortTitle="Bearing Witness" Title="“Bearing Thorough Witness” About God’s Kingdom"/>
+      <Chinese MepsLanguageId="279" ShortTitle="作见证" Title="《为上帝的王国彻底作见证》"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Zuò Jiànzhèng" Title="Wéi Shàngdì De Wángguó Chèdǐ Zuò Jiànzhèng"/>
+    </Book>-->
+    <Book KeySymbol="my" PublicationRootKeyId="130" ImageAsset="images/a5/1102002189_univ_sqr-200.jpg">
+      <English MepsLanguageId="0" ShortTitle="Bible Stories" Title="My Book of Bible Stories"/>
+      <Chinese MepsLanguageId="279" ShortTitle="圣经故事" Title="《我的圣经故事书》"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Shèngjīng Gùshì" Title="Wǒ De Shèngjīng Gùshì Shū"/>
+    </Book>
+    <Book KeySymbol="bh" PublicationRootKeyId="77" ImageAsset="images/1d/1102005169_univ_sqr-200.jpg">
+      <English MepsLanguageId="0" ShortTitle="Bible Teach" Title="What Does the Bible Really Teach?"/>
+      <Chinese MepsLanguageId="279" ShortTitle="圣经真理" Title="《辨明圣经的真理》"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Shèngjīng Zhēnlǐ" Title="Biànmíng Shèngjīng De Zhēnlǐ"/>
+    </Book>
+    <Book KeySymbol="cl" PublicationRootKeyId="64" ImageAsset="images/a8/1102002059_univ_sqr-200.jpg">
+      <English MepsLanguageId="0" ShortTitle="Close to Jehovah" Title="Draw Close to Jehovah"/>
+      <Chinese MepsLanguageId="279" ShortTitle="亲近" Title="《亲近耶和华》"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Qīnjìn" Title="Qīnjìn Yēhéhuá"/>
+    </Book>
+    <Book KeySymbol="lv" PublicationRootKeyId="117" ImageAsset="images/1f/1102008271_univ_sqr-200.jpg">
+      <English MepsLanguageId="0" ShortTitle="“God’s Love”" Title="“Keep Yourselves in God’s Love”"/>
+      <Chinese MepsLanguageId="279" ShortTitle="上帝的爱" Title="《常在上帝的爱里》"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Shàngdì De Ài" Title="Cháng Zài Shàngdì De Ài Li"/>
+    </Book>
+    <!--<Book KeySymbol="ip-1" PublicationRootKeyId="" ImageAsset="">
+      <English MepsLanguageId="0" ShortTitle="Isaiah’s Prophecy I" Title="Isaiah’s Prophecy—Light for All Mankind I"/>
+      <Chinese MepsLanguageId="279" ShortTitle="以赛亚的预言上" Title="《以赛亚的预言光照全人类》（上册）"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Yǐsàiyà De Yùyán Shàng" Title="Yǐsàiyà De Yùyán Guāngzhào Quánrénlèi (Shàngcè)"/>
+    </Book>
+    <Book KeySymbol="ip-2" PublicationRootKeyId="" ImageAsset="">
+      <English MepsLanguageId="0" ShortTitle="Isaiah’s Prophecy II" Title="saiah’s Prophecy—Light for All Mankind II"/>
+      <Chinese MepsLanguageId="279" ShortTitle="以赛亚的预言下" Title="《以赛亚的预言光照全人类》（下册）"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Yǐsàiyà De Yùyán Xià" Title="Yǐsàiyà De Yùyán Guāngzhào Quánrénlèi (Xiàcè)"/>
+    </Book>-->
+    <Book KeySymbol="jd" PublicationRootKeyId="125" ImageAsset="images/f1/1102006163_univ_sqr-200.jpg">
+      <English MepsLanguageId="0" ShortTitle="Jehovah’s Day" Title="Live With Jehovah’s Day in Mind"/>
+      <Chinese MepsLanguageId="279" ShortTitle="耶和华的日子" Title="《紧记耶和华的日子，过敬虔的生活》"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Yēhéhuá De Rìzi" Title="Jǐnjì Yēhéhuá De Rìzi，Guò Jìngqián De Shēnghuó"/>
+    </Book>
+    <Book KeySymbol="jr" PublicationRootKeyId="127" ImageAsset="images/99/1102010158_univ_sqr-200.jpg">
+      <English MepsLanguageId="0" ShortTitle="Jeremiah" Title="God’s Word for Us Through Jeremiah"/>
+      <Chinese MepsLanguageId="279" ShortTitle="耶利米" Title="《上帝通过耶利米给我们的话》"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Yēlìmǐ" Title="Shàngdì Tōngguò Yēlìmǐ Gěi Wǒmen De Huà"/>
+    </Book>
+    <Book KeySymbol="be" PublicationRootKeyId="85" ImageAsset="images/80/1102001132_univ_sqr-200.jpg">
+      <English MepsLanguageId="0" ShortTitle="Ministry School" Title="Benefit From Theocratic Ministry School Education"/>
+      <Chinese MepsLanguageId="279" ShortTitle="传道训练班课本" Title="《神圣教育使你得益——传道训练班课本》"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Chuándào Xùnliànbān Kèběn" Title="Shénshèng Jiàoyù Shǐ Nǐ Déyì——Chuándào Xùnliànbān Kèběn"/>
+    </Book>
+    <!--<Book KeySymbol="rs" PublicationRootKeyId="" ImageAsset="">
+      <English MepsLanguageId="0" ShortTitle="Reasoning" Title="Reasoning From the Scriptures"/>
+      <Chinese MepsLanguageId="279" ShortTitle="推理" Title="《根据圣经而推理》"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Tuīlǐ" Title="Sēnjù Shèngjīng Ér Tuīlǐ"/>
+    </Book>-->
+    <Book KeySymbol="sn" PublicationRootKeyId="75" ImageAsset="images/24/1102009235_univ_sqr-200.jpg">
+      <English MepsLanguageId="0" ShortTitle="Sing to Jehovah" Title="Sing to Jehovah"/>
+      <Chinese MepsLanguageId="279" ShortTitle="歌颂" Title="《歌颂耶和华》"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Gēsòng" Title="Gēsòng Yēhéhuá"/>
+    </Book>
+    <Book KeySymbol="lr" PublicationRootKeyId="242" ImageAsset="images/47/1102003064_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="Teacher" Title="Learn From the Great Teacher"/>
+      <Chinese MepsLanguageId="279" ShortTitle="导师" Title="《向伟大的导师学习》"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Dǎoshī" Title="Xiàng Wěidà De Dǎoshī Xuéxí"/>
+    </Book>
+    <!--<Book KeySymbol="wt" PublicationRootKeyId="" ImageAsset="">
+      <English MepsLanguageId="0" ShortTitle="Worship God" Title="Worship the Only True God"/>
+      <Chinese MepsLanguageId="279" ShortTitle="崇拜" Title="《崇拜独一的真神》"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Chóngbài" Title="Chóngbài Dúyī De Zhēnshén"/>
+    </Book>-->
+    <Book KeySymbol="yp1" PublicationRootKeyId="16" ImageAsset="null">
+      <English MepsLanguageId="0" ShortTitle="Young People Ask, Volume 1" Title="Questions Young People Ask—Answers That Work, Volume 1"/>
+      <Chinese MepsLanguageId="279" ShortTitle="青年人问，第1册" Title="《青年人所提出的问题——有实效的答案》，第1册"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Qīngniánrén Wèn， Dì 1 Cè" Title="Qīngniánrén Suǒ Tíchū De Wèntí—Yǒu Shíxiào De Dá'àn， Dì 1 Cè"/>
+    </Book>
+    <Book KeySymbol="yp2" PublicationRootKeyId="17" ImageAsset="null">
+      <English MepsLanguageId="0" ShortTitle="Young People Ask, Volume 2" Title="Questions Young People Ask—Answers That Work, Volume 2"/>
+      <Chinese MepsLanguageId="279" ShortTitle="青年人问，第2册" Title="《青年人所提出的问题——有实效的答案》，第2册"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Qīngniánrén Wèn， Dì 2 Cè" Title="Qīngniánrén Suǒ Tíchū De Wèntí—Yǒu Shíxiào De Dá'àn， Dì 2 Cè"/>
+    </Book>
+    <Book KeySymbol="cf" PublicationRootKeyId="194" ImageAsset="images/58/1102007442_univ_sqr-200.jpg">
+      <English MepsLanguageId="0" ShortTitle="“My Follower”" Title="“Come Be My Follower”"/>
+      <Chinese MepsLanguageId="279" ShortTitle="跟随" Title="《来跟随我吧》"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Gēnsuí" Title="Lái Gēnsuí Wǒ Ba"/>
+    </Book>
+    <!--<Book KeySymbol="kl" PublicationRootKeyId="19" ImageAsset="">
+    <English MepsLanguageId="0" ShortTitle="Knowledge" Title=""/>
+    <Chinese MepsLanguageId="279" ShortTitle="知识" Title=""/>
+    <Pinyin MepsLanguageId="-279" ShortTitle="Zhīshi" Title=""/>
+  </Book>
+  <Publication KeySymbol="re" PublicationRootKeyId="20" ImageAsset="">
+    <English MepsLanguageId="0" ShortTitle="Revelation" Title=""/>
+    <Chinese MepsLanguageId="279" ShortTitle="启示录高潮" Title=""/>
+    <Pinyin MepsLanguageId="-279" ShortTitle="Qǐshìlù Gāocháo" Title=""/>
+  </Book>-->
+    <Book KeySymbol="ia" PublicationRootKeyId="78" ImageAsset="images/25/1102013270_univ_sqr-200.jpg">
+      <English MepsLanguageId="0" ShortTitle="Imitate" Title="Imitate Their Faith"/>
+      <Chinese MepsLanguageId="279" ShortTitle="榜样" Title="《信心的榜样》"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Bǎngyàng" Title="Xìnxīn De Bǎngyàng"/>
+    </Book>
+    <Book KeySymbol="kr" PublicationRootKeyId="113" ImageAsset="images/c7/1102014267_univ_sqr-200.jpg">
+      <English MepsLanguageId="0" ShortTitle="God’s Kingdom Rules!" Title="God’s Kingdom Rules!"/>
+      <Chinese MepsLanguageId="279" ShortTitle="王国统治" Title="《上帝的王国统治了！》"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Wángguó Tǒngzhì" Title="Shàngdì De Dángguó Tǒngzhìle!"/>
+    </Book>
+    <!--<Book KeySymbol="snnw" PublicationRootKeyId="75" ImageAsset="images/5745/1102014553_univ_sqr-200.jpg">
+      <English MepsLanguageId="0" ShortTitle="Sing to Jehovah—New Songs" Title="Sing to Jehovah—New Songs"/>
+      <Chinese MepsLanguageId="279" ShortTitle="歌頌耶和華——新歌" Title="歌頌耶和華——新歌"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Gēsòng Yēhéhuá——Xīngē" Title="Gēsòng Yēhéhuá——Xīngē"/>
+    </Book>-->
+    <Book KeySymbol="sjj" PublicationRootKeyId="280" ImageAsset="images/29/1102016770_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="“Sing Out Joyfully”" Title="“Sing Out Joyfully” to Jehovah"/>
+      <Chinese MepsLanguageId="279" ShortTitle="高声欢唱" Title="向耶和华高声欢唱"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Gāoshēng Huānchàng" Title="Xiàng Yēhéhuá Gāoshēng Huānchàng"/>
+    </Book>
+
+    <!--BROCHURES-->
+    <Brochure KeySymbol="jl" PublicationRootKeyId="66" ImageAsset="images/05/1102012172_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="Jehovah’s Will" Title="Who Are Doing Jehovah’s Will Today?"/>
+      <Chinese MepsLanguageId="279" ShortTitle="耶和华的旨意" Title="《谁在遵行耶和华的旨意》"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Yēhéhuá De Zhǐyì" Title="Shéi Zài Zūnxíng Yēhéhuá De Zhǐyì"/>
+    </Brochure>
+    <Brochure KeySymbol="fg" PublicationRootKeyId="65" ImageAsset="images/a0/1102012181_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="Good News" Title="Good News From God!"/>
+      <Chinese MepsLanguageId="279" ShortTitle="好消息" Title="《来自上帝的好消息》"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Hǎo Xiāoxī" Title="Láizì Shàngdì De Hǎo Xiāoxī"/>
+    </Brochure>
+    <!--<Brochure KeySymbol="rsg14" PublicationRootKeyId="24" ImageAsset="">
+    <English MepsLanguageId="0" ShortTitle="Research Guide" Title="Research Guide for Jehovah’s Witnesses"/>
+    <Chinese MepsLanguageId="279" ShortTitle="检索手册" Title="《耶和华见证人出版物检索手册》"/>
+    <Pinyin MepsLanguageId="-279" ShortTitle="Jiǎnsuǒ Shǒucè" Title="Yēhéhuá Jiànzhèngrén Chūbǎnwù Jiǎnsuǒ Shǒucè"/>
+  </Brochure>-->
+    <!--<Brochure KeySymbol="igw" PublicationRootKeyId="25" ImageAsset="">
+    <English MepsLanguageId="0" ShortTitle="An Introduction to God's Word" Title="An Introduction to God's Word"/>
+    <Chinese MepsLanguageId="279" ShortTitle="圣经入门" Title="《圣经入门》"/>
+    <Pinyin MepsLanguageId="-279" ShortTitle="Shèngjīng Rùmén" Title="Shèngjīng Rùmén"/>
+  </Brochure>
+  <Brochure KeySymbol="sgd" PublicationRootKeyId="26" ImageAsset="">
+    <English MepsLanguageId="0" ShortTitle="Bible Reference Guide" Title="Bible Reference Guide"/>
+    <Chinese MepsLanguageId="279" ShortTitle="圣经参考手册" Title="《圣经参考手册》"/>
+    <Pinyin MepsLanguageId="-279" ShortTitle="Shèngjīng Cānkǎo Shǒucè" Title="Shèngjīng Cānkǎo Shǒucè"/>
+  </Brochure>-->
+    <Brochure KeySymbol="bm" PublicationRootKeyId="12" ImageAsset="images/bc/1102009482_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="Bible’s Message" Title="The Bible—What Is Its Message?"/>
+      <Chinese MepsLanguageId="279" ShortTitle="检索手" Title="《浅谈圣经——圣经的信息是什么？》"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Jiǎnsuǒ Shǒu" Title="“Qiǎn Tán Shèngjīng——Shèngjīng De Xìnxī Shì Shénme?”"/>
+    </Brochure>
+    <Brochure KeySymbol="hf" PublicationRootKeyId="96" ImageAsset="images/3a/1102014405_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="Happy Family" Title="Your Family Can Be Happy"/>
+      <Chinese MepsLanguageId="279" ShortTitle="家庭幸福" Title="《怎样促进家庭幸福》"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Jiātíng Xìngfú" Title="Zěnyàng Cùjìn Jiātíng Xìngfú"/>
+    </Brochure>
+    <!--<Brochure KeySymbol="hl" PublicationRootKeyId="29" ImageAsset="">
+      <English MepsLanguageId="0" ShortTitle="Happy Life" Title="How Can You Have a Happy Life?"/>
+    <Chinese MepsLanguageId="279" ShortTitle="" Title=""/>
+    <Pinyin MepsLanguageId="-279" ShortTitle="" Title=""/>
+  </Brochure>-->
+    <Brochure KeySymbol="ll" PublicationRootKeyId="247" ImageAsset="images/c0/1102011101_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="Listen and Live" Title="Listen to God and Live Forever"/>
+      <Chinese MepsLanguageId="279" ShortTitle="听从（详尽版）" Title="《听从上帝得永生》"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Tīngcóng (Xiángjìn Bǎn)" Title="Tīngcóng Shàngdì Dé Yǒngshēng"/>
+    </Brochure>
+    <Brochure KeySymbol="ld" PublicationRootKeyId="248" ImageAsset="images/c0/1102011101_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="Listen to God" Title="Listen to God"/>
+      <Chinese MepsLanguageId="279" ShortTitle="听从（简易版）" Title="《要听从上帝》"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Tīngcóng (Jiǎnyì Bǎn)" Title="Yào Tīngcóng Shàngdì"/>
+    </Brochure>
+    <!--<Brochure KeySymbol="mb" PublicationRootKeyId="32" ImageAsset="">
+    <English MepsLanguageId="0" ShortTitle="My Bible Lessons" Title="My Bible Lessons"/>
+    <Chinese MepsLanguageId="279" ShortTitle="宝宝学圣经" Title="《宝宝学圣经》"/>
+    <Pinyin MepsLanguageId="-279" ShortTitle="Bǎobǎo Xué Shèngjīng" Title="Bǎobǎo Xué Shèngjīng"/>
+  </Brochure>-->
+    <Brochure KeySymbol="lf" PublicationRootKeyId="366" ImageAsset="images/54/1102010349_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="Origin of Life" Title="The Origin of Life—Five Questions Worth Asking"/>
+      <Chinese MepsLanguageId="279" ShortTitle="生命的起源" Title="《生命的起源——值得思考的五个问题》"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Shēngmìng de Qǐyuán" Title="Shēngmìng De Qǐyuán——Zhídé Sīkǎo De Wǔ Gè Wèntí”"/>
+    </Brochure>
+    <Brochure KeySymbol="yc" PublicationRootKeyId="98" ImageAsset="images/30/1102013537_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="Teach Your Children" Title="Teach Your Children"/>
+      <Chinese MepsLanguageId="279" ShortTitle="圣经小故事" Title="《圣经小故事》"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Shèngjīng Xiǎo Gùshì" Title="Shèngjīng Xiǎo Gùshì"/>
+    </Brochure>
+    <Brochure KeySymbol="lc" PublicationRootKeyId="294" ImageAsset="images/ec/1102010241_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="Was Life Created?" Title="Was Life Created?"/>
+      <Chinese MepsLanguageId="279" ShortTitle="生命来自创造吗？" Title="《生命来自创造吗？》"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Shēngmìng Láizì Chuàngzào Ma?" Title="Shēngmìng Láizì Chuàngzào Ma?"/>
+    </Brochure>
+    <Brochure KeySymbol="gf" PublicationRootKeyId="297" ImageAsset="images/b1/1102000081_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="God’s Friend" Title="You Can Be God’s Friend!"/>
+      <Chinese MepsLanguageId="279" ShortTitle="朋友" Title="《你能成为上帝的朋友！》"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Péngyǒu" Title="Nǐ Néng Chéngwéi Shàngdì Pe Péngyǒu!"/>
+    </Brochure>
+    <Brochure KeySymbol="we" PublicationRootKeyId="321" ImageAsset="images/f6/1101994008_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="When Someone Dies" Title="When Someone You Love Dies"/>
+      <Chinese MepsLanguageId="279" ShortTitle="亲者" Title="《痛失亲者》"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Qīnzhě" Title="Tòngshī Qīnzhě"/>
+    </Brochure>
+    <Brochure KeySymbol="ypq" PublicationRootKeyId="228" ImageAsset="images/22/1102015820_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="10 Questions" Title="Answers to 10 Questions Young People Ask"/>
+      <Chinese MepsLanguageId="279" ShortTitle="10个问与答" Title="《年轻人的10个问与答 青年人问专栏》"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="10 Gè Wèn Yǔ Dá" Title="Niánqīngrén De 10 Gè Wèn Yǔ Dá Qīngniánrén Wèn Zhuānlán"/>
+    </Brochure>
+    <Brochure KeySymbol="rj" PublicationRootKeyId="119" ImageAsset="images/49/1102015400_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="Return to Jehovah" Title="Return to Jehovah"/>
+      <Chinese MepsLanguageId="279" ShortTitle="回到耶和华身边" Title="《回到耶和华身边》"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Huí Dào Yēhéhuá Shēnbiān" Title="Huí Dào Yēhéhuá Shēnbiān"/>
+    </Brochure>
+
+    <!--TRACTS-->
+    <Tract KeySymbol="kt" PublicationRootKeyId="236" ImageAsset="images/07/1102008390_univ_sqr-200.jpg">
+      <English MepsLanguageId="0" ShortTitle="Know the Truth" Title="Would You Like to Know the Truth?"/>
+      <Chinese MepsLanguageId="279" ShortTitle="真理传单" Title="你想找到真理吗？"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Zhēnlǐ Chuándān" Title="Nǐ Xiǎng Zhǎodào Zhēnlǐ Ma?"/>
+    </Tract>
+    <Tract KeySymbol="T-30" PublicationRootKeyId="67" ImageAsset="images/e0/1102013380_univ_sqr-200.jpg">
+      <English MepsLanguageId="0" ShortTitle="View the Bible" Title="How Do You View the Bible?"/>
+      <Chinese MepsLanguageId="279" ShortTitle="圣经看法" Title="你对圣经有什么看法？"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Shèngjīng Kànfǎ" Title="Nǐ Duì Shèngjīng Yǒu Shénme Kànfǎ?"/>
+    </Tract>
+    <Tract KeySymbol="T-31" PublicationRootKeyId="68" ImageAsset="images/73/1102012770_univ_sqr-200.jpg">
+      <English MepsLanguageId="0" ShortTitle="View the Future" Title="How Do You View the Future?"/>
+      <Chinese MepsLanguageId="279" ShortTitle="未来" Title="你觉得未来会怎样？"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Wèilái" Title="Nǐ Juédé Wèilái Huì Zěnyàng?"/>
+    </Tract>
+    <Tract KeySymbol="T-32" PublicationRootKeyId="69" ImageAsset="images/2f/1102013390_univ_sqr-200.jpg">
+      <English MepsLanguageId="0" ShortTitle="Happy Family Life" Title="What Is the Key to Happy Family Life?"/>
+      <Chinese MepsLanguageId="279" ShortTitle="家庭幸福" Title="家庭幸福主要靠什么？"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Jiātíng Xìngfú" Title="Jiātíng Xìngfú Zhǔyào Kào Shénme?"/>
+    </Tract>
+    <Tract KeySymbol="T-33" PublicationRootKeyId="70" ImageAsset="images/db/1102013400_univ_sqr-200.jpg">
+      <English MepsLanguageId="0" ShortTitle="Who Controls the World?" Title="Who Really Controls the World?"/>
+      <Chinese MepsLanguageId="279" ShortTitle="控制世界" Title="控制世界的其实是谁？"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Kòngzhì Shìjiè" Title="Kòngzhì Shìjiè De Qíshí Shì Shéi?"/>
+    </Tract>
+    <Tract KeySymbol="T-34" PublicationRootKeyId="71" ImageAsset="images/fc/1102013410_univ_sqr-200.jpg">
+      <English MepsLanguageId="0" ShortTitle="人间苦难会终止吗？" Title="Will Suffering Ever End?"/>
+      <Chinese MepsLanguageId="279" ShortTitle="苦难终止" Title="苦尽甘来，指日可待"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Kǔjìngānlái Zhōngzhǐ" Title="Kǔjìngānlái, Zhǐrìkědài"/>
+    </Tract>
+    <Tract KeySymbol="T-35" PublicationRootKeyId="72" ImageAsset="images/a7/1102013500_univ_sqr-200.jpg">
+      <English MepsLanguageId="0" ShortTitle="Live Again" Title="Can the Dead Really Live Again?"/>
+      <Chinese MepsLanguageId="279" ShortTitle="复生" Title="人死了真的能复生吗？"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Fùshēng" Title="Rén Sǐle Zhēnde Néng Fùshēng Ma?"/>
+    </Tract>
+    <Tract KeySymbol="T-36" PublicationRootKeyId="99" ImageAsset="images/5b/1102014810_univ_sqr-200.jpg">
+      <English MepsLanguageId="0" ShortTitle="Kingdom" Title="What Is the Kingdom of God?"/>
+      <Chinese MepsLanguageId="279" ShortTitle="王国" Title="上帝的王国是什么？"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Wángguó" Title="Shàngdì De Wángguó Shì Shénme?"/>
+    </Tract>
+    <Tract KeySymbol="T-37" PublicationRootKeyId="73" ImageAsset="images/5c/1102014910_univ_sqr-200.jpg">
+      <English MepsLanguageId="0" ShortTitle="Web site tract" Title="Where Can We Find Answers to Life’s Big Questions?"/>
+      <Chinese MepsLanguageId="279" ShortTitle="网站传单" Title="人生种种疑问，答案在哪里？"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Wǎngzhàn Chuándān" Title="Rénshēng Zhǒngzhǒng Yíwèn, Dá'àn Zài Nǎlǐ?"/>
+    </Tract>
+
+    <!--WATCHTOWER (STUDY)-->
+    <!--<WatchtowerStudy KeySymbol="w-8" PublicationRootKeyId="278" ImageAsset="images/c0/2017565_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="Study Articles for October 23 to November 26" Title="The Watchtower, September 2017"/>
+      <Chinese MepsLanguageId="279" ShortTitle="10月23日－11月26日研究班课文" Title="守望台2017年9月刊"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="10 Yuè 23 Rì－11 Yuè 26 Rì Yánjiūbān Kèwén" Title="Shǒuwàngtái 2017 Nián 9 Yuè Kān"/>
+    </WatchtowerStudy>
+    <WatchtowerStudy KeySymbol="w-9" PublicationRootKeyId="278" ImageAsset="images/28/2017604_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="Study Articles for November 27 to December 24" Title="The Watchtower, October 2017"/>
+      <Chinese MepsLanguageId="279" ShortTitle="11月27日－12月24日研究班课文" Title="守望台2017年10月刊"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="11 Yuè 27 Rì－12 Yuè 24 Rì Yánjiūbān Kèwén" Title="Shǒuwàngtái 2017 Nián 10 Yuè Kān"/>
+    </WatchtowerStudy>
+    <WatchtowerStudy KeySymbol="w-10" PublicationRootKeyId="278" ImageAsset="images/a6/2017644_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="Study Articles for December 24 to January 28" Title="The Watchtower, November 2017"/>
+      <Chinese MepsLanguageId="279" ShortTitle="12月24日－1月28日研究班课文" Title="守望台2017年11月刊"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="12 Yuè 24 Rì－1 Yuè 28 Rì Yánjiūbān Kèwén" Title="Shǒuwàngtái 2017 Nián 11 Yuè Kān"/>
+    </WatchtowerStudy>
+    <WatchtowerStudy KeySymbol="w-11" PublicationRootKeyId="278" ImageAsset="images/d3/2017685_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="Study Articles for January 29 to February 25" Title="The Watchtower, December 2017"/>
+      <Chinese MepsLanguageId="279" ShortTitle="1月29日－2月25日研究班课文" Title="守望台2017年12月刊"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="1 Yuè 29 Rì－2 Yuè 25 Rì Yánjiūbān Kèwén" Title="Shǒuwàngtái 2017 Nián 12 Yuè Kān"/>
+    </WatchtowerStudy>
+    <WatchtowerStudy KeySymbol="w-3" PublicationRootKeyId="278" ImageAsset="images/ca/2019365_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="Study Articles for June 4 to July 8" Title="The Watchtower, April 2019"/>
+      <Chinese MepsLanguageId="279" ShortTitle="2019年6月4日－7月8日研究班课文" Title="守望台2019年4月刊"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="2019 Nián 6 Yuè 4 Rì-7 Yuè 8 Rì Yánjiūbān Kèwén" Title="Shǒuwàngtái 2019 Nián 4 Yuè Kān"/>
+    </WatchtowerStudy>
+    <WatchtowerStudy KeySymbol="w-4" PublicationRootKeyId="278" ImageAsset="images/f2/2019405_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="Study Articles for July 9 to August 5" Title="The Watchtower, May 2019"/>
+      <Chinese MepsLanguageId="279" ShortTitle="2019年7月9日－8月5日研究班课文" Title="守望台2019年5月刊"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="2019 Nián 7 Yuè 9 Rì－8 Yuè 5 Rì Yánjiūbān Kèwén" Title="Shǒuwàngtái 2019 Nián 5 Yuè Kān"/>
+    </WatchtowerStudy>
+    <WatchtowerStudy KeySymbol="w-5" PublicationRootKeyId="278" ImageAsset="images/d3/2019445_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="Study Articles for August 5 to September 8" Title="The Watchtower, June 2019"/>
+      <Chinese MepsLanguageId="279" ShortTitle="2019年8月5日－9月2日研究班课文" Title="守望台2019年6月刊"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="2019 Nián 8 Yuè 5 Rì－9 Yuè 2 Rì Yánjiūbān Kèwén" Title="Shǒuwàngtái 2019 Nián 6 Yuè Kān"/>
+    </WatchtowerStudy>
+    <WatchtowerStudy KeySymbol="w-6" PublicationRootKeyId="278" ImageAsset="images/9c/2019485_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="Study Articles for September 3 to September 30" Title="The Watchtower, July 2019"/>
+      <Chinese MepsLanguageId="279" ShortTitle="2019年9月3日－9月30日研究班课文" Title="守望台2019年7月刊"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="2019 Nián 9 Yuè 30 Rì－9 Yuè 30 Rì Yánjiūbān Kèwén" Title="Shǒuwàngtái 2019 Nián 7 Yuè Kān"/>
+    </WatchtowerStudy>
+    <WatchtowerStudy KeySymbol="w-7" PublicationRootKeyId="278" ImageAsset="images/e3/2019523_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="Study Articles for October 1 to October 28" Title="The Watchtower, August 2019"/>
+      <Chinese MepsLanguageId="279" ShortTitle="2019年10月1日－10月28日研究班课文" Title="守望台2019年8月刊"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="2019 Nián 10 Yuè 1 Rì－10 Yuè 28 Rì Yánjiūbān Kèwén" Title="Shǒuwàngtái 2019 Nián 8 Yuè Kān"/>
+    </WatchtowerStudy>
+    <WatchtowerStudy KeySymbol="w-8" PublicationRootKeyId="278" ImageAsset="images/dc/2019564_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="Study Articles for October 29 to December 2" Title="The Watchtower, September 2019"/>
+      <Chinese MepsLanguageId="279" ShortTitle="2019年10月29日－12月2日研究班课文" Title="守望台2019年9月刊"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="2019 Nián 10 Yuè 29 Rì－12 Yuè 2 Rì Yánjiūbān Kèwén" Title="Shǒuwàngtái 2019 Nián 9 Yuè Kān"/>
+    </WatchtowerStudy>
+    <WatchtowerStudy KeySymbol="w-9" PublicationRootKeyId="278" ImageAsset="images/06/2018600_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="Study Articles for December 3 to December 30" Title="The Watchtower, October 2019"/>
+      <Chinese MepsLanguageId="279" ShortTitle="2019年12月3日－12月30日研究班课文" Title="守望台2019年10月刊"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="2019 Nián 12 Yuè 3 Rì－12 Yuè 30 Rì Yánjiūbān Kèwén" Title="Shǒuwàngtái 2019 Nián 10 Yuè Kān"/>
+    </WatchtowerStudy>
+    <WatchtowerStudy KeySymbol="w-10" PublicationRootKeyId="278" ImageAsset="images/75/2018644_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="Study Articles for December 30, 2019 to February 3, 2019" Title="The Watchtower, November 2019"/>
+      <Chinese MepsLanguageId="279" ShortTitle="2019年12月30日－2019年2月3日研究班课文" Title="守望台2019年11月刊"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="2019 Nián 12 Yuè 30 Rì－2019 Nián 2 Yuè 3 Rì Yánjiūbān Kèwén" Title="Shǒuwàngtái 2019 Nián 11 Yuè Kān"/>
+    </WatchtowerStudy>
+    <WatchtowerStudy KeySymbol="w-11" PublicationRootKeyId="278" ImageAsset="images/7b/2018685_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="Study Articles for February 4 to March 3" Title="The Watchtower, December 2019"/>
+      <Chinese MepsLanguageId="279" ShortTitle="2019年2月4日－3月3日研究班课文" Title="守望台2019年12月刊"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="2019 Nián 2 Yuè 4 Rì－3 Yuè 3 Rì Yánjiūbān Kèwén" Title="Shǒuwàngtái 2019 Nián 12 Yuè Kān"/>
+    </WatchtowerStudy>-->
+    <WatchtowerStudy KeySymbol="w-0" PublicationRootKeyId="278" ImageAsset="images/06/2019242_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="Study Articles for March 4 to April 7" Title="The Watchtower, January 2019"/>
+      <Chinese MepsLanguageId="279" ShortTitle="3月4日－4月7日研究班课文" Title="守望台2019年1月刊"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="3 Yuè 4 Rì－4 Yuè 7 Rì Yánjiūbān Kèwén" Title="Shǒuwàngtái 2019 Nián 1 Yuè Kān"/>
+    </WatchtowerStudy>
+    <WatchtowerStudy KeySymbol="w-1" PublicationRootKeyId="278" ImageAsset="images/9a/2019283_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="Study Articles for April 8 to May 5" Title="The Watchtower, February 2019"/>
+      <Chinese MepsLanguageId="279" ShortTitle="4月8日－5月5日研究班课文" Title="守望台2019年2月刊"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="4 Yuè 8 Rì－5 Yuè 5 Rì Yánjiūbān Kèwén" Title="Shǒuwàngtái 2019 Nián 2 Yuè Kān"/>
+    </WatchtowerStudy>
+    <WatchtowerStudy KeySymbol="w-2" PublicationRootKeyId="278" ImageAsset="images/f0/2019323_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="Study Articles for May 6 to June 2" Title="The Watchtower, March 2019"/>
+      <Chinese MepsLanguageId="279" ShortTitle="5月6日－6月2日研究班课文" Title="守望台2019年3月刊"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="5 Yuè 6 Rì－6 Yuè 2 Rì Yánjiūbān Kèwén" Title="Shǒuwàngtái 2019 Nián 3 Yuè Kān"/>
+    </WatchtowerStudy>
+    <WatchtowerStudy KeySymbol="w-3" PublicationRootKeyId="278" ImageAsset="images/e1/2019366_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="Study Articles for June 3 to June 30" Title="The Watchtower, April 2019"/>
+      <Chinese MepsLanguageId="279" ShortTitle="2019年6月3日－6月30日研究班课文" Title="守望台2019年4月刊"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="2019 Nián 6 Yuè 3 Rì-6 Yuè 30 Rì Yánjiūbān Kèwén" Title="Shǒuwàngtái 2019 Nián 4 Yuè Kān"/>
+    </WatchtowerStudy>
+    
+
+    <!--MEETING WORKBOOK-->
+    <MeetingWorkbook KeySymbol="mwb-0" PublicationRootKeyId="277" ImageAsset="images/9a/202019000_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="Meetings for January 7 to February 3" Title="Life and Ministry Meeting Workbook, January 2019"/>
+      <Chinese MepsLanguageId="279" ShortTitle="1月7日到2月3日各周" Title="聚会手册2019年1月刊"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="1 Yuè 7 Rì Dào 2 Yuè 3 Rì Gè Zhōu" Title="Jùhuì Shǒucè 2019 Nián 1 Yuè Kān"/>
+    </MeetingWorkbook>
+    <MeetingWorkbook KeySymbol="mwb-1" PublicationRootKeyId="277" ImageAsset="images/f6/202019040_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="Meetings for February 4 to March 3" Title="Life and Ministry Meeting Workbook, February 2019"/>
+      <Chinese MepsLanguageId="279" ShortTitle="2月4日到3月5日各周" Title="聚会手册2019年2月刊"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="2 Yuè 4 Rì Dào 3 Yuè 5 Rì Gè Zhōu" Title="Jùhuì Shǒucè 2019 Nián 2 Yuè Kān"/>
+    </MeetingWorkbook>
+    <MeetingWorkbook KeySymbol="mwb-2" PublicationRootKeyId="277" ImageAsset="images/c3/202019080_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="Meetings for March 4 to March 31" Title="Life and Ministry Meeting Workbook, March 2019"/>
+      <Chinese MepsLanguageId="279" ShortTitle="3月4日到3月31日各周" Title="聚会手册2019年3月刊"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="3 Yuè 4 Rì Dào 3 Yuè 31 Rì Gè Zhōu" Title="Jùhuì Shǒucè 2019 Nián 3 Yuè Kān"/>
+    </MeetingWorkbook>
+    <MeetingWorkbook KeySymbol="mwb-3" PublicationRootKeyId="277" ImageAsset="images/f0/202019120_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="Meetings for April 1 to May 5" Title="Life and Ministry Meeting Workbook, April 2019"/>
+      <Chinese MepsLanguageId="279" ShortTitle="4月1日到5月5日各周" Title="聚会手册2019年4月刊"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="4 Yuè 1 Rì Dào 5 Yuè 5 Rì Gè Zhōu" Title="Jùhuì Shǒucè 2019 Nián 4 Yuè Kān"/>
+    </MeetingWorkbook>
+    <!--<MeetingWorkbook KeySymbol="mwb-4" PublicationRootKeyId="277" ImageAsset="images/00/202019160_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="Meetings for May 7 to June 3" Title="Life and Ministry Meeting Workbook, May 2019"/>
+      <Chinese MepsLanguageId="279" ShortTitle="5月7日到6月3日各周" Title="聚会手册2019年5月刊"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="5 Yuè 7 Rì Dào 6 Yuè 3 Rì Gè Zhōu" Title="Jùhuì Shǒucè 2019 Nián 5 Yuè Kān"/>
+    </MeetingWorkbook>
+    <MeetingWorkbook KeySymbol="mwb-5" PublicationRootKeyId="277" ImageAsset="images/82/202019200_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="Meetings for June 1 to July 1" Title="Life and Ministry Meeting Workbook, June 2019"/>
+      <Chinese MepsLanguageId="279" ShortTitle="6月4日到7月1日各周" Title="聚会手册2019年6月刊"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="6 Yuè 4 Rì Dào 7 Yuè 1 Rì Gè Zhōu" Title="Jùhuì Shǒucè 2019 Nián 6 Yuè Kān"/>
+    </MeetingWorkbook>
+    <MeetingWorkbook KeySymbol="mwb-6" PublicationRootKeyId="277" ImageAsset="images/98/202019240_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="Meetings for July 2 to August 5" Title="Life and Ministry Meeting Workbook, July 2019"/>
+      <Chinese MepsLanguageId="279" ShortTitle="7月2日到8月5日各周" Title="聚会手册2019年7月刊"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="7 Yuè 2 Rì Dào 8 Yuè 5 Rì Gè Zhōu" Title="Jùhuì Shǒucè 2019 Nián 7 Yuè Kān"/>
+    </MeetingWorkbook>
+    <MeetingWorkbook KeySymbol="mwb-7" PublicationRootKeyId="277" ImageAsset="images/b0/202019280_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="Meetings for August 6 to September 2" Title="Life and Ministry Meeting Workbook, August 2019"/>
+      <Chinese MepsLanguageId="279" ShortTitle="8月6日到9月2日各周" Title="聚会手册2019年8月刊"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="8 Yuè 6 Rì Dào 9 Yuè 2 Rì Gè Zhōu" Title="Jùhuì Shǒucè 2019 Nián 8 Yuè Kān"/>
+    </MeetingWorkbook>
+    <MeetingWorkbook KeySymbol="mwb-8" PublicationRootKeyId="277" ImageAsset="images/07/202019320_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="Meetings for September 3 to September 30" Title="Life and Ministry Meeting Workbook, September 2017"/>
+      <Chinese MepsLanguageId="279" ShortTitle="9月3日到9月30日各周" Title="聚会手册2017年9月刊"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="9 Yuè 3 Rì Dào 9 Yuè 30 Rì Gè Zhōu" Title="Jùhuì Shǒucè 2017 Nián 9 Yuè Kān"/>
+    </MeetingWorkbook>
+    <MeetingWorkbook KeySymbol="mwb-9" PublicationRootKeyId="277" ImageAsset="images/b8/202019361_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="Meetings for October 1 to November 4" Title="Life and Ministry Meeting Workbook, October 2018"/>
+      <Chinese MepsLanguageId="279" ShortTitle="10月1日到11月4日各周" Title="聚会手册2018年10月刊"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="10 Yuè 1 Rì Dào 11 Yuè 4 Rì Gè Zhōu" Title="Jùhuì Shǒucè 2018 Nián 10 Yuè Kān"/>
+    </MeetingWorkbook>
+    <MeetingWorkbook KeySymbol="mwb-10" PublicationRootKeyId="277" ImageAsset="images/3b/202019401_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="Meetings for November 5 to December 2" Title="Life and Ministry Meeting Workbook, November 2018"/>
+      <Chinese MepsLanguageId="279" ShortTitle="11月5日到12月2日各周" Title="聚会手册2018年11月刊"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="11 Yuè 5 Rì Dào 12 Yuè 2 Rì Gè Zhōu" Title="Jùhuì Shǒucè 2018 Nián 11 Yuè Kān"/>
+    </MeetingWorkbook>
+    <MeetingWorkbook KeySymbol="mwb-11" PublicationRootKeyId="277" ImageAsset="images/5e/202018441_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="Meetings for December 3, 2018 to January 6, 2019" Title="Life and Ministry Meeting Workbook, December 2018"/>
+      <Chinese MepsLanguageId="279" ShortTitle="12月3日到1月6日各周" Title="聚会手册2018年12月刊"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="12 Yuè 3 Rì Dào 12 Yuè 6 Rì Gè Zhōu" Title="Jùhuì Shǒucè 2018 Nián 12 Yuè Kān"/>
+    </MeetingWorkbook>-->
+    
+
+
+
+    <!--WATCHTOWER-->
+    <WatchtowerPublic KeySymbol="wp-0" PublicationRootKeyId="274" ImageAsset="images/ec/2019002_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="Who Is God?" Title="The Watchtower, No. 1 2019"/>
+      <Chinese MepsLanguageId="279" ShortTitle="你知道上帝是谁吗？" Title="守望台2019年1期"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Nǐ Zhīdào Shàngdì Shì Shéi Ma?" Title="Shǒuwàngtái 2019 Nián 1 Qī"/>
+    </WatchtowerPublic>
+    <WatchtowerPublic KeySymbol="wp-1" PublicationRootKeyId="274" ImageAsset="images/8b/2019082_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="Is Life Worth Living?" Title="The Watchtower, No. 2 2019"/>
+      <Chinese MepsLanguageId="279" ShortTitle="活着为了什么？" Title="守望台2019年2期"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Huózhe Wèile Shénme?" Title="Shǒuwàngtái 2019 Nián 2 Qī"/>
+    </WatchtowerPublic>
+     <!--<WatchtowerPublic KeySymbol="wp-0" PublicationRootKeyId="274" ImageAsset="images/4d/2018015_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="Is the Bible Still Relevant Today?" Title="The Watchtower, No. 1 2018"/>
+      <Chinese MepsLanguageId="279" ShortTitle="圣经过时了吗？" Title="守望台2018年1期"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Shèngjīng Guòshíle Ma?" Title="Shǒuwàngtái 2018 Nián 1 Qī"/>
+    </WatchtowerPublic>
+    <WatchtowerPublic KeySymbol="wp-1" PublicationRootKeyId="274" ImageAsset="images/94/2018082_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="What Does the Future Hold?" Title="The Watchtower, No. 2 2018"/>
+      <Chinese MepsLanguageId="279" ShortTitle="你的未来会怎样？" Title="守望台2018年2期"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Nǐ De Wèilái Huì Zěnyàng?" Title="Shǒuwàngtái 2018 Nián 2 Qī"/>
+    </WatchtowerPublic>
+    <WatchtowerPublic KeySymbol="wp-2" PublicationRootKeyId="274" ImageAsset="images/a2/2018162_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="Does God Care About You?" Title="The Watchtower, No. 3 2018"/>
+      <Chinese MepsLanguageId="279" ShortTitle="上帝​真​的​关心​你​吗？" Title="守望台2018年3期"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Shàngdì ​Zhēn​de Guānxīn​ Nǐ Ma?" Title="Shǒuwàngtái 2018 Nián 3 Qī"/>
+    </WatchtowerPublic>-->
+
+    <!--AWAKE!-->
+    <Awake KeySymbol="g-0" PublicationRootKeyId="285" ImageAsset="images/d4/102019002_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="Will We Ever Feel Safe and Secure?" Title="Awake!, No. 1 2019"/>
+      <Chinese MepsLanguageId="279" ShortTitle="和平安宁只是个梦吗？" Title="警醒！2019年1期"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Hépíng Ānníng Zhǐshì Gè Mèng Ma?" Title="Jǐngxǐng! 2019 Nián 1 Qī"/>
+    </Awake>    
+    <!--<Awake KeySymbol="g-0" PublicationRootKeyId="285" ImageAsset="images/8b/102018012_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="The Way of Happiness" Title="Awake!, No. 1 2018"/>
+      <Chinese MepsLanguageId="279" ShortTitle="踏​上​幸福​之​路" Title="警醒！2018年1期"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Tà​shàng​ Xìngfú​zhī​lù" Title="Jǐngxǐng! 2018 Nián 1 Qī"/>
+    </Awake>
+    <Awake KeySymbol="g-1" PublicationRootKeyId="285" ImageAsset="images/23/102018042_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="12 Secrets of Successful Families" Title="Awake!, No. 2 2018"/>
+      <Chinese MepsLanguageId="279" ShortTitle="12​个​秘诀​让​你​拥有​幸福​的​家" Title="警醒！2018年2期"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="12​ Gè​ Mìjué Ràng Nǐ Yǒngyǒu​ Xìngfú ​De Jiā" Title="Jǐngxǐng! 2018 Nián 2 Qī"/>
+    </Awake>
+    <Awake KeySymbol="g-2" PublicationRootKeyId="285" ImageAsset="images/7c/102018082_univ_sqr-270x270.jpg">
+      <English MepsLanguageId="0" ShortTitle="Help for Those Who Grieve" Title="Awake!, No. 3 2018"/>
+      <Chinese MepsLanguageId="279" ShortTitle="如何面对丧亲之痛？" Title="警醒！2018年3期"/>
+      <Pinyin MepsLanguageId="-279" ShortTitle="Rúhé Miànduì Sàngqīn Zhī Tòng?" Title="Jǐngxǐng! 2018 Nián 3 Qī"/>
+    </Awake>-->
+  </Publications>
+</Library>
